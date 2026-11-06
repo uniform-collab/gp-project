@@ -1,0 +1,49 @@
+asset:
+  type: image
+  _id: 918cbcb6-4d38-4a0b-b0f1-dcda0fa1e12a
+  _name: Woman stocking restroom and foodservice supplies
+  fields:
+    title:
+      type: text
+      value: Woman stocking restroom and foodservice supplies
+    description:
+      type: text
+      value: >-
+        A smiling woman stocks cardboard boxes of disposable cutlery, toilet
+        paper, and other facility supplies on shelving beside a rolling waste
+        bin.
+    file:
+      type: file
+      value: bc981f58-98cf-4764-8776-5256d8911b1e
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/JXjmLO9rShucuM2ugVphzA-image.png
+      type: text
+    size:
+      value: 5275262
+      type: number
+    width:
+      value: 1916
+      type: number
+    height:
+      value: 1920
+      type: number
+    focalPoint:
+      value:
+        x: 0.52
+        'y': 0.43
+      type: focalPoint
+    custom: {}
+  labels:
+    - brand-dixie
+    - brand-compact
+    - category-toilet-paper
+    - category-cutlery
+    - subject-custodial
+    - type-lifestyle
+    - orientation-portrait
+created: '2026-11-05T23:59:53.332044+00:00'
+modified: '2026-11-05T23:59:53.332044+00:00'

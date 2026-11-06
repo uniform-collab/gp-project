@@ -1,0 +1,44 @@
+asset:
+  type: image
+  _id: 08375ed5-c598-4a4d-b16f-37045b716439
+  _name: Team reviewing information on a smartphone
+  fields:
+    title:
+      type: text
+      value: Team reviewing information on a smartphone
+    description:
+      type: text
+      value: >-
+        Three colleagues stand together in an office setting while reviewing
+        information on a smartphone, with a city skyline visible through the
+        window behind them.
+    file:
+      type: file
+      value: a36dd096-def9-4d51-9ca6-bb6262a19c91
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/S-NaXipMS_mwVBetcZQKIg-image.png
+      type: text
+    size:
+      value: 425132
+      type: number
+    width:
+      value: 500
+      type: number
+    height:
+      value: 500
+      type: number
+    focalPoint:
+      value:
+        x: 0.53
+        'y': 0.55
+      type: focalPoint
+    custom: {}
+  labels:
+    - type-lifestyle
+    - orientation-square
+created: '2026-11-05T23:59:44.007425+00:00'
+modified: '2026-11-05T23:59:44.007425+00:00'

@@ -1,0 +1,11 @@
+label:
+  publicId: category-paper-towels
+  displayName: Paper Towels & Dispensers
+  isGroup: false
+  parent: category
+  color: swatch-pink
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:52:35.297Z'
+modified: '2026-09-24T19:52:35.297Z'

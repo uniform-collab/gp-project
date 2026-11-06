@@ -1,0 +1,145 @@
+created: '2026-09-24T09:41:28.912618+00:00'
+modified: '2026-09-24T23:10:02.214526+00:00'
+pattern: false
+entry:
+  _id: 304c1bed-9422-42b7-9183-4d3952fe7862
+  _name: Butlr Technologies and GP PRO Partner to Improve Hygiene,...
+  _slug: butlr-technologies-gp-pro-partner-to-improve-hygiene-labor-efficiency
+  _thumbnail: >-
+    https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/ak4VrGmjSA-D7gUFm-aPzQ-image.png
+  type: article
+  fields:
+    date:
+      type: date
+      value: '2021-01-01'
+    image:
+      type: asset
+      value:
+        - _id: beb6065f-ee3e-4f0a-9657-7066c5c30d98
+          type: image
+          fields:
+            id:
+              type: text
+              value: b142a581-5d34-4c2f-8614-5335abf06cac
+            url:
+              value: >-
+                https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/ak4VrGmjSA-D7gUFm-aPzQ-image.png
+              type: text
+            size:
+              value: 8893
+              type: number
+            title:
+              type: text
+              value: Butlr logo
+            width:
+              value: 370
+              type: number
+            height:
+              value: 312
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+            focalPoint:
+              value:
+                x: 0.5
+                'y': 0.53
+              type: focalPoint
+            description:
+              type: text
+              value: White “butlr” wordmark centered on a black background.
+            file:
+              type: file
+              value: d08507d7-71c1-4186-aa98-f638e383449f
+          _source: uniform-assets
+    title:
+      type: text
+      value: >-
+        Butlr Technologies and GP PRO Partner to Improve Hygiene, Labor
+        Efficiency
+    author:
+      type: text
+      value: GP PRO
+    excerpt:
+      type: text
+      value: >-
+        Butlr Technologies and GP PRO have formed a partnership that combines
+        anonymous people-sensing insights with KOLO Smart Monitoring System to
+        enable traffic-based cleaning and more efficient facility operations.
+    bodyText:
+      type: richText
+      value:
+        root:
+          type: root
+          version: 1
+          children:
+            - tag: h1
+              type: heading
+              version: 1
+              children:
+                - text: >-
+                    Butlr Technologies and GP PRO Partner to Improve Hygiene,
+                    Labor Efficiency
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    Butlr Technologies and GP PRO have announced a marketing
+                    partnership focused on creating safer return-to-office
+                    experiences and more effective restroom maintenance for
+                    facilities.
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    Butlr, a spinout of the MIT Media Lab, provides a
+                    people-sensing platform that uses thermal, wireless sensors
+                    and artificial intelligence to detect human presence indoors
+                    anonymously. The platform uses body heat to infer occupancy,
+                    headcount, and activity, creating real-time and historical
+                    insights without identifying individuals.
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    Combined with GP PRO’s KOLO Smart Monitoring System, these
+                    insights can help facilities move from schedule-based
+                    cleaning to traffic-based cleaning. Teams can better align
+                    service with actual restroom demand, supporting hygiene
+                    while reducing unnecessary labor and environmental impact.
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    The partnership brings together sensing and monitoring
+                    capabilities to help facility managers understand changing
+                    usage patterns and respond with more efficient operations.
+                    It is intended to improve the customer experience while
+                    helping teams maintain cleaner, better-stocked spaces.
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    The two companies expect the partnership to build awareness
+                    of their complementary technologies and the benefits of
+                    deploying them together.
+                  type: text
+                  format: 0
+                  version: 1
+  _locales:
+    - en-US

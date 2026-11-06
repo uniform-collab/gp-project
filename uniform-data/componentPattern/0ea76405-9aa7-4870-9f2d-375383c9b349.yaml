@@ -1,0 +1,31 @@
+composition:
+  _name: FAQ Item (From Entry)
+  _id: 0ea76405-9aa7-4870-9f2d-375383c9b349
+  type: faqItem
+  parameters:
+    answer:
+      type: richText
+      value: ${#jptr:/FAQ/entry/fields/answer/value}
+    question:
+      type: text
+      value: ${#jptr:/FAQ/entry/fields/question/value}
+  _dataResources:
+    FAQ:
+      type: singleFaq
+      variables:
+        locale: ${locale}
+        entryId: 2aaa06a1-182a-481a-8c9a-fd952ab39901
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      answer: 'no'
+      question: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2026-09-24T10:41:09.950126+00:00'
+modified: '2026-09-24T23:41:36.005393+00:00'
+pattern: true
+categoryId: 167e078f-e450-47ed-9eaf-dd1b9c8ba04f
+previewImageUrl: https://gp-handover.vercel.app/component-previews/0ea76405-9aa7-4870-9f2d-375383c9b349.png

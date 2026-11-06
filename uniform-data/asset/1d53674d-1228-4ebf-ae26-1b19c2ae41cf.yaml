@@ -1,0 +1,48 @@
+asset:
+  type: image
+  _id: 1d53674d-1228-4ebf-ae26-1b19c2ae41cf
+  _name: Dixie Ultra napkin dispenser in a restaurant setting
+  fields:
+    title:
+      type: text
+      value: Dixie Ultra napkin dispenser in a restaurant setting
+    description:
+      type: text
+      value: >-
+        A black tabletop napkin dispenser and a kraft package labeled Dixie
+        Ultra are displayed on a marble table in a bright restaurant dining
+        area.
+    file:
+      type: file
+      value: 202e61ba-ec56-47e0-a059-75cc1329cdcc
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/jOIxEEBNQGqWVmjTCuqp8A-c02e751179f1a8ca7d970466f78e1b97f9de2797.jpg
+      type: text
+    size:
+      value: 263711
+      type: number
+    width:
+      value: 1920
+      type: number
+    height:
+      value: 1281
+      type: number
+    focalPoint:
+      value:
+        x: 0.56
+        'y': 0.72
+      type: focalPoint
+    custom: {}
+  labels:
+    - brand-dixie
+    - category-napkins
+    - subject-foodservice
+    - subject-product-only
+    - type-product
+    - orientation-landscape
+created: '2026-11-05T23:59:44.769009+00:00'
+modified: '2026-11-05T23:59:44.769009+00:00'

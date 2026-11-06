@@ -1,0 +1,11 @@
+label:
+  publicId: category-cutlery
+  displayName: Cutlery & Dispensers
+  isGroup: false
+  parent: category
+  color: swatch-pink
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:52:47.266Z'
+modified: '2026-09-24T19:52:47.266Z'

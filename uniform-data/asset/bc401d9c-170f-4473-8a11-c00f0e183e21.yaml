@@ -1,0 +1,47 @@
+asset:
+  type: image
+  _id: bc401d9c-170f-4473-8a11-c00f0e183e21
+  _name: Dixie Ultra Take-Two interfold napkin dispenser
+  fields:
+    title:
+      type: text
+      value: Dixie Ultra Take-Two interfold napkin dispenser
+    description:
+      type: text
+      value: >-
+        Black Dixie Ultra Take-Two interfold napkin dispenser with a white
+        napkin loaded in the front, photographed on a surface against a softly
+        blurred background.
+    file:
+      type: file
+      value: b11e0e38-73aa-4aa2-8989-2871da75748f
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/TyAUuzZJRYCQ7M8Bw5GVMg-4b6a2df3d43d0c45ff813fd6694ae94b69f29862a.png
+      type: text
+    size:
+      value: 1961383
+      type: number
+    width:
+      value: 1798
+      type: number
+    height:
+      value: 1005
+      type: number
+    focalPoint:
+      value:
+        x: 0.52
+        'y': 0.64
+      type: focalPoint
+    custom: {}
+  labels:
+    - brand-dixie
+    - category-napkins
+    - subject-product-only
+    - type-product
+    - orientation-landscape
+created: '2026-11-05T23:59:59.331585+00:00'
+modified: '2026-11-05T23:59:59.331585+00:00'

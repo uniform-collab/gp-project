@@ -1,0 +1,250 @@
+composition:
+  _name: Global Hero Carousel
+  _id: b786f3bf-5a28-4608-994c-51d555ed0c3d
+  type: heroCarousel
+  parameters:
+    width:
+      type: select
+      value: full
+    autoplay:
+      type: checkbox
+      value: 'true'
+    intervalSeconds:
+      type: number
+      value: '7'
+  slots:
+    slides:
+      - _id: 33b9660b-d595-4949-8a31-14c07fe8f181
+        type: heroSlide
+        slots:
+          ctas:
+            - _id: c91600a9-62df-4950-9bdd-d7adb68f744b
+              type: button
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /landing-pages/kolo-smart-monitoring
+                    type: projectMapNode
+                    nodeId: 05538678-1cc0-4bab-ba0a-592916617d0d
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Learn More
+                variant:
+                  type: select
+                  value: outlineWhite
+            - _id: 6ee8b677-e8a7-47e5-b102-a86a8eac42aa
+              type: button
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /landing-pages/kolo-smart-monitoring
+                    type: projectMapNode
+                    nodeId: 05538678-1cc0-4bab-ba0a-592916617d0d
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Watch Video
+                variant:
+                  type: select
+                  value: secondary
+        parameters:
+          title:
+            type: text
+            value: Know Before They Run Out
+          subtitle:
+            type: text
+            value: KOLO® Smart Monitoring for restroom dispensers
+          overlayOpacity:
+            type: number
+            value: '55'
+          backgroundImage:
+            type: asset
+            value:
+              - _id: fcd27f19-d444-4040-919c-f1ab05b7d346
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: fcd27f19-d444-4040-919c-f1ab05b7d346
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/DDzp-sivRD-adNWo68zX2w/vMQD-vSoQAeEmXX4UvNGbg-pexels-photo-17461785.jpeg
+                    type: text
+                  file:
+                    type: file
+                    value: 8dc2e4d2-334f-4d29-bf2c-30f77aca5d74
+                  size:
+                    value: 211273
+                    type: number
+                  width:
+                    value: 1880
+                    type: number
+                  height:
+                    value: 1253
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                  title:
+                    type: text
+                    value: Restroom sinks and hand dryer
+                  description:
+                    type: text
+                    value: >-
+                      Three white wall-mounted sinks under mirrors framed in
+                      blue tile, with a stainless hand dryer on the left.
+                _source: uniform-assets
+      - _id: db3d8583-35da-4be7-991d-5a7ed7a75551
+        type: heroSlide
+        slots:
+          ctas:
+            - _id: 1dd4d2ad-c3fb-456f-888c-98ecea0d2ba1
+              type: button
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /landing-pages/kolo-smart-monitoring
+                    type: projectMapNode
+                    nodeId: 05538678-1cc0-4bab-ba0a-592916617d0d
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: See How It Works
+                variant:
+                  type: select
+                  value: outlineWhite
+        parameters:
+          title:
+            type: text
+            value: Stop Checking. Start Knowing.
+          subtitle:
+            type: text
+            value: Real-time dispenser levels across every restroom in the building
+          overlayOpacity:
+            type: number
+            value: '55'
+          backgroundImage:
+            type: asset
+            value:
+              - _id: 256d345a-dcab-4900-8866-001eae461835
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 256d345a-dcab-4900-8866-001eae461835
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/DDzp-sivRD-adNWo68zX2w/a5b7dPlYShOapwC3UVufig-pexels-photo-32845692.jpeg
+                    type: text
+                  file:
+                    type: file
+                    value: d23b5d0c-ceb8-4826-9ad3-4f10900748d0
+                  size:
+                    value: 239175
+                    type: number
+                  width:
+                    value: 1880
+                    type: number
+                  height:
+                    value: 1251
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                  title:
+                    type: text
+                    value: Facility engineer with a tablet
+                  description:
+                    type: text
+                    value: >-
+                      An engineer in a white hard hat, safety glasses and a blue
+                      work jacket holds a tablet inside a large industrial
+                      building.
+                _source: uniform-assets
+      - _id: 39e3650d-b292-474c-acd8-111ea352df47
+        type: heroSlide
+        slots:
+          ctas:
+            - _id: 5c75af07-46cb-4054-bb28-236cda2519c2
+              type: button
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Talk to a Consultant
+                variant:
+                  type: select
+                  value: secondary
+        parameters:
+          title:
+            type: text
+            value: Fewer Rounds. Fuller Dispensers.
+          subtitle:
+            type: text
+            value: Route custodial teams by data, not by a fixed schedule
+          overlayOpacity:
+            type: number
+            value: '60'
+          backgroundImage:
+            type: asset
+            value:
+              - _id: be84febd-101a-40de-8154-ee50c8729682
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: be84febd-101a-40de-8154-ee50c8729682
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/DDzp-sivRD-adNWo68zX2w/NxHitSlERHuv0W2Jo8VCJQ-pexels-photo-34516664.jpeg
+                    type: text
+                  file:
+                    type: file
+                    value: 54b746d8-178a-4108-b5cc-d10d507c9dcf
+                  size:
+                    value: 189103
+                    type: number
+                  width:
+                    value: 1880
+                    type: number
+                  height:
+                    value: 1152
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                  title:
+                    type: text
+                    value: Janitorial cart
+                  description:
+                    type: text
+                    value: >-
+                      A janitorial cart with mops, a vacuum and supplies next to
+                      a grey waste bin in a tiled corridor.
+                _source: uniform-assets
+  _overridability:
+    slots:
+      slides: 'no'
+    parameters:
+      width: 'yes'
+      autoplay: 'no'
+      intervalSeconds: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2026-11-06T12:44:02.628205+00:00'
+modified: '2026-11-06T12:50:50.864038+00:00'
+pattern: true
+previewImageUrl: >-
+  https://gp-handover.vercel.app/component-previews/b786f3bf-5a28-4608-994c-51d555ed0c3d.png
+categoryId: f6abfc0a-2e12-4a27-b1e0-e3342a011d86

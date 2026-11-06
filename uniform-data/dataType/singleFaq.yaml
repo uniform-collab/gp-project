@@ -1,0 +1,17 @@
+id: singleFaq
+displayName: Single FAQ
+ttl: 30
+path: /single
+custom:
+  maxDepth: 2
+  proposedName: FAQ
+  allowedContentTypes:
+    - faq
+method: GET
+archetype: singleEntry
+variables:
+  entryId:
+    type: text
+    default: ""
+dataSourceId: uniformContent
+allowedOnComponents: []

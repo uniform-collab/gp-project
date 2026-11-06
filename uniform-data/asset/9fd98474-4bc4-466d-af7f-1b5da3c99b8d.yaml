@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 9fd98474-4bc4-466d-af7f-1b5da3c99b8d
+  _name: Innovation shaped by you
+  fields:
+    title:
+      type: text
+      value: Innovation shaped by you
+    description:
+      type: text
+      value: Four professionals, including an office worker, a nurse, a restroom attendant holding paper rolls and a custodian with a mop, under the words Innovation Shaped By You.
+    file:
+      type: file
+      value: 90cff4b9-4175-4f06-bcdf-6475a8532b09
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/x84ESnv_RWKBesi6SgXZVw-17f93cfc07c674a2e584b0d382bc94f9e9cea317.png
+      type: text
+    size:
+      value: 4666248
+      type: number
+    width:
+      value: 2206
+      type: number
+    height:
+      value: 1248
+      type: number
+    custom: {}
+created: '2026-11-05T23:59:57.330246+00:00'
+modified: '2026-11-05T23:59:57.330246+00:00'

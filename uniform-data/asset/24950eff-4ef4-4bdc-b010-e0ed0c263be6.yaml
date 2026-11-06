@@ -1,0 +1,45 @@
+asset:
+  type: image
+  _id: 24950eff-4ef4-4bdc-b010-e0ed0c263be6
+  _name: International Association of Venue Managers logo
+  fields:
+    title:
+      type: text
+      value: International Association of Venue Managers logo
+    description:
+      type: text
+      value: >-
+        Logo for the International Association of Venue Managers, featuring a
+        red and white IAVM emblem alongside the organization name in black
+        lettering.
+    file:
+      type: file
+      value: 8391de4c-423a-41ea-9db7-84d5e1d98941
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/3w9_NEmBQIuqynLjxmyIpw-image.png
+      type: text
+    size:
+      value: 245882
+      type: number
+    width:
+      value: 1920
+      type: number
+    height:
+      value: 1080
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.5
+      type: focalPoint
+    custom: {}
+  labels:
+    - type-logo
+    - subject-facility-manager
+    - industry-high-traffic
+created: '2026-11-05T23:59:41.788954+00:00'
+modified: '2026-11-05T23:59:41.788954+00:00'

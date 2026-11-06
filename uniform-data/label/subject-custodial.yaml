@@ -1,0 +1,11 @@
+label:
+  publicId: subject-custodial
+  displayName: Custodial Staff
+  isGroup: false
+  parent: subject
+  color: swatch-green
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:51:06.591Z'
+modified: '2026-09-24T19:51:06.591Z'

@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 987debc8-6b03-4d17-9b41-4a8ca5a7938a
+  _name: Colleagues checking a phone together
+  fields:
+    title:
+      type: text
+      value: Colleagues checking a phone together
+    description:
+      type: text
+      value: A man with a notepad and pen and a woman holding a smartphone look at the screen together in a shop.
+    file:
+      type: file
+      value: d73d5ff3-ebca-4b0e-b92c-ee5d54a63c12
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/YWDMOeHkRgea3gNH9WqR8w-pexels-photo-6281461.jpeg
+      type: text
+    size:
+      value: 239770
+      type: number
+    width:
+      value: 1880
+      type: number
+    height:
+      value: 1253
+      type: number
+    custom: {}
+created: '2026-11-05T23:59:54.329086+00:00'
+modified: '2026-11-05T23:59:54.329086+00:00'

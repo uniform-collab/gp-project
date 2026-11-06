@@ -1,0 +1,57 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: menuColumn
+name: Menu Column
+icon: collage
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Column heading.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - heading
+  - id: heading
+    name: Heading
+    type: text
+    guidance: Column heading, short, no period.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: footerLinkGroup
+    name: View all
+    type: group
+    guidance: Optional link under the column, such as View all products.
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - footerLinkLabel
+        - footerLink
+  - id: footerLinkLabel
+    name: View-all Label
+    type: text
+    guidance: Label for the link under the column. Example "View all".
+    localizable: true
+    notLocalizedByDefault: true
+  - id: footerLink
+    name: View-all Link
+    type: link
+    guidance: Destination for the view-all row.
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 02f9643f-0f8f-487c-bea9-cfba3ff26a8b
+description: A labelled column of menu links, with an optional view-all link.
+useTeamPermissions: true
+slots:
+  - id: links
+    name: Links
+    allowedComponents:
+      - menuLink
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: heading
+canBeComposition: false
+created: '2026-09-24T07:44:58.525474+00:00'
+updated: '2026-09-24T23:45:46.121225+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/menuColumn.png

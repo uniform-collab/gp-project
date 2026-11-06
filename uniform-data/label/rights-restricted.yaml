@@ -1,0 +1,11 @@
+label:
+  publicId: rights-restricted
+  displayName: Restricted / Internal Only
+  isGroup: false
+  parent: rights
+  color: swatch-brown
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:53:33.284Z'
+modified: '2026-09-24T19:53:33.284Z'

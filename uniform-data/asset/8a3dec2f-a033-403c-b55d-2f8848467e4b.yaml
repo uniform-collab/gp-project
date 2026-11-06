@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 8a3dec2f-a033-403c-b55d-2f8848467e4b
+  _name: Exhibition booths in a glass hall
+  fields:
+    title:
+      type: text
+      value: Exhibition booths in a glass hall
+    description:
+      type: text
+      value: Aerial view of exhibition booths and visitors inside a bright glass-roofed hall.
+    file:
+      type: file
+      value: 8c4da2e1-cd12-4fe9-aab6-81008fbd679e
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/utM42Mv0QquoKtDngGPqdw-pexels-photo-35138560.jpeg
+      type: text
+    size:
+      value: 456881
+      type: number
+    width:
+      value: 1880
+      type: number
+    height:
+      value: 1253
+      type: number
+    custom: {}
+created: '2026-11-05T23:59:52.412452+00:00'
+modified: '2026-11-05T23:59:52.412452+00:00'

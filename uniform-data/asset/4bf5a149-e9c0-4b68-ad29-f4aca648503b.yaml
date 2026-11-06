@@ -1,0 +1,44 @@
+asset:
+  type: image
+  _id: 4bf5a149-e9c0-4b68-ad29-f4aca648503b
+  _name: ISSA Show North America
+  fields:
+    title:
+      type: text
+      value: ISSA Show North America
+    description:
+      type: text
+      value: >-
+        ISSA Show North America logo featuring the ISSA wordmark in blue, teal,
+        and green with the event name displayed below on a white background.
+    file:
+      type: file
+      value: 91481be8-aebf-404e-8ae9-08459bcb2449
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/Xob117B-R9iMp7R7jWEIEQ-image.png
+      type: text
+    size:
+      value: 443528
+      type: number
+    width:
+      value: 1920
+      type: number
+    height:
+      value: 1080
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.5
+      type: focalPoint
+    custom: {}
+  labels:
+    - type-logo
+    - lifecycle-event
+    - orientation-landscape
+created: '2026-11-05T23:59:48.334524+00:00'
+modified: '2026-11-05T23:59:48.334524+00:00'

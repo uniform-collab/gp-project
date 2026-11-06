@@ -1,0 +1,67 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: cardGrid
+name: Card Grid
+icon: layout-grid
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Title shown above the cards.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - heading
+  - id: heading
+    name: Heading
+    type: text
+    guidance: Section title above the cards, under 6 words.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: layoutGroup
+    name: Layout
+    type: group
+    guidance: How many cards sit in a row.
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - columns
+  - id: columns
+    name: Columns
+    helpText: Cards per row on large screens; One gives a list of full-width rows
+    type: select
+    guidance: >-
+      One for a list of full-width rows (articles), two for wide cards, three
+      for a standard row, four only for compact logos or short cards.
+    typeConfig:
+      editor: segmented-control
+      options:
+        - text: One
+          value: one
+        - text: Two
+          value: two
+        - text: Three
+          value: three
+        - text: Four
+          value: four
+      required: false
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 6e4cf8fd-ae28-4d83-ae73-556028e67b14
+description: Section of event or article cards. Column count is a layout choice, not copy.
+useTeamPermissions: true
+slots:
+  - id: cards
+    name: Cards
+    allowedComponents:
+      - eventCard
+      - articleCard
+      - $loop
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: heading
+canBeComposition: false
+created: '2026-09-24T09:00:28.031216+00:00'
+updated: '2026-09-24T23:41:56.59441+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/cardGrid.png

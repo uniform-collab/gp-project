@@ -1,0 +1,11 @@
+label:
+  publicId: category-plates-bowls
+  displayName: Plates & Bowls
+  isGroup: false
+  parent: category
+  color: swatch-pink
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:52:54.670Z'
+modified: '2026-09-24T19:52:54.670Z'

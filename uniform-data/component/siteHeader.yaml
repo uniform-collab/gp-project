@@ -1,0 +1,76 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: siteHeader
+name: Site Header
+icon: border-top
+parameters:
+  - id: logoGroup
+    name: Logo
+    type: group
+    guidance: Brand mark and where it links.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - logo
+        - logoLink
+  - id: logo
+    name: Logo
+    type: asset
+    guidance: Brand mark for the navy bar.
+    helpText: SVG or PNG, displayed at 64px height
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: true
+    notLocalizedByDefault: true
+  - id: logoLink
+    name: Logo Link
+    type: link
+    guidance: Usually the homepage.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: searchGroup
+    name: Search
+    type: group
+    guidance: Placeholder copy and the page the search form opens.
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - searchPlaceholder
+        - searchResultsPage
+  - id: searchPlaceholder
+    name: Search Placeholder
+    type: text
+    guidance: Placeholder inside the search field. Default is Search.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: searchResultsPage
+    name: Search Results Page
+    type: link
+    guidance: Page the search form submits to.
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 4a0c18b0-5e86-408b-94ef-744e45f9a6ac
+description: >-
+  Site navigation bar. Logo and search are parameters. Utility links and mega
+  menu items are slots.
+useTeamPermissions: true
+slots:
+  - id: utilityLinks
+    name: Utility Links
+    allowedComponents:
+      - utilityLink
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: navItems
+    name: Nav Items
+    allowedComponents:
+      - megaMenuItem
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+canBeComposition: false
+created: '2026-09-24T07:46:26.839688+00:00'
+updated: '2026-09-24T23:43:26.158558+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/siteHeader.png

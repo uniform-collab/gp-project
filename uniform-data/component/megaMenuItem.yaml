@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: megaMenuItem
+name: Mega Menu Item
+icon: menu
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Nav label and where it links when there is no panel.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - label
+        - link
+  - id: label
+    name: Label
+    type: text
+    guidance: Nav label, one or two words.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: link
+    name: Link
+    type: link
+    guidance: Leave empty to open a menu panel. When set, the item is a plain link and its panel is not shown.
+    helpText: Leave empty for a menu panel; when set, the panel is not shown
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 167e078f-e450-47ed-9eaf-dd1b9c8ba04f
+description: >-
+  A top-level nav item. Leave Link empty to open a panel of columns. Set Link
+  only when the item is a plain destination with no panel.
+useTeamPermissions: true
+slots:
+  - id: columns
+    name: Columns
+    allowedComponents:
+      - menuColumn
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: featured
+    name: Featured
+    allowedComponents:
+      - menuFeatured
+      - $personalization
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: label
+canBeComposition: false
+created: '2026-09-24T07:45:35.564673+00:00'
+updated: '2026-09-24T23:45:07.507504+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/megaMenuItem.png

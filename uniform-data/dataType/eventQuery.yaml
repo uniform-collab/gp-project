@@ -1,0 +1,37 @@
+id: eventQuery
+displayName: Event Query
+created: '2026-09-24T22:56:36.4806+00:00'
+modified: '2026-09-24T22:56:36.4806+00:00'
+createdBy: google-oauth2|115526916828929768122
+ttl: 30
+path: /query
+custom:
+  proposedName: Query Event
+  allowedOrderBy:
+    - updated_at_DESC
+  allowedContentTypes:
+    - event
+method: GET
+purgeKey: 4e488ab9-448c-48e3-9dd9-6b71ef9bea0b
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  search:
+    type: text
+    default: ''
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

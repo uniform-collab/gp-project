@@ -1,0 +1,67 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: utilityLink
+name: Utility Link
+icon: link
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Label and destination.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - label
+        - link
+  - id: label
+    name: Label
+    type: text
+    guidance: Short account or cart label, two or three words.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: link
+    name: Link
+    type: link
+    guidance: Destination for this utility item.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: appearanceGroup
+    name: Appearance
+    type: group
+    guidance: Icon shown beside the label.
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - icon
+  - id: icon
+    name: Icon
+    helpText: Also sets where the link sits in the header; only the cart shows on mobile
+    type: select
+    guidance: >-
+      None for a text link. User for account links, which stack. List for saved
+      lists. Cart is the only icon shown on small screens.
+    typeConfig:
+      editor: segmented-control
+      options:
+        - text: None
+          value: none
+        - text: User
+          value: user
+        - text: List
+          value: list
+        - text: Cart
+          value: cart
+      required: false
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 167e078f-e450-47ed-9eaf-dd1b9c8ba04f
+description: >-
+  A compact header utility link. The icon decides placement in the header
+  cluster.
+useTeamPermissions: true
+slots: []
+titleParameter: label
+canBeComposition: false
+created: '2026-09-24T07:46:01.707562+00:00'
+updated: '2026-09-24T23:44:06.901576+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/utilityLink.png

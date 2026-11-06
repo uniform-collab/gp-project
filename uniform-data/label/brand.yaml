@@ -1,0 +1,10 @@
+label:
+  publicId: brand
+  displayName: Brand
+  isGroup: true
+  color: swatch-red
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:50:44.550Z'
+modified: '2026-09-24T19:50:44.550Z'

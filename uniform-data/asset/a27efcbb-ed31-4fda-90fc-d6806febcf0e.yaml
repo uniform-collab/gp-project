@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: a27efcbb-ed31-4fda-90fc-d6806febcf0e
+  _name: Baseball stadium from above
+  fields:
+    title:
+      type: text
+      value: Baseball stadium from above
+    description:
+      type: text
+      value: Aerial view of a baseball stadium with a green field and blue seating.
+    file:
+      type: file
+      value: c105dd8b-ded9-4417-89e0-c4c9fdf7a446
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/QGniv2QISjGHDSI0MSqvtw-pexels-photo-13653328.jpeg
+      type: text
+    size:
+      value: 443140
+      type: number
+    width:
+      value: 1880
+      type: number
+    height:
+      value: 1058
+      type: number
+    custom: {}
+created: '2026-11-05T23:59:57.392656+00:00'
+modified: '2026-11-05T23:59:57.392656+00:00'

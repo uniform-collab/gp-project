@@ -1,0 +1,72 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: eventCard
+name: Event Card
+icon: calendar
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Event image and the card copy.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - image
+        - body
+  - id: image
+    name: Image
+    type: asset
+    guidance: >-
+      Event or organizer logo, or a landscape photo of the venue. Shown whole,
+      never cropped, so any aspect ratio works. At least 600px wide.
+    helpText: Logo or landscape photo, shown whole. At least 600px wide
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: true
+    notLocalizedByDefault: true
+  - id: body
+    name: Body
+    helpText: Start with the event name as Heading 3, then dates and location
+    type: richText
+    guidance: >-
+      All visitor-facing copy for the card: event name as a heading, then dates,
+      location, booth, and a short description. Do not put the button label
+      here.
+    typeConfig:
+      elements:
+        builtIn:
+          - h2
+          - h3
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - superscript
+          - subscript
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 6e4cf8fd-ae28-4d83-ae73-556028e67b14
+description: >-
+  Display card for one event. Image and body come from an Event entry via the
+  Event Card pattern. The call to action is a button in the slot, not a field.
+useTeamPermissions: true
+slots:
+  - id: cta
+    name: Call to Action
+    allowedComponents:
+      - button
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+canBeComposition: false
+created: '2026-09-24T08:59:40.746274+00:00'
+updated: '2026-09-24T23:44:12.107152+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/eventCard.png

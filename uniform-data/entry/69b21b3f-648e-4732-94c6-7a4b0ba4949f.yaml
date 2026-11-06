@@ -1,0 +1,111 @@
+created: '2026-09-24T10:45:17.271564+00:00'
+modified: '2026-09-24T22:51:48.026993+00:00'
+pattern: false
+entry:
+  _id: 69b21b3f-648e-4732-94c6-7a4b0ba4949f
+  _name: RealCOMM Ibcon
+  _slug: nfmt-baltimore
+  _thumbnail: https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/PCa0-8EcT-a1IlNt-Jbk0g-image.png
+  type: event
+  fields:
+    body:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+          - tag: h3
+            type: heading
+            format: ''
+            indent: 0
+            version: 1
+            children:
+            - mode: normal
+              text: Realcomm | IBcon
+              type: text
+              style: ''
+              detail: 0
+              format: 0
+              version: 1
+            direction: ltr
+          - type: paragraph
+            format: ''
+            indent: 0
+            version: 1
+            children:
+            - mode: normal
+              text: June 2–4, 2026 · San Diego, CA
+              type: text
+              style: ''
+              detail: 0
+              format: 0
+              version: 1
+            - &id001
+              type: linebreak
+              version: 1
+            - *id001
+            - mode: normal
+              text: We are exhibiting at this event, which brings together the professionals driving innovation, efficiency, and sustainability in commercial and corporate real estate.
+              type: text
+              style: ''
+              detail: 0
+              format: 0
+              version: 1
+            direction: ltr
+            textStyle: ''
+            textFormat: 0
+          direction: ltr
+    link:
+      type: link
+      value:
+        path: /
+        type: projectMapNode
+        nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+        projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+    image:
+      type: asset
+      value:
+      - _id: 6c949c00-7005-41b2-ae4b-1bf23f7a0058
+        type: image
+        fields:
+          id:
+            type: text
+            value: 6ff3bdf0-3609-4a7d-b22a-dba270b0c620
+          url:
+            value: https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/PCa0-8EcT-a1IlNt-Jbk0g-image.png
+            type: text
+          size:
+            value: 193522
+            type: number
+          title:
+            type: text
+            value: Realcomm logo
+          width:
+            value: 1920
+            type: number
+          height:
+            value: 1080
+            type: number
+          mediaType:
+            value: image/png
+            type: text
+          focalPoint:
+            value:
+              x: 0.5
+              y: 0.5
+            type: focalPoint
+          description:
+            type: text
+            value: Realcomm logo featuring blue lettering, a green and gray “BCon” mark, and a stylized building with an orbital line on a white background.
+          file:
+            type: file
+            value: 575f9773-5761-43c0-8089-dc3cf018e0f8
+        _source: uniform-assets
+    title:
+      type: text
+      value: RealCOMM Ibcon
+  _locales:
+  - en-US

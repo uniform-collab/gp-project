@@ -1,0 +1,11 @@
+label:
+  publicId: category-parts
+  displayName: Parts, Keys & Accessories
+  isGroup: false
+  parent: category
+  color: swatch-pink
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:52:55.438Z'
+modified: '2026-09-24T19:52:55.438Z'

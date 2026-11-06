@@ -1,0 +1,41 @@
+asset:
+  type: image
+  _id: 88c7b751-b9ec-4f89-97a5-aab81045d11a
+  _name: Alec Fomin, director of tenant experience
+  fields:
+    title:
+      type: text
+      value: Alec Fomin, director of tenant experience
+    description:
+      type: text
+      value: >-
+        Interview-style portrait of Alec Fomin seated in a modern office or
+        lounge, wearing a blue blazer and white shirt. A lower-third graphic
+        identifies him as the director of tenant experience at Sage.
+    file:
+      type: file
+      value: b9fb7de4-f8c1-4916-92d2-b605d5e684e4
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/cF-2TeymSGOWi1lxJnxKPA-image.png
+      type: text
+    size:
+      value: 378389
+      type: number
+    width:
+      value: 520
+      type: number
+    height:
+      value: 470
+      type: number
+    focalPoint:
+      value:
+        x: 0.53
+        'y': 0.32
+      type: focalPoint
+    custom: {}
+created: '2026-11-05T23:59:53.421024+00:00'
+modified: '2026-11-05T23:59:53.421024+00:00'

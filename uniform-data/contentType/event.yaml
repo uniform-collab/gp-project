@@ -1,0 +1,90 @@
+id: event
+name: Event
+created: '2026-09-24T10:45:14.689602+00:00'
+updated: '2026-09-24T22:53:27.13625+00:00'
+useTeamPermissions: true
+slugSettings:
+  unique: local
+  required: 'yes'
+fields:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Name, photo, and the card copy.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - title
+        - image
+        - body
+        - link
+  - id: title
+    name: Title
+    helpText: Used to find this entry; the card heading is the first line of Body
+    type: text
+    guidance: Event name as it should appear in lists and as the card heading.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: image
+    name: Image
+    type: asset
+    guidance: Landscape photo of the show or venue. At least 1200px wide.
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: true
+    notLocalizedByDefault: true
+  - id: body
+    name: Body
+    type: richText
+    guidance: >-
+      Card copy after the name: dates, city, booth number, and a short
+      description. Do not include the button label.
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+    notLocalizedByDefault: true
+  - id: link
+    name: Link
+    type: link
+    guidance: >-
+      Destination for the card button, usually an event page or registration
+      URL.
+    localizable: true
+    notLocalizedByDefault: true
+entryName: title
+thumbnailField: image
+description: A reusable event that the Event Card pattern can place on any page.
+icon: calendar
+type: contentType
+permissions: []
+previewConfigurations: []

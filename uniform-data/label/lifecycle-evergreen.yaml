@@ -1,0 +1,11 @@
+label:
+  publicId: lifecycle-evergreen
+  displayName: Evergreen
+  isGroup: false
+  parent: lifecycle
+  color: swatch-gray
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:53:33.377Z'
+modified: '2026-09-24T19:53:33.377Z'

@@ -1,0 +1,45 @@
+asset:
+  type: image
+  _id: 4dde3fc4-33de-407d-87a1-380f8a21ccd5
+  _name: Custodial team illustration
+  fields:
+    title:
+      type: text
+      value: Custodial team illustration
+    description:
+      type: text
+      value: >-
+        Illustration of two custodial workers in white uniforms standing with
+        cleaning equipment against a light teal background with dynamic white
+        lines.
+    file:
+      type: file
+      value: e182f423-c254-4ef2-bf4c-bf41202c2ca6
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/aq9F9r3oQ4GtGYuhr_tMXQ-image.png
+      type: text
+    size:
+      value: 624458
+      type: number
+    width:
+      value: 1920
+      type: number
+    height:
+      value: 1078
+      type: number
+    focalPoint:
+      value:
+        x: 0.52
+        'y': 0.5
+      type: focalPoint
+    custom: {}
+  labels:
+    - type-illustration
+    - subject-custodial
+    - orientation-landscape
+created: '2026-11-05T23:59:47.419502+00:00'
+modified: '2026-11-05T23:59:47.419502+00:00'

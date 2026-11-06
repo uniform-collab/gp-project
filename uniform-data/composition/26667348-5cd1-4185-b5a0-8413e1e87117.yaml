@@ -1,0 +1,1372 @@
+composition:
+  _name: Home
+  _id: 26667348-5cd1-4185-b5a0-8413e1e87117
+  _slug: /
+  type: page
+  parameters:
+    metaTitle:
+      type: text
+      value: KOLO® Smart Monitoring System | GP PRO
+    metaDescription:
+      type: text
+      value: >-
+        Connect GP PRO towel, tissue, soap, and sanitizer dispensers to the
+        KOLO® Clean app for real-time fill levels — so custodial teams restock
+        on data instead of on rounds.
+  slots:
+    footer:
+      - _id: ea269f5b-86f5-4396-a01f-da875c020312
+        type: siteFooter
+        _pattern: 7bd13fbf-2cb9-43dc-881a-106a195ee78b
+    header:
+      - _id: 77b8fa03-0b96-4484-a51f-e13dc214cfb5
+        type: siteHeader
+        _pattern: 6adabb83-cf60-45be-82a4-36d4aa66db6d
+    content:
+      - _id: 147a594d-123b-481e-a3f0-8690bf63f8c0
+        type: heroCarousel
+        slots:
+          slides:
+            - _id: 64b469b2-44c9-4288-9ff0-c4b1f9f79dcb
+              type: heroSlide
+              slots:
+                ctas:
+                  - _id: b3869955-775f-4bc8-b5c0-b0cd6db26e10
+                    type: button
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: /landing-pages/kolo-smart-monitoring
+                          type: projectMapNode
+                          nodeId: 05538678-1cc0-4bab-ba0a-592916617d0d
+                          projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                      label:
+                        type: text
+                        value: Learn More
+                      variant:
+                        type: select
+                        value: outlineWhite
+                  - _id: 0a02061f-11de-41b2-bfe7-d73211163f15
+                    type: button
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: /landing-pages/kolo-smart-monitoring
+                          type: projectMapNode
+                          nodeId: 05538678-1cc0-4bab-ba0a-592916617d0d
+                          projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                      label:
+                        type: text
+                        value: Watch Video
+                      variant:
+                        type: select
+                        value: secondary
+              parameters:
+                title:
+                  type: text
+                  value: Know Before They Run Out
+                subtitle:
+                  type: text
+                  value: KOLO® Smart Monitoring for restroom dispensers
+                overlayOpacity:
+                  type: number
+                  value: '55'
+                backgroundImage:
+                  type: asset
+                  value:
+                    - _id: fcd27f19-d444-4040-919c-f1ab05b7d346
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: fcd27f19-d444-4040-919c-f1ab05b7d346
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/DDzp-sivRD-adNWo68zX2w/vMQD-vSoQAeEmXX4UvNGbg-pexels-photo-17461785.jpeg
+                          type: text
+                        file:
+                          type: file
+                          value: 8dc2e4d2-334f-4d29-bf2c-30f77aca5d74
+                        size:
+                          value: 211273
+                          type: number
+                        width:
+                          value: 1880
+                          type: number
+                        height:
+                          value: 1253
+                          type: number
+                        mediaType:
+                          value: image/jpeg
+                          type: text
+                        title:
+                          type: text
+                          value: Restroom sinks and hand dryer
+                        description:
+                          type: text
+                          value: >-
+                            Three white wall-mounted sinks under mirrors framed
+                            in blue tile, with a stainless hand dryer on the
+                            left.
+                      _source: uniform-assets
+            - _id: >-
+                147a594d-123b-481e-a3f0-8690bf63f8c0|db3d8583-35da-4be7-991d-5a7ed7a75551
+              type: heroSlide
+              slots:
+                ctas:
+                  - _id: >-
+                      147a594d-123b-481e-a3f0-8690bf63f8c0|1dd4d2ad-c3fb-456f-888c-98ecea0d2ba1
+                    type: button
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: /landing-pages/kolo-smart-monitoring
+                          type: projectMapNode
+                          nodeId: 05538678-1cc0-4bab-ba0a-592916617d0d
+                          projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                      label:
+                        type: text
+                        value: See How It Works
+                      variant:
+                        type: select
+                        value: outlineWhite
+              parameters:
+                title:
+                  type: text
+                  value: Stop Checking. Start Knowing.
+                subtitle:
+                  type: text
+                  value: >-
+                    Real-time dispenser levels across every restroom in the
+                    building
+                overlayOpacity:
+                  type: number
+                  value: '55'
+                backgroundImage:
+                  type: asset
+                  value:
+                    - _id: 256d345a-dcab-4900-8866-001eae461835
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 256d345a-dcab-4900-8866-001eae461835
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/DDzp-sivRD-adNWo68zX2w/a5b7dPlYShOapwC3UVufig-pexels-photo-32845692.jpeg
+                          type: text
+                        file:
+                          type: file
+                          value: d23b5d0c-ceb8-4826-9ad3-4f10900748d0
+                        size:
+                          value: 239175
+                          type: number
+                        width:
+                          value: 1880
+                          type: number
+                        height:
+                          value: 1251
+                          type: number
+                        mediaType:
+                          value: image/jpeg
+                          type: text
+                        title:
+                          type: text
+                          value: Facility engineer with a tablet
+                        description:
+                          type: text
+                          value: >-
+                            An engineer in a white hard hat, safety glasses and
+                            a blue work jacket holds a tablet inside a large
+                            industrial building.
+                      _source: uniform-assets
+            - _id: >-
+                147a594d-123b-481e-a3f0-8690bf63f8c0|39e3650d-b292-474c-acd8-111ea352df47
+              type: heroSlide
+              slots:
+                ctas:
+                  - _id: >-
+                      147a594d-123b-481e-a3f0-8690bf63f8c0|5c75af07-46cb-4054-bb28-236cda2519c2
+                    type: button
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: /
+                          type: projectMapNode
+                          nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                          projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                      label:
+                        type: text
+                        value: Talk to a Consultant
+                      variant:
+                        type: select
+                        value: secondary
+              parameters:
+                title:
+                  type: text
+                  value: Fewer Rounds. Fuller Dispensers.
+                subtitle:
+                  type: text
+                  value: Route custodial teams by data, not by a fixed schedule
+                overlayOpacity:
+                  type: number
+                  value: '60'
+                backgroundImage:
+                  type: asset
+                  value:
+                    - _id: be84febd-101a-40de-8154-ee50c8729682
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: be84febd-101a-40de-8154-ee50c8729682
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/DDzp-sivRD-adNWo68zX2w/NxHitSlERHuv0W2Jo8VCJQ-pexels-photo-34516664.jpeg
+                          type: text
+                        file:
+                          type: file
+                          value: 54b746d8-178a-4108-b5cc-d10d507c9dcf
+                        size:
+                          value: 189103
+                          type: number
+                        width:
+                          value: 1880
+                          type: number
+                        height:
+                          value: 1152
+                          type: number
+                        mediaType:
+                          value: image/jpeg
+                          type: text
+                        title:
+                          type: text
+                          value: Janitorial cart
+                        description:
+                          type: text
+                          value: >-
+                            A janitorial cart with mops, a vacuum and supplies
+                            next to a grey waste bin in a tiled corridor.
+                      _source: uniform-assets
+        parameters:
+          width:
+            type: select
+            value: full
+          autoplay:
+            type: checkbox
+            value: 'true'
+          intervalSeconds:
+            type: number
+            value: '7'
+        _overridability:
+          slots:
+            slides: 'no'
+          parameters:
+            width: 'yes'
+            autoplay: 'no'
+            intervalSeconds: 'no'
+          hideLockedParameters: true
+      - _id: cadfc6b2-8323-4a9f-82c2-3ed709bef8b4
+        type: sectionIntro
+        parameters:
+          body:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          With KOLO®-enabled dispensers synched seamlessly with
+                          the KOLO® Clean app, teams gain real-time visibility
+                          across the facility. The result: proactive decisions
+                          in real time, helping to boost operational efficiency,
+                          reduce waste, lower costs, and elevate the restroom
+                          experience.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+          heading:
+            type: text
+            value: Smart Facilities Start with the KOLO® System
+      - _id: 403e787d-eacf-4dd2-80db-81a3a943ba91
+        type: splitMedia
+        slots:
+          content:
+            - _id: 90dfde93-4de5-47b8-9520-cd2f8abb6d08
+              type: button
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /landing-pages/kolo-smart-monitoring
+                    type: projectMapNode
+                    nodeId: 05538678-1cc0-4bab-ba0a-592916617d0d
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Watch Video
+                variant:
+                  type: select
+                  value: secondary
+        parameters:
+          body:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Custodial teams spend much of the day checking
+                          dispensers that need nothing — and still miss the ones
+                          that ran out an hour ago. KOLO® connects towel,
+                          tissue, soap, and sanitizer dispensers to one app, so
+                          the team sees what is actually low before anyone has
+                          to report it.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+          media:
+            type: asset
+            value:
+              - _id: d1df7c29-1d35-4051-a3db-394ad8bb3a44
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: d1df7c29-1d35-4051-a3db-394ad8bb3a44
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/DDzp-sivRD-adNWo68zX2w/miD0TsKRSDmJsFjBwEVBOw-pexels-photo-20059730.jpeg
+                    type: text
+                  file:
+                    type: file
+                    value: 10f88fae-4320-4a0d-9688-c370ee013608
+                  size:
+                    value: 215947
+                    type: number
+                  width:
+                    value: 1880
+                    type: number
+                  height:
+                    value: 1057
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                  title:
+                    type: text
+                    value: Restroom with soap dispensers
+                  description:
+                    type: text
+                    value: >-
+                      A restroom with a stone vanity, wall-mounted soap
+                      dispensers, a paper towel dispenser and a toilet paper
+                      dispenser.
+                _source: uniform-assets
+          heading:
+            type: text
+            value: Why KOLO® Smart Monitoring Matters
+          background:
+            type: select
+            value: greyPanel
+          headingStyle:
+            type: select
+            value: light
+          mediaPosition:
+            type: select
+            value: left
+      - _id: 8da31ba9-d61f-441b-887d-cc7389b92988
+        type: splitMedia
+        parameters:
+          body:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          One view of every dispenser in the building. Filter by
+                          floor, restroom, or product type, see what needs
+                          service now, and hand the route to whoever is on
+                          shift.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+          media:
+            type: asset
+            value:
+              - _id: 4e21b890-2010-4a4d-8ba0-295554a07ab8
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 4e21b890-2010-4a4d-8ba0-295554a07ab8
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/DDzp-sivRD-adNWo68zX2w/RZNikFgZQi26TImVwi79kA-pexels-photo-6940874.jpeg
+                    type: text
+                  file:
+                    type: file
+                    value: 42957c5c-fa00-46ca-bb5d-a41cff608557
+                  size:
+                    value: 90442
+                    type: number
+                  width:
+                    value: 1880
+                    type: number
+                  height:
+                    value: 1253
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                  title:
+                    type: text
+                    value: Hands holding a smartphone
+                  description:
+                    type: text
+                    value: >-
+                      Close-up of two hands holding a smartphone showing a
+                      settings screen, in warm low light.
+                _source: uniform-assets
+          heading:
+            type: text
+            value: The KOLO® Clean App
+          background:
+            type: select
+            value: white
+          headingStyle:
+            type: select
+            value: light
+          mediaPosition:
+            type: select
+            value: right
+      - _id: d85628c6-41c2-4eda-b1af-bcf4ccd5884f
+        type: splitMedia
+        slots:
+          content:
+            - _id: e5465d54-0da3-4325-aaa3-2b8987fdf597
+              type: button
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /landing-pages/kolo-smart-monitoring
+                    type: projectMapNode
+                    nodeId: 05538678-1cc0-4bab-ba0a-592916617d0d
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Learn More
+                variant:
+                  type: select
+                  value: primary
+        parameters:
+          body:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Smart monitoring is not about collecting more data. It
+                          is about fewer wasted trips and fewer empty
+                          dispensers.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: ul
+                    type: list
+                    start: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: listitem
+                        value: 1
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Cut checks that find nothing to restock
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 2
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Reach low dispensers before anyone reports them
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 3
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Plan labor against real usage, not a fixed
+                              schedule
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                      - type: listitem
+                        value: 4
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Track supply use across every restroom
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                direction: null
+          media:
+            type: asset
+            value:
+              - _id: b91539d6-3bb4-408e-ae11-2739cc00365f
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: b91539d6-3bb4-408e-ae11-2739cc00365f
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/DDzp-sivRD-adNWo68zX2w/xaVTpFQsRje3ou3ZrpZCRg-pexels-photo-6195118.jpeg
+                    type: text
+                  file:
+                    type: file
+                    value: 1ad64afa-d122-442d-aea3-95b9f5145d81
+                  size:
+                    value: 112046
+                    type: number
+                  width:
+                    value: 1880
+                    type: number
+                  height:
+                    value: 1253
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                  title:
+                    type: text
+                    value: Cleaner with a bucket
+                  description:
+                    type: text
+                    value: >-
+                      A woman in an orange apron carries a blue bucket in a
+                      bright, minimal room.
+                _source: uniform-assets
+          heading:
+            type: text
+            value: The Goal of Smart Monitoring
+          background:
+            type: select
+            value: white
+          headingStyle:
+            type: select
+            value: light
+          mediaPosition:
+            type: select
+            value: left
+      - _id: 8d89b52b-4e20-424a-a087-7ea8b17c75e8
+        type: logoGrid
+        slots:
+          logos:
+            - _id: 30419c14-042e-4de6-a591-bd05e9862be5
+              type: logo
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: e2947452-74f2-4629-9b7d-38b2830f7b95
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 190aa1aa-7bbf-4ad3-b9fe-b6689b944bf5
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/DDzp-sivRD-adNWo68zX2w/lxS05vyHTze9Y66ggiF3hQ-image.png
+                          type: text
+                        file:
+                          type: file
+                          value: a1dcd006-6f59-43d9-9314-a6d808d35d52
+                        size:
+                          value: 154600
+                          type: number
+                        title:
+                          type: text
+                          value: IoT Excellence 2025 award badge
+                        width:
+                          value: 800
+                          type: number
+                        height:
+                          value: 360
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                        focalPoint:
+                          value:
+                            x: 0.5
+                            'y': 0.5
+                          type: focalPoint
+                        description:
+                          type: text
+                          value: >-
+                            A red and gold award badge featuring the IoT
+                            Evolution logo, the words “IoT Excellence,” the year
+                            2025, and three stars on a white background.
+                      _source: uniform-assets
+                      _overrides:
+                        fields: {}
+            - _id: 23bb771d-9a95-4eac-a9e5-d29f1ffd3fd9
+              type: logo
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: 393643f0-67d6-4e71-9e13-0639a64ec429
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 34894c02-e15a-4ae9-9afb-389f386116c1
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/DDzp-sivRD-adNWo68zX2w/1dAZgj0sSE6Zzp3DJIYl8g-image.png
+                          type: text
+                        file:
+                          type: file
+                          value: c86fab19-1fcf-4b2b-aea7-a1a6e33aae1e
+                        size:
+                          value: 137996
+                          type: number
+                        title:
+                          type: text
+                          value: 2026 Impact Awards award winner
+                        width:
+                          value: 800
+                          type: number
+                        height:
+                          value: 360
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                        focalPoint:
+                          value:
+                            x: 0.5
+                            'y': 0.5
+                          type: focalPoint
+                        description:
+                          type: text
+                          value: >-
+                            Graphic announcing a 2026 Impact Awards award
+                            winner, featuring a gold trophy surrounded by laurel
+                            branches on a white background.
+                      _source: uniform-assets
+                      _overrides:
+                        fields: {}
+            - _id: 2976ba61-96cc-40f7-90f4-23d83fc1d95a
+              type: logo
+              parameters:
+                image:
+                  type: asset
+                  value:
+                    - _id: 5df92184-1964-4db7-8bc4-c3eb0a633927
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: ea048999-eafb-4bab-bfdd-71cf7c477cef
+                        url:
+                          value: >-
+                            https://img.uniform.global/p/DDzp-sivRD-adNWo68zX2w/98LvJZsDQsia7UPHr-j4hg-image.png
+                          type: text
+                        file:
+                          type: file
+                          value: c042d72a-134d-4251-bc27-c2f3b59fb866
+                        size:
+                          value: 128765
+                          type: number
+                        title:
+                          type: text
+                          value: GBAC Star Facility certification badge
+                        width:
+                          value: 370
+                          type: number
+                        height:
+                          value: 312
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                        focalPoint:
+                          value:
+                            x: 0.5
+                            'y': 0.5
+                          type: focalPoint
+                        description:
+                          type: text
+                          value: >-
+                            Blue circular GBAC Star Facility certification badge
+                            featuring the Global Biorisk Advisory Council name,
+                            a biohazard symbol, and three stars.
+                      _source: uniform-assets
+                      _overrides:
+                        fields: {}
+        parameters:
+          heading:
+            type: text
+            value: Award-Winning Innovation
+      - _id: 84e93823-f23a-4934-9b7c-3c4d24bd1819
+        type: splitMedia
+        _pattern: fd3869d4-bd9e-476a-902c-214a9e82c3f8
+      - _id: 1c29d6b5-7690-4248-bd4b-9b7bc4d2bc34
+        type: faqAccordion
+        _pattern: 24497814-cd3f-4bae-aa34-552e3df14d66
+        _dataResources:
+          FAQs:
+            type: multipleFaq
+            variables:
+              locale: ${locale}
+              entryIds: >-
+                2aaa06a1-182a-481a-8c9a-fd952ab39901,f65a7b16-bf06-4371-a939-39b959639cc8,3e98349b-a0db-4327-b8dc-624915544d3f,0b217719-6041-48b7-bd83-7331e5c77194,06f6e18c-ffa2-4525-93f3-e29b99ba69f8,1ea73805-c374-4e79-a44f-b35c70a644c0,84fa758d-ad94-4ad5-a881-5f898f544955,98f383af-4b39-44ff-a605-0fba27d8dc69
+      - _id: e6d786d5-c486-4663-a8c3-94083164bc22
+        type: ctaBanner
+        slots:
+          cta:
+            - _id: fb7c568f-6d29-4ae9-8194-40cdb0a61ca5
+              type: button
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Connect With a Consultant
+                variant:
+                  type: select
+                  value: outlineWhite
+        parameters:
+          body:
+            type: text
+            value: >-
+              Want to learn more about the KOLO® Smart Monitoring System? A GP
+              PRO consultant can discuss your needs and challenges, then help
+              create a personalized solution.
+          heading:
+            type: text
+            value: Discover How The KOLO® System Can Improve Operational Efficiency
+      - _id: 41548b66-b061-4699-ba1b-96dba7cc800e
+        type: richTextBlock
+        parameters:
+          body:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Smart restroom technology empowers facilities to
+                          efficiently provide clean, well-stocked, functioning
+                          environments. Internet of Things (IoT) advanced
+                          technology helps makes it happen. With the KOLO®
+                          System, you no longer guess what tasks are needed, you
+                          know.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Deliver Excellent Experiences
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Proactively manage cleaning tasks, reduce '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: towel and soap dispenser
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: ' outages and help ensure fixtures are functional to '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: deliver exceptional patron and employee satisfaction
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: .
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Improve Efficiency and Gain Cleaning Time
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Smart restroom technology guides custodians to perform
+                          maintenance only when needed, which can help minimize
+                          touchpoints, 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: reduce waste
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: ' and free-up time for high-value tasks.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Demonstrate a Dedication to Hygiene
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'The KOLO™ System is an '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: award-winning solution
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: ' that signals your commitment to providing a smarter, healthier and safer facility, which can help assure guests it is safe to return.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Ideal for All Types of Facilities
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Office Buildings
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: ', '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: Higher Education Campuses
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: ', '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: Transportation Hubs
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: ', '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: Healthcare Facilities
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: ', '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: Manufacturing Sites
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: ', '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: Food Service Chains
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: ' and Sports, Entertainment and Convention Venues'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Smart Dispensers. Expert Support.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          From onboarding to everyday insights, our Customer
+                          Success Team ensures you get the most from the KOLO®
+                          System—every step of the way.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                  - tag: h3
+                    type: heading
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: If You Can Monitor It, You Can Solve It.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Start with smart restrooms. Expand to additional use
+                          cases through our MachineQ® partnership. This scalable
+                          platform can optimize your ROI by enabling various IoT
+                          solutions using a singular network infrastructure.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
+          lead:
+            type: text
+            value: >-
+              The premier IoT-enabled solution for data-driven cleaning and
+              maintenance for custodial staff.
+      - _id: 23bcd549-745c-4763-a920-bd82d0a36d7d
+        type: cardGrid
+        slots:
+          cards:
+            - _id: c24e1d0f-4b03-4717-8251-c92e251901f1
+              type: eventCard
+              _pattern: fcb979c0-5677-4be6-9c0f-912033e4c40b
+              _dataResources:
+                Event:
+                  type: singleEvent
+                  variables:
+                    locale: ${locale}
+                    entryId: 9699430b-0b9d-458f-b59b-85ce0ec1d882
+            - _id: 977e109b-d0b8-48ae-ae46-c869242754cd
+              type: eventCard
+              _pattern: fcb979c0-5677-4be6-9c0f-912033e4c40b
+              _dataResources:
+                Event:
+                  type: singleEvent
+                  variables:
+                    locale: ${locale}
+                    entryId: 69b21b3f-648e-4732-94c6-7a4b0ba4949f
+            - _id: 227d8681-22c4-404b-a1f9-6cc77f29fbb3
+              type: eventCard
+              _pattern: fcb979c0-5677-4be6-9c0f-912033e4c40b
+              _dataResources:
+                Event:
+                  type: singleEvent
+                  variables:
+                    locale: ${locale}
+                    entryId: 50dd889a-cd5a-44a8-807b-32d1a2eae1ec
+        parameters:
+          columns:
+            type: select
+            value: two
+          heading:
+            type: text
+            value: Recent Events
+      - _id: 6808054b-afa1-4d40-ab98-e2888296e67d
+        type: cardGrid
+        slots:
+          cards:
+            - _id: acc5f555-0fbf-443b-a827-c35f04f9d312
+              type: articleCard
+              _pattern: 45741139-7ed6-4f07-9634-e22e151c94ff
+              _dataResources:
+                Article:
+                  type: article
+                  variables:
+                    locale: ${locale}
+                    entryId: 61d6f368-7df9-4025-bd6a-646fc7a9565c
+            - _id: b6931978-9958-4cef-b5e5-f6a0f7f650f2
+              type: articleCard
+              _pattern: 45741139-7ed6-4f07-9634-e22e151c94ff
+              _dataResources:
+                Article:
+                  type: article
+                  variables:
+                    locale: ${locale}
+                    entryId: c58f28b3-6b79-4308-a5d2-13a30b3b43c2
+            - _id: 7eaff838-5494-41c5-9701-0ca979b3cc27
+              type: articleCard
+              _pattern: 45741139-7ed6-4f07-9634-e22e151c94ff
+              _dataResources:
+                Article:
+                  type: article
+                  variables:
+                    locale: ${locale}
+                    entryId: bd303c79-e262-4d59-af09-1fd3088c3c66
+        parameters:
+          columns:
+            type: select
+            value: one
+          heading:
+            type: text
+            value: KOLO® News & Knowledge
+  _dataResources: {}
+  _overrides:
+    84e93823-f23a-4934-9b7c-3c4d24bd1819:
+      parameters:
+        $viz:
+          type: $viz
+          value: null
+        body:
+          type: richText
+          value:
+            root:
+              type: root
+              version: 1
+              children:
+                - type: paragraph
+                  version: 1
+                  children:
+                    - text: >-
+                        An empty dispenser is the detail tenants remember.
+                        Keeping every restroom consistently stocked is one of
+                        the least expensive ways to protect how a building
+                        feels.
+                      type: text
+                      format: 0
+                      version: 1
+        media:
+          type: asset
+          value:
+            - _id: fefb4b7b-b6c9-41ba-bac1-2e72612a2470
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 88c7b751-b9ec-4f89-97a5-aab81045d11a
+                url:
+                  value: >-
+                    https://img.uniform.global/p/DDzp-sivRD-adNWo68zX2w/dwcDXwrYTmqwKo3iZ1AaBQ-image.png
+                  type: text
+                file:
+                  type: file
+                  value: b9fb7de4-f8c1-4916-92d2-b605d5e684e4
+                size:
+                  value: 378389
+                  type: number
+                title:
+                  type: text
+                  value: Alec Fomin, director of tenant experience
+                width:
+                  value: 520
+                  type: number
+                height:
+                  value: 470
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+                focalPoint:
+                  value:
+                    x: 0.53
+                    'y': 0.32
+                  type: focalPoint
+                description:
+                  type: text
+                  value: >-
+                    Interview-style portrait of Alec Fomin seated in a modern
+                    office or lounge, wearing a blue blazer and white shirt. A
+                    lower-third graphic identifies him as the director of tenant
+                    experience at Sage.
+              _source: uniform-assets
+        eyebrow:
+          type: text
+          value: null
+        heading:
+          type: text
+          value: Better Tenant Experience
+        videoUrl:
+          type: link
+          value:
+            path: https://www.youtube.com/watch?v=M0yQMGSUtlk
+            type: url
+    84e93823-f23a-4934-9b7c-3c4d24bd1819|98348cf8-ee6b-4210-91fa-ba372613edc7:
+      parameters:
+        label:
+          type: text
+          value: Watch Video
+  _locales:
+    - en-US
+created: '2026-11-06T12:44:08.117433+00:00'
+modified: '2026-11-06T12:50:52.411182+00:00'
+pattern: false

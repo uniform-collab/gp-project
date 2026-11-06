@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: fcd27f19-d444-4040-919c-f1ab05b7d346
+  _name: Restroom sinks and hand dryer
+  fields:
+    title:
+      type: text
+      value: Restroom sinks and hand dryer
+    description:
+      type: text
+      value: Three white wall-mounted sinks under mirrors framed in blue tile, with a stainless hand dryer on the left.
+    file:
+      type: file
+      value: 8dc2e4d2-334f-4d29-bf2c-30f77aca5d74
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/EgYrU7evSOSBBtqEkwHFJg-pexels-photo-17461785.jpeg
+      type: text
+    size:
+      value: 211273
+      type: number
+    width:
+      value: 1880
+      type: number
+    height:
+      value: 1253
+      type: number
+    custom: {}
+created: '2026-11-06T00:00:02.802168+00:00'
+modified: '2026-11-06T00:00:02.802168+00:00'

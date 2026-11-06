@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: be84febd-101a-40de-8154-ee50c8729682
+  _name: Janitorial cart
+  fields:
+    title:
+      type: text
+      value: Janitorial cart
+    description:
+      type: text
+      value: A janitorial cart with mops, a vacuum and supplies next to a grey waste bin in a tiled corridor.
+    file:
+      type: file
+      value: 54b746d8-178a-4108-b5cc-d10d507c9dcf
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/rTkEl8nBSz-7chiLwWfzlQ-pexels-photo-34516664.jpeg
+      type: text
+    size:
+      value: 189103
+      type: number
+    width:
+      value: 1880
+      type: number
+    height:
+      value: 1152
+      type: number
+    custom: {}
+created: '2026-11-05T23:59:59.32741+00:00'
+modified: '2026-11-05T23:59:59.32741+00:00'

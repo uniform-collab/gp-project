@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 256d345a-dcab-4900-8866-001eae461835
+  _name: Facility engineer with a tablet
+  fields:
+    title:
+      type: text
+      value: Facility engineer with a tablet
+    description:
+      type: text
+      value: An engineer in a white hard hat, safety glasses and a blue work jacket holds a tablet inside a large industrial building.
+    file:
+      type: file
+      value: d23b5d0c-ceb8-4826-9ad3-4f10900748d0
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/UiPkL8DiQeuV0qevTD_k9w-pexels-photo-32845692.jpeg
+      type: text
+    size:
+      value: 239175
+      type: number
+    width:
+      value: 1880
+      type: number
+    height:
+      value: 1251
+      type: number
+    custom: {}
+created: '2026-11-05T23:59:47.331183+00:00'
+modified: '2026-11-05T23:59:47.331183+00:00'

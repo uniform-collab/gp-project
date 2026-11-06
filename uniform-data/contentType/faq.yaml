@@ -1,0 +1,36 @@
+id: faq
+name: FAQ
+created: '2026-09-24T10:45:14.759483+00:00'
+updated: '2026-09-24T11:55:28.610795+00:00'
+useTeamPermissions: true
+slugSettings:
+  unique: local
+  required: 'yes'
+fields:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: The question and its answer.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - question
+        - answer
+  - id: question
+    name: Question
+    type: text
+    guidance: The question as a visitor would ask it. End with a question mark.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: answer
+    name: Answer
+    type: richText
+    guidance: Direct answer in one or two short paragraphs. No heading.
+    localizable: true
+    notLocalizedByDefault: true
+entryName: question
+description: A reusable question and answer. Place it with the FAQ Item pattern.
+icon: info
+type: contentType
+permissions: []
+previewConfigurations: []

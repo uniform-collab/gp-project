@@ -1,0 +1,73 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: ctaBanner
+name: CTA Banner
+icon: image-text
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Invitation heading and the short line under it.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - heading
+        - body
+  - id: heading
+    name: Heading
+    type: text
+    guidance: Short invitation, under 12 words. No trailing punctuation.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: body
+    name: Body
+    type: text
+    guidance: One or two sentences supporting the heading. Stay under 200 characters.
+    typeConfig:
+      multiline: true
+    localizable: true
+    notLocalizedByDefault: true
+  - id: appearanceGroup
+    name: Appearance
+    type: group
+    guidance: Fill behind the banner.
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - background
+  - id: background
+    name: Background
+    type: select
+    guidance: >-
+      Navy is the default band. Transparent lets the page background show
+      through. Override this on one page when a shared banner should not be
+      navy.
+    helpText: Navy band, or no fill
+    typeConfig:
+      editor: segmented-control
+      options:
+        - text: Navy
+          value: darkBlue
+        - text: Transparent
+          value: transparent
+      required: false
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: f6abfc0a-2e12-4a27-b1e0-e3342a011d86
+description: >-
+  Closing call-to-action band. Heading and body are the message. Buttons go in
+  the Call to Action slot. Background is a page-level choice.
+useTeamPermissions: true
+slots:
+  - id: cta
+    name: Call to Action
+    allowedComponents:
+      - button
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: heading
+canBeComposition: false
+created: '2026-09-24T08:58:50.551053+00:00'
+updated: '2026-09-24T23:47:17.435846+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/ctaBanner.png

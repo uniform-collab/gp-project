@@ -1,0 +1,43 @@
+asset:
+  type: image
+  _id: 190aa1aa-7bbf-4ad3-b9fe-b6689b944bf5
+  _name: IoT Excellence 2025 award badge
+  fields:
+    title:
+      type: text
+      value: IoT Excellence 2025 award badge
+    description:
+      type: text
+      value: >-
+        A red and gold award badge featuring the IoT Evolution logo, the words
+        “IoT Excellence,” the year 2025, and three stars on a white background.
+    file:
+      type: file
+      value: a1dcd006-6f59-43d9-9314-a6d808d35d52
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/zxhXeFRmT1Gan6glORtyyA-image.png
+      type: text
+    size:
+      value: 154600
+      type: number
+    width:
+      value: 800
+      type: number
+    height:
+      value: 360
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.5
+      type: focalPoint
+    custom: {}
+  labels:
+    - type-award
+    - orientation-landscape
+created: '2026-11-05T23:59:42.54538+00:00'
+modified: '2026-11-05T23:59:42.54538+00:00'

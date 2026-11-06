@@ -1,0 +1,110 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: heroSlide
+name: Hero Slide
+icon: image
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Headline and supporting line over the image.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - title
+        - subtitle
+  - id: title
+    name: Title
+    type: text
+    guidance: Slide headline, under 8 words, benefit first. No period.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: One sentence under the title. Do not repeat the title.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: mediaGroup
+    name: Media
+    type: group
+    guidance: Background image, optional video, and the rail thumbnail.
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - backgroundImage
+        - backgroundVideo
+        - thumbnail
+  - id: backgroundImage
+    name: Background Image
+    type: asset
+    guidance: >-
+      Wide photograph. Subject off-center to the right so the headline stays
+      readable.
+    helpText: At least 2400×1400, subject off-center to the right
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: true
+    notLocalizedByDefault: true
+  - id: backgroundVideo
+    name: Background Video
+    type: asset
+    guidance: Optional muted looping video. The background image is the poster.
+    helpText: Optional muted loop; the image is the poster
+    typeConfig:
+      allowedTypes:
+        - video
+    localizable: true
+    notLocalizedByDefault: true
+  - id: thumbnail
+    name: Thumbnail
+    type: asset
+    guidance: Small preview in the slide rail. Falls back to the background image.
+    helpText: Falls back to the background image
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: true
+    notLocalizedByDefault: true
+  - id: appearanceGroup
+    name: Appearance
+    type: group
+    guidance: How dark the navy scrim sits over the image.
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - overlayOpacity
+  - id: overlayOpacity
+    name: Overlay
+    type: number
+    guidance: >-
+      Darkness of the navy scrim over the image, in steps of 5. 0 is no scrim.
+      50 is the usual setting. Do not exceed 80.
+    helpText: 0 to 80, in steps of 5
+    typeConfig:
+      max: 80
+      min: 0
+      steps: 5
+      editor: slider-number-field
+      useSteps: true
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: f6abfc0a-2e12-4a27-b1e0-e3342a011d86
+description: >-
+  One banner inside a Hero Carousel. Title and subtitle sit over the image.
+  Calls to action are buttons in the slot.
+useTeamPermissions: true
+slots:
+  - id: ctas
+    name: Calls to Action
+    allowedComponents:
+      - button
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: title
+canBeComposition: false
+created: '2026-09-24T08:30:47.147429+00:00'
+updated: '2026-09-24T23:43:19.479456+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/heroSlide.png

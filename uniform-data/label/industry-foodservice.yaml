@@ -1,0 +1,11 @@
+label:
+  publicId: industry-foodservice
+  displayName: Foodservice
+  isGroup: false
+  parent: industry
+  color: swatch-orange
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:52:20.283Z'
+modified: '2026-09-24T19:52:20.283Z'

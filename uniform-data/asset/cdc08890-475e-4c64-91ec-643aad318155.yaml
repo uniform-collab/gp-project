@@ -1,0 +1,48 @@
+asset:
+  type: image
+  _id: cdc08890-475e-4c64-91ec-643aad318155
+  _name: Smart restroom monitoring
+  fields:
+    title:
+      type: text
+      value: Smart restroom monitoring
+    description:
+      type: text
+      value: >-
+        A smiling restroom professional in a blue Kolo uniform uses a smartphone
+        while surrounded by connected soap, paper towel, and toilet paper
+        dispensers highlighted with glowing monitoring graphics.
+    file:
+      type: file
+      value: f16d9081-975f-42df-8568-04c345d2b76e
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/2APpVtcRQJep9PfGvGtwpw-image.png
+      type: text
+    size:
+      value: 2491383
+      type: number
+    width:
+      value: 1920
+      type: number
+    height:
+      value: 1331
+      type: number
+    focalPoint:
+      value:
+        x: 0.62
+        'y': 0.51
+      type: focalPoint
+    custom: {}
+  labels:
+    - brand-kolo
+    - solution-smart-monitoring
+    - solution-hygiene
+    - subject-restroom
+    - type-lifestyle
+    - orientation-landscape
+created: '2026-11-05T23:59:59.401475+00:00'
+modified: '2026-11-05T23:59:59.401475+00:00'

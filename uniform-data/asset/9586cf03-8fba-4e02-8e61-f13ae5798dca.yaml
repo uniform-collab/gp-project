@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 9586cf03-8fba-4e02-8e61-f13ae5798dca
+  _name: Conference audience
+  fields:
+    title:
+      type: text
+      value: Conference audience
+    description:
+      type: text
+      value: A large seated audience at a conference, lit by blue stage lights in an arena.
+    file:
+      type: file
+      value: a7a592c1-2140-4d73-9beb-379cd443e3ea
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/_jwJLm2DTam73z4epaVc7g-pexels-photo-22669860.jpeg
+      type: text
+    size:
+      value: 348226
+      type: number
+    width:
+      value: 1880
+      type: number
+    height:
+      value: 1253
+      type: number
+    custom: {}
+created: '2026-11-05T23:59:54.329546+00:00'
+modified: '2026-11-05T23:59:54.329546+00:00'

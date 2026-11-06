@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: checklistItem
+name: Checklist Item
+icon: check
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: The checklist line.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - text
+  - id: text
+    name: Text
+    type: text
+    guidance: One short claim or feature, under 12 words, no bullet character.
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 167e078f-e450-47ed-9eaf-dd1b9c8ba04f
+description: One line in a checklist.
+useTeamPermissions: true
+slots: []
+titleParameter: text
+canBeComposition: false
+created: '2026-09-24T07:30:03.84006+00:00'
+updated: '2026-09-24T23:45:01.744044+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/checklistItem.png

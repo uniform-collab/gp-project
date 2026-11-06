@@ -1,0 +1,81 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: hero
+name: Hero
+icon: image-text
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Headline and the text under it.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - title
+        - description
+  - id: title
+    name: Title
+    type: text
+    guidance: Short headline, under 8 words, no trailing punctuation.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: description
+    name: Description
+    type: richText
+    guidance: One or two sentences under the title. No extra headings.
+    typeConfig:
+      elements:
+        builtIn:
+          - h2
+          - h3
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - superscript
+          - subscript
+    localizable: true
+    notLocalizedByDefault: true
+  - id: appearanceGroup
+    name: Appearance
+    type: group
+    guidance: Text alignment.
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - alignment
+  - id: alignment
+    name: Alignment
+    type: select
+    guidance: Left by default. Center suits short pages such as the 404 page.
+    helpText: Left when not set
+    typeConfig:
+      editor: segmented-control
+      options:
+        - text: Left
+          value: left
+          icon: format-left
+        - text: Center
+          value: center
+          icon: format-center
+        - text: Right
+          value: right
+          icon: format-right
+categoryId: f6abfc0a-2e12-4a27-b1e0-e3342a011d86
+description: >-
+  Single static hero with a title and rich-text description. Use Hero Carousel
+  when the page needs more than one banner.
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2026-09-24T07:02:13.003569+00:00'
+updated: '2026-09-24T23:43:55.385898+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/hero.png

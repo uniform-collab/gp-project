@@ -1,0 +1,30 @@
+# Dependencies
+node_modules
+
+# Next.js
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+
+# Environment: never commit keys (.env.example is the template)
+.env
+.env*.local
+*.local
+
+# Vercel
+.vercel
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editors and OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.sw?
+
+# Claude Code personal settings
+.claude/

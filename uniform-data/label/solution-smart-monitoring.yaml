@@ -1,0 +1,11 @@
+label:
+  publicId: solution-smart-monitoring
+  displayName: KOLO Smart Monitoring
+  isGroup: false
+  parent: solution
+  color: swatch-yellow
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:53:20.363Z'
+modified: '2026-09-24T19:53:20.363Z'

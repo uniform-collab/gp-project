@@ -1,0 +1,11 @@
+label:
+  publicId: orientation-portrait
+  displayName: Portrait
+  isGroup: false
+  parent: orientation
+  color: swatch-purple
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:51:06.513Z'
+modified: '2026-09-24T19:51:06.513Z'

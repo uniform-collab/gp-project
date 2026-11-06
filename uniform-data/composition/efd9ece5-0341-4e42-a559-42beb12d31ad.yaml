@@ -1,0 +1,104 @@
+composition:
+  _name: Page Not Found
+  _id: efd9ece5-0341-4e42-a559-42beb12d31ad
+  _slug: page-not-found
+  type: page
+  parameters:
+    metaTitle:
+      type: text
+      value: Page not found | GP PRO
+  slots:
+    footer:
+      - _id: 8f10a52f-6a8b-4eef-b052-18b0f0056c38
+        type: siteFooter
+        _pattern: 7bd13fbf-2cb9-43dc-881a-106a195ee78b
+    header:
+      - _id: fa1b274f-b3f2-4ac5-ac12-46f1aa13895f
+        type: siteHeader
+        _pattern: 6adabb83-cf60-45be-82a4-36d4aa66db6d
+    content:
+      - _id: 10b5276f-ef19-4ed3-acec-25d1cd71a9e4
+        type: hero
+        parameters:
+          alignment:
+            type: select
+            value: center
+          title:
+            type: text
+            value: Page not found
+          description:
+            type: richText
+            value:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The page you are looking for does not exist or has
+                          moved.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+      - _id: 2cd7ce3b-fdce-4a55-809f-d30309f9ef3c
+        type: ctaBanner
+        slots:
+          cta:
+            - _id: 74ade630-beee-4b6b-a234-45d0c9d939ff
+              type: button
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Go to the homepage
+                variant:
+                  type: select
+                  value: primary
+            - _id: 4e64f9bc-4a30-4d7b-852e-5ebd4941a9d8
+              type: button
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /landing-pages/kolo-smart-monitoring
+                    type: projectMapNode
+                    nodeId: 05538678-1cc0-4bab-ba0a-592916617d0d
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: KOLO® Smart Monitoring
+                variant:
+                  type: select
+                  value: secondary
+        parameters:
+          body:
+            type: text
+            value: Start from the homepage, or see how KOLO® Smart Monitoring works.
+          heading:
+            type: text
+            value: Where to next?
+          background:
+            type: select
+            value: transparent
+created: '2026-11-06T11:35:49.110655+00:00'
+modified: '2026-11-06T11:35:49.110655+00:00'
+pattern: false

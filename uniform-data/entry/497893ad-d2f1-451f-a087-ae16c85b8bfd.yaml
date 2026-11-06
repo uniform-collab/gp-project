@@ -1,0 +1,192 @@
+created: '2026-09-24T09:41:28.763169+00:00'
+modified: '2026-09-24T23:11:04.60144+00:00'
+pattern: false
+entry:
+  _id: 497893ad-d2f1-451f-a087-ae16c85b8bfd
+  _name: Comcast’s MachineQ to Power GP PRO’s Automated Facility...
+  _slug: comcast-machineq-powers-gp-pro-automated-facility-cleaning
+  _thumbnail: >-
+    https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/8VRqmd4LQXin2BXY2k7X7g-image.png
+  type: article
+  fields:
+    date:
+      type: date
+      value: '2022-03-17'
+    image:
+      type: asset
+      value:
+        - _id: dd52235d-54e2-479c-8100-905fc4230ee9
+          type: image
+          fields:
+            id:
+              type: text
+              value: 68e9302a-f324-4c59-912d-a66e105d4c85
+            url:
+              value: >-
+                https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/8VRqmd4LQXin2BXY2k7X7g-image.png
+              type: text
+            size:
+              value: 24937
+              type: number
+            title:
+              type: text
+              value: MachineQ logo
+            width:
+              value: 370
+              type: number
+            height:
+              value: 312
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+            focalPoint:
+              value:
+                x: 0.5
+                'y': 0.48
+              type: focalPoint
+            description:
+              type: text
+              value: >-
+                MachineQ logo with the tagline “A Comcast Company” on a light
+                gray background.
+            file:
+              type: file
+              value: 7da95458-35fe-4265-a053-e3212ce718c1
+          _source: uniform-assets
+    title:
+      type: text
+      value: >-
+        Comcast’s MachineQ to Power GP PRO’s Automated Facility Cleaning and
+        Maintenance Solution
+    author:
+      type: text
+      value: AIT News Desk
+    excerpt:
+      type: text
+      value: >-
+        Comcast Business and GP PRO are connecting KOLO Smart Monitoring System
+        to MachineQ IoT connectivity to help facilities automate restroom
+        maintenance, improve hygiene, and operate more efficiently.
+    bodyText:
+      type: richText
+      value:
+        root:
+          type: root
+          version: 1
+          children:
+            - tag: h2
+              type: heading
+              version: 1
+              children:
+                - text: Smarter Restroom Management with MachineQ and KOLO
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    MachineQ and KOLO are working together to help facilities
+                    teams gain real-time visibility into restroom conditions. By
+                    connecting intelligent restroom devices through reliable IoT
+                    connectivity, the integration gives operators timely
+                    information that can support cleaner, better-maintained
+                    spaces.
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    Rather than relying solely on scheduled checks or guest
+                    complaints, teams can monitor device activity and receive
+                    alerts when attention may be needed. Notifications can help
+                    identify maintenance needs such as supplies running low,
+                    service requirements, or other conditions that call for a
+                    prompt response.
+                  type: text
+                  format: 0
+                  version: 1
+            - tag: h3
+              type: heading
+              version: 1
+              children:
+                - text: Real-Time Insights for Responsive Service
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    Real-time device monitoring helps facility managers
+                    understand what is happening across their restrooms as
+                    conditions change. Maintenance staff can use these insights
+                    to prioritize work, dispatch service where it is needed
+                    most, and address issues before they affect more visitors.
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    This approach is especially valuable in high-traffic
+                    facilities, where restroom usage can vary significantly
+                    throughout the day. Airports, stadiums, campuses, healthcare
+                    environments, retail locations, and other busy public spaces
+                    can benefit from a more informed, demand-based maintenance
+                    workflow.
+                  type: text
+                  format: 0
+                  version: 1
+            - tag: h3
+              type: heading
+              version: 1
+              children:
+                - text: Supporting Hygiene and Operational Efficiency
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    Improved visibility can help organizations maintain hygienic
+                    restroom environments by enabling quicker responses to
+                    changing conditions. When teams have access to alerts and
+                    current device information, they can focus on the areas that
+                    require immediate attention while maintaining consistent
+                    service across the facility.
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    The MachineQ and KOLO integration also supports operational
+                    efficiency. By reducing unnecessary checks and helping teams
+                    prioritize tasks, facilities can make better use of staff
+                    time, improve maintenance planning, and deliver a more
+                    reliable experience for visitors.
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    For organizations managing busy restrooms, connected
+                    monitoring provides a practical way to combine hygiene goals
+                    with smarter operations. MachineQ and KOLO bring together
+                    connectivity and restroom intelligence to help facilities
+                    stay prepared, responsive, and focused on the needs of the
+                    people they serve.
+                  type: text
+                  format: 0
+                  version: 1
+  _locales:
+    - en-US

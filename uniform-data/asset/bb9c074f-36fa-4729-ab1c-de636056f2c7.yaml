@@ -1,0 +1,46 @@
+asset:
+  type: image
+  _id: bb9c074f-36fa-4729-ab1c-de636056f2c7
+  _name: Resilient Green Sports Alliance Summit 2026
+  fields:
+    title:
+      type: text
+      value: Resilient Green Sports Alliance Summit 2026
+    description:
+      type: text
+      value: >-
+        Event graphic featuring the word “Resilient” with a leaf-and-sports-ball
+        logo, announcing the Green Sports Alliance Summit taking place May 5–7,
+        2026, in Cleveland, Ohio.
+    file:
+      type: file
+      value: 3fd829c6-8f56-471d-aee2-5d3b407c8e90
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/0lCC25z6RC6eI5f2Qmk77g-image.png
+      type: text
+    size:
+      value: 179083
+      type: number
+    width:
+      value: 800
+      type: number
+    height:
+      value: 320
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.5
+      type: focalPoint
+    custom: {}
+  labels:
+    - type-logo
+    - lifecycle-event
+    - orientation-landscape
+    - subject-no-people
+created: '2026-11-05T23:59:59.409684+00:00'
+modified: '2026-11-05T23:59:59.409684+00:00'

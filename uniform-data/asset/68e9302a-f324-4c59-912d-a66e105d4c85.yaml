@@ -1,0 +1,42 @@
+asset:
+  type: image
+  _id: 68e9302a-f324-4c59-912d-a66e105d4c85
+  _name: MachineQ logo
+  fields:
+    title:
+      type: text
+      value: MachineQ logo
+    description:
+      type: text
+      value: >-
+        MachineQ logo with the tagline “A Comcast Company” on a light gray
+        background.
+    file:
+      type: file
+      value: 7da95458-35fe-4265-a053-e3212ce718c1
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/zQIrv-umRZ-eg4BSFUixXw-image.png
+      type: text
+    size:
+      value: 24937
+      type: number
+    width:
+      value: 370
+      type: number
+    height:
+      value: 312
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.48
+      type: focalPoint
+    custom: {}
+  labels:
+    - type-logo
+created: '2026-11-05T23:59:53.325554+00:00'
+modified: '2026-11-05T23:59:53.325554+00:00'

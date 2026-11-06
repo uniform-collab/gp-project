@@ -1,0 +1,112 @@
+id: article
+name: Article
+created: '2026-09-24T09:38:26.028547+00:00'
+updated: '2026-09-24T19:07:26.852877+00:00'
+useTeamPermissions: true
+slugSettings: {}
+fields:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Headline, summary, image, and the article body.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - title
+        - excerpt
+        - image
+        - bodyText
+  - id: title
+    name: Title
+    type: text
+    guidance: Concise, descriptive article headline.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: excerpt
+    name: Excerpt
+    type: text
+    guidance: A concise one- to two-sentence summary of the article.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: image
+    name: Image
+    type: asset
+    guidance: Primary image that represents the article.
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: true
+    notLocalizedByDefault: true
+  - id: bodyText
+    name: Body Text
+    type: richText
+    guidance: The full article body with clear headings and readable paragraphs.
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+    notLocalizedByDefault: true
+  - id: detailsGroup
+    name: Details
+    type: group
+    guidance: Byline, publication date, and the public link.
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - author
+        - date
+        - link
+  - id: author
+    name: Author
+    type: text
+    guidance: Author's full name.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: date
+    name: Date
+    type: date
+    guidance: Publication date for the article.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: link
+    name: Link
+    type: link
+    guidance: Public URL or site path the Read More button should open.
+    localizable: true
+    notLocalizedByDefault: true
+entryName: title
+thumbnailField: image
+description: >-
+  A reusable article. Listing cards bind title, excerpt, image, and link through
+  the Article Card pattern.
+icon: file-document
+type: contentType
+permissions: []
+previewConfigurations: []

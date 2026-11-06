@@ -1,0 +1,167 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: splitMedia
+name: Split Media
+icon: image-text
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Eyebrow, heading, and body copy.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - eyebrow
+        - heading
+        - body
+  - id: eyebrow
+    name: Eyebrow
+    helpText: Small label above the heading
+    type: text
+    guidance: Short label above the heading, a few words, no period.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: heading
+    name: Heading
+    type: text
+    guidance: Section headline, under 12 words.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: body
+    name: Body
+    type: richText
+    guidance: Supporting copy. Short paragraphs. Do not add another top-level heading.
+    typeConfig:
+      elements:
+        builtIn:
+          - h2
+          - h3
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - superscript
+          - subscript
+    localizable: true
+    notLocalizedByDefault: true
+  - id: layoutGroup
+    name: Layout
+    type: group
+    guidance: Heading weight, where the image sits, and the background treatment.
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - headingStyle
+        - mediaPosition
+        - background
+  - id: headingStyle
+    name: Heading Style
+    helpText: Light or bold heading
+    type: select
+    guidance: >-
+      Light for editorial sections. Bold when the heading is the primary
+      message.
+    typeConfig:
+      editor: segmented-control
+      options:
+        - text: Light
+          value: light
+        - text: Bold
+          value: bold
+      required: false
+    localizable: true
+    notLocalizedByDefault: true
+  - id: mediaPosition
+    name: Media Position
+    helpText: Left or right puts the image beside the text; above or below makes a full-width image band
+    type: select
+    guidance: >-
+      Left or right for a two-column layout. Above or below for a full-width
+      band.
+    typeConfig:
+      editor: segmented-control
+      options:
+        - text: Left
+          value: left
+        - text: Right
+          value: right
+        - text: Above
+          value: above
+        - text: Below
+          value: below
+      required: false
+    localizable: true
+    notLocalizedByDefault: true
+  - id: background
+    name: Background
+    helpText: Background behind the text
+    type: select
+    guidance: >-
+      White is plain. Grey panel tints the text side. Warm split tints both
+      sides.
+    typeConfig:
+      editor: segmented-control
+      options:
+        - text: White
+          value: white
+        - text: Grey panel
+          value: greyPanel
+      required: false
+    localizable: true
+    notLocalizedByDefault: true
+  - id: mediaGroup
+    name: Media
+    type: group
+    guidance: The photograph and an optional video.
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - media
+        - videoUrl
+  - id: media
+    name: Media
+    type: asset
+    guidance: Photograph or product image for this section.
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: true
+    notLocalizedByDefault: true
+  - id: videoUrl
+    name: Video URL
+    type: link
+    guidance: When set, a play button opens this video in a modal.
+    helpText: When set, a play button opens this video in a modal
+    typeConfig:
+      linkTypes:
+        tel: false
+        email: false
+        projectMapNode: false
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: f6abfc0a-2e12-4a27-b1e0-e3342a011d86
+description: >-
+  Text beside or above an image. Layout, heading weight, and background are
+  configuration. Copy and media are content.
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    allowedComponents:
+      - button
+      - checklist
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: heading
+canBeComposition: false
+created: '2026-09-24T08:31:30.349865+00:00'
+updated: '2026-09-24T23:46:22.85921+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/splitMedia.png

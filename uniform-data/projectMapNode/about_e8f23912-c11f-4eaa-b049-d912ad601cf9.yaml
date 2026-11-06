@@ -1,0 +1,9 @@
+id: e8f23912-c11f-4eaa-b049-d912ad601cf9
+name: About
+order: 400
+path: /about
+type: composition
+pathSegment: about
+data: {}
+compositionId: d323281c-b310-40e6-9341-4c14cdfdf859
+projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb

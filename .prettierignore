@@ -1,0 +1,6 @@
+uniform-data
+package-lock.json
+.next
+public
+src/uniform/contextManifest.json
+*.md

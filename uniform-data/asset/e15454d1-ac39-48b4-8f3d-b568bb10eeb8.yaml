@@ -1,0 +1,42 @@
+asset:
+  type: image
+  _id: e15454d1-ac39-48b4-8f3d-b568bb10eeb8
+  _name: Kolo Gbac Star Designation
+  fields:
+    title:
+      type: text
+      value: KOLO smart monitoring system earns GBAC STAR designation
+    description:
+      type: text
+      value: >-
+        A webpage screenshot featuring the headline “KOLO Smart Monitoring
+        System Earns GBAC STAR Designation” and article text describing the
+        system’s hygiene monitoring capabilities, certification, and use in
+        restroom facilities.
+    file:
+      type: file
+      value: 723445f9-2a7d-417e-9266-553fefa6512c
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/_AtgEMM6QlSxKM1PGMtC3Q-www.gppro.com_gp_news-and-knowledge_kolo-smart-monitoring-system-earns-gbac-star-designation.png
+      type: text
+    size:
+      value: 1988844
+      type: number
+    width:
+      value: 1912
+      type: number
+    height:
+      value: 7676
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.2
+      type: focalPoint
+    custom: {}
+created: '2026-11-06T00:00:01.351186+00:00'
+modified: '2026-11-06T00:00:01.351186+00:00'

@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: siteFooter
+name: Site Footer
+icon: dock-bottom
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Legal line under the footer columns.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - legalText
+  - id: legalText
+    name: Legal Text
+    type: richText
+    guidance: >-
+      Copyright and legal line. Keep it to one short paragraph with links as
+      needed.
+    typeConfig:
+      elements:
+        builtIn:
+          - h2
+          - h3
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - superscript
+          - subscript
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 4a0c18b0-5e86-408b-94ef-744e45f9a6ac
+description: Link columns, social chips, and legal fine print.
+useTeamPermissions: true
+slots:
+  - id: columns
+    name: Columns
+    allowedComponents:
+      - footerColumn
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: socialLinks
+    name: Social Links
+    allowedComponents:
+      - socialLink
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+canBeComposition: false
+created: '2026-09-24T08:21:59.94904+00:00'
+updated: '2026-09-24T23:45:51.673705+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/siteFooter.png

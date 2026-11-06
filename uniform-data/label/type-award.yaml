@@ -1,0 +1,11 @@
+label:
+  publicId: type-award
+  displayName: Award Badge
+  isGroup: false
+  parent: type
+  color: swatch-blue
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:51:05.427Z'
+modified: '2026-09-24T19:51:05.427Z'

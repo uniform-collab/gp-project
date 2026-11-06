@@ -1,0 +1,42 @@
+asset:
+  type: image
+  _id: 4faa4492-0f8e-40dd-b86f-c325dfa9458e
+  _name: Butlr Gp Pro Partnership
+  fields:
+    title:
+      type: text
+      value: Butlr Tech partners with GP PRO to improve hygiene labor efficiency
+    description:
+      type: text
+      value: >-
+        A GP PRO news article page announces a partnership between Butlr
+        Technologies and GP PRO focused on improving hygiene, restroom
+        maintenance, and labor efficiency through smart monitoring and
+        people-sensing technology.
+    file:
+      type: file
+      value: cca49067-50fa-465c-97de-71fc5455d4d3
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/FSZc-F66SdyZcrW54FKvNA-www.gppro.com_gp_news-and-knowledge_butlr-tech-partners-with-gp-pro-to-improve-hygiene-labor-efficiency.png
+      type: text
+    size:
+      value: 1351000
+      type: number
+    width:
+      value: 1912
+      type: number
+    height:
+      value: 4810
+      type: number
+    focalPoint:
+      value:
+        x: 0.45
+        'y': 0.15
+      type: focalPoint
+    custom: {}
+created: '2026-11-05T23:59:49.327097+00:00'
+modified: '2026-11-05T23:59:49.327097+00:00'

@@ -1,0 +1,46 @@
+asset:
+  type: image
+  _id: 60ecd057-b9f8-4156-aa0d-85b94832d788
+  _name: Restroom dispensers
+  fields:
+    title:
+      type: text
+      value: Restroom dispensers
+    description:
+      type: text
+      value: >-
+        A collection of black and stainless steel restroom dispensers, including
+        paper towel, soap, and other hygiene dispensers, arranged against a
+        clean white background.
+    file:
+      type: file
+      value: 73e20b34-716a-4019-9879-b6e2ba11b341
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/xk1taGA3T0uzV4DDOpByJQ-cac4a6675332d50812eb0cdee6e021183445f6f82.jpg
+      type: text
+    size:
+      value: 19497
+      type: number
+    width:
+      value: 520
+      type: number
+    height:
+      value: 470
+      type: number
+    focalPoint:
+      value:
+        x: 0.52
+        'y': 0.45
+      type: focalPoint
+    custom: {}
+  labels:
+    - type-product
+    - subject-product-only
+    - subject-restroom
+    - solution-hygiene
+created: '2026-11-05T23:59:53.408206+00:00'
+modified: '2026-11-05T23:59:53.408206+00:00'

@@ -1,0 +1,11 @@
+label:
+  publicId: rights-gp-owned
+  displayName: GP Owned
+  isGroup: false
+  parent: rights
+  color: swatch-brown
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:53:22.548Z'
+modified: '2026-09-24T19:53:22.548Z'

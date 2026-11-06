@@ -1,0 +1,11 @@
+label:
+  publicId: category-food-wraps
+  displayName: Food Wraps & Papers
+  isGroup: false
+  parent: category
+  color: swatch-pink
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:52:54.960Z'
+modified: '2026-09-24T19:52:54.960Z'

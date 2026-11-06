@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: footerColumn
+name: Footer Column
+icon: list
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Column heading.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - heading
+  - id: heading
+    name: Heading
+    type: text
+    guidance: Column heading, short, uppercase styling is applied in the design.
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 02f9643f-0f8f-487c-bea9-cfba3ff26a8b
+description: One column of footer links under a heading.
+useTeamPermissions: true
+slots:
+  - id: links
+    name: Links
+    allowedComponents:
+      - menuLink
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: heading
+canBeComposition: false
+created: '2026-09-24T08:21:35.836811+00:00'
+updated: '2026-09-24T23:44:40.559798+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/footerColumn.png

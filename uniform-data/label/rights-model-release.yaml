@@ -1,0 +1,11 @@
+label:
+  publicId: rights-model-release
+  displayName: Model Release on File
+  isGroup: false
+  parent: rights
+  color: swatch-brown
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:53:25.710Z'
+modified: '2026-09-24T19:53:25.710Z'

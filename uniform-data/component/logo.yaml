@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: logo
+name: Logo
+icon: image
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Logo artwork and an optional link.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - image
+        - link
+  - id: image
+    name: Image
+    type: asset
+    guidance: Logo artwork on a transparent background.
+    helpText: Transparent PNG or SVG
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: true
+    notLocalizedByDefault: true
+  - id: link
+    name: Link
+    type: link
+    guidance: Optional destination when the logo is clicked.
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 167e078f-e450-47ed-9eaf-dd1b9c8ba04f
+description: One partner or customer logo.
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2026-09-24T08:57:16.582889+00:00'
+updated: '2026-09-24T23:44:47.094405+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/logo.png

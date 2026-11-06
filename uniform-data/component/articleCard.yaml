@@ -1,0 +1,59 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: articleCard
+name: Article Card
+icon: file-document
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Headline and summary on the card.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - title
+        - excerpt
+        - image
+  - id: title
+    name: Title
+    type: text
+    guidance: >-
+      Article headline as shown on the card. Prefer the entry title. No trailing
+      period.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: excerpt
+    name: Excerpt
+    type: text
+    guidance: One or two sentences. Lead with the news, not the company name.
+    typeConfig:
+      multiline: true
+    localizable: true
+    notLocalizedByDefault: true
+  - id: image
+    name: Image
+    type: asset
+    guidance: Landscape thumbnail. Prefer the article image, at least 900px wide.
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 6e4cf8fd-ae28-4d83-ae73-556028e67b14
+description: >-
+  Horizontal teaser for one article. Title, excerpt, and image come from an
+  Article entry via the Article Card pattern. Read more is a button in the slot.
+useTeamPermissions: true
+slots:
+  - id: cta
+    name: Call to Action
+    allowedComponents:
+      - button
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: title
+canBeComposition: false
+created: '2026-09-24T09:00:01.928302+00:00'
+updated: '2026-09-24T23:41:51.522904+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/articleCard.png

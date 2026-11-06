@@ -1,0 +1,11 @@
+label:
+  publicId: industry-small-business
+  displayName: Small Business
+  isGroup: false
+  parent: industry
+  color: swatch-orange
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:52:34.898Z'
+modified: '2026-09-24T19:52:34.898Z'

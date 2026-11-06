@@ -1,0 +1,806 @@
+composition:
+  _name: Global Site Footer
+  _id: 7bd13fbf-2cb9-43dc-881a-106a195ee78b
+  type: siteFooter
+  parameters:
+    legalText:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: © GP PRO. All rights reserved.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+  slots:
+    columns:
+      - _id: ceb213cd-54b6-43c4-ad04-4283a40dcb01
+        type: footerColumn
+        slots:
+          links:
+            - _id: c97cebd5-8ff8-4c9d-ae04-7aada665e01c
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Paper Towels & Dispensers
+            - _id: 13149f5c-d8fb-444e-8a0b-40f2503045f8
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Toilet Paper & Dispensers
+            - _id: 65f75a75-c839-4def-8592-3dff455146ac
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Facial Tissue
+            - _id: a866a4f4-8d9f-4d66-a9f6-1567debede6b
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Skin Care & Dispensers
+            - _id: 5b21165c-64dc-45bb-88d0-9c00a0457c6b
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Aircare & Dispensers
+            - _id: 7f94ad6a-6456-45af-887e-ac4747706130
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Cleaning Wipers & Cloths
+            - _id: 44711bd1-d8e6-4560-8bf2-1184add90e3b
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Hot Cups & Lids
+            - _id: 368f5e9e-45e4-4a05-be62-5b4945bbc3ec
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Cutlery & Dispensers
+            - _id: fbf63915-3cfc-4100-a47b-226e743af54a
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Napkins & Dispensers
+            - _id: 718ff9c5-33bc-406c-8099-4f7b4e786a02
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Plates, Platters & Bowls
+            - _id: 8e4d016b-38aa-49fe-98d1-03f084238f6d
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Portion Cups
+            - _id: 13475eae-b202-42fd-939b-e98776f8813e
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Food Packaging
+            - _id: 9e9a2a4e-2e8b-4d1b-8f3b-4dcae27d50b3
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Food Wraps & Papers
+            - _id: 064c6544-784a-46f1-a072-8a91326a4d88
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Parts, Keys & Accessories
+            - _id: 277b83be-d085-4fdf-9dc9-bedce4312136
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Dispenser Keys
+        parameters:
+          heading:
+            type: text
+            value: Product Categories
+      - _id: a7a2f394-79b0-4c57-aef3-33519a0a548f
+        type: footerColumn
+        slots:
+          links:
+            - _id: 8d9f4c8f-ea68-4a57-b324-3e6157c3cbe1
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: enMotion®
+            - _id: 7f350c17-7ba8-4dd7-9c7c-94b3bb181c32
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Compact®
+            - _id: 0e00c7c2-da18-4b95-aa53-719892c330ed
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Dixie®
+            - _id: fed3df62-cc15-41c9-a0eb-6142356d2b2b
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Pacific Blue™
+            - _id: 06f67268-ab97-41af-9bf5-0ae91d6f21d7
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: ActiveAire®
+            - _id: ff3f9e72-2421-4754-b898-8af0c1269c3c
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Angel Soft Professional Series®
+            - _id: 499d4753-772d-4591-84d1-0e9210643a0a
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Brawny Professional Series®
+            - _id: 2b1d172b-44a6-4347-a3e5-7e56ae4a8c67
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Sparkle Professional Series®
+            - _id: 3e19410f-b181-4f68-b975-4657805feece
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: CoverMax®
+        parameters:
+          heading:
+            type: text
+            value: Brands
+      - _id: 91001673-875c-4c2c-b99f-4d403f9c4c96
+        type: footerColumn
+        slots:
+          links:
+            - _id: 1ee6a9df-5751-4d25-8b13-e29379a160bf
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Workplace Hygiene
+            - _id: c2179776-38f6-4931-a447-add7f9c6fdda
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Premium Restroom Collection
+            - _id: 61d89bd6-e52f-4c64-8efe-ee4c585b0576
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Standard Restroom Collection
+            - _id: 594d55e2-6d7f-4da1-b1c3-789d48b10bd2
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /landing-pages/kolo-smart-monitoring
+                    type: projectMapNode
+                    nodeId: 05538678-1cc0-4bab-ba0a-592916617d0d
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: KOLO™ Smart Monitoring Solution
+            - _id: 681736c7-d3f6-424e-a0e1-73b24b7cec24
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Elements™ Sustainability Solutions
+        parameters:
+          heading:
+            type: text
+            value: Solutions
+      - _id: 4cb933a5-6f3e-49a8-8bbb-a54b1facec22
+        type: footerColumn
+        slots:
+          links:
+            - _id: 8255991d-eee2-457a-ab1a-27aeb71c2720
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Office Buildings
+            - _id: 5e62f9d9-708f-4568-bf9d-0f98e9f130ad
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Industrial
+            - _id: 2e8787dc-c4cd-489f-b03c-1779178e45f3
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Foodservice
+            - _id: 98f5a089-ffff-452f-81e7-85e76ef2a470
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Healthcare
+            - _id: f8e396f2-27e9-45de-8560-868dfa8b3b21
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: High Traffic
+            - _id: 20d770f8-8763-44ba-85d1-ce1dc007f013
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: GP PRO for Architects
+            - _id: fc50667d-1e4a-4f6a-8c81-14875e1dedcb
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Education
+            - _id: 15fe77df-e3ea-472e-b210-2ce6f4c0a049
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Government
+            - _id: 789166eb-7f2d-4267-ace2-0b8745ea2d34
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Lodging
+            - _id: a328f252-6a9e-4f4e-ad60-3a1d19df119a
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Small Business
+        parameters:
+          heading:
+            type: text
+            value: Industries
+      - _id: d3c9a788-a5fe-4887-9afe-d7d2246a62be
+        type: footerColumn
+        slots:
+          links:
+            - _id: 678e3788-9664-484d-8dc5-945fea348a7b
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Contact Us
+            - _id: 2aab6df6-65a0-4d41-b753-505e654090f5
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Safety Data Sheets
+            - _id: 6d431e1f-72f7-4663-8a30-870250bcb732
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: How to Buy
+            - _id: 8ce713e5-321a-4849-be71-334b8765c58b
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Product Registration
+            - _id: 873c7cf0-f191-4179-a6e1-8ad8b224f26b
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: GPXpress Support
+            - _id: a4e89e3f-d1fc-4274-aa3e-7f61acbd7c29
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Dispenser Support
+        parameters:
+          heading:
+            type: text
+            value: Support
+      - _id: 30ca1c60-bcf8-4d2e-9855-1be95cdde5fd
+        type: footerColumn
+        slots:
+          links:
+            - _id: 6dda8eaf-ddc2-48f4-834c-4e53ad605c5c
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /about
+                    type: projectMapNode
+                    nodeId: e8f23912-c11f-4eaa-b049-d912ad601cf9
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: About Us
+            - _id: d268ef9b-a0b5-45b2-b6d9-ec3a1c74d5bc
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: GP PRO Sponsorships
+            - _id: fd5874c8-4d4a-49ae-90b3-c7678dafb593
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Sustainability
+            - _id: 18342006-97dc-414d-ba4c-ea45a8d1dd4a
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: News and Knowledge
+            - _id: 165e6f1f-4ffd-406d-8dae-912bc7f447a5
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Careers
+            - _id: 10df86be-7e18-4fd7-bb84-8ad98c5b82f0
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: https://www.gp.com
+                    type: url
+                label:
+                  type: text
+                  value: Georgia-Pacific
+            - _id: a0c8cc50-bc6c-43b7-9935-f059a8679378
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: url
+                label:
+                  type: text
+                  value: GP PRO Home
+            - _id: d2401ec5-6c74-4808-a044-f84f8b7b1f18
+              type: menuLink
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                    projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                label:
+                  type: text
+                  value: Accessibility Statement
+        parameters:
+          heading:
+            type: text
+            value: Company
+    socialLinks:
+      - _id: d75a1b01-27b1-4469-9cab-13d71767c271
+        type: socialLink
+        parameters:
+          link:
+            type: link
+            value:
+              path: https://www.linkedin.com/company/gp-pro
+              type: url
+          platform:
+            type: select
+            value: linkedin
+      - _id: 142bbd11-652c-4d7d-9929-925f5a4f6217
+        type: socialLink
+        parameters:
+          link:
+            type: link
+            value:
+              path: https://x.com/gppro
+              type: url
+          platform:
+            type: select
+            value: x
+      - _id: be7f7601-61fb-4f1f-9246-87db81a5fd5b
+        type: socialLink
+        parameters:
+          link:
+            type: link
+            value:
+              path: https://www.youtube.com/@gppro
+              type: url
+          platform:
+            type: select
+            value: youtube
+  _locales:
+    - en-US
+created: '2026-09-24T17:31:43.134701+00:00'
+modified: '2026-09-24T23:38:52.763932+00:00'
+pattern: true
+categoryId: 4a0c18b0-5e86-408b-94ef-744e45f9a6ac
+previewImageUrl: https://gp-handover.vercel.app/component-previews/7bd13fbf-2cb9-43dc-881a-106a195ee78b.png

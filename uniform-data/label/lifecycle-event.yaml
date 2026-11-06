@@ -1,0 +1,11 @@
+label:
+  publicId: lifecycle-event
+  displayName: Event (Time-Bound)
+  isGroup: false
+  parent: lifecycle
+  color: swatch-gray
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:53:33.821Z'
+modified: '2026-09-24T19:53:33.821Z'

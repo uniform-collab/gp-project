@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: d1df7c29-1d35-4051-a3db-394ad8bb3a44
+  _name: Restroom with soap dispensers
+  fields:
+    title:
+      type: text
+      value: Restroom with soap dispensers
+    description:
+      type: text
+      value: A restroom with a stone vanity, wall-mounted soap dispensers, a paper towel dispenser and a toilet paper dispenser.
+    file:
+      type: file
+      value: 10f88fae-4320-4a0d-9688-c370ee013608
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/oWQArHENSkO3nt2FBRRD3w-pexels-photo-20059730.jpeg
+      type: text
+    size:
+      value: 215947
+      type: number
+    width:
+      value: 1880
+      type: number
+    height:
+      value: 1057
+      type: number
+    custom: {}
+created: '2026-11-06T00:00:00.39748+00:00'
+modified: '2026-11-06T00:00:00.39748+00:00'

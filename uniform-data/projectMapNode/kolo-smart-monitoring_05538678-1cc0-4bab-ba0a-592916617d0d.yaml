@@ -1,0 +1,10 @@
+id: 05538678-1cc0-4bab-ba0a-592916617d0d
+name: KOLO Smart Monitoring
+order: 99
+path: /landing-pages/kolo-smart-monitoring
+type: composition
+pathSegment: kolo-smart-monitoring
+data:
+  queryStrings: []
+compositionId: 4895b7bd-6dfd-4e4b-88ae-5fb209ce0b52
+projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb

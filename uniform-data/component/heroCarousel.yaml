@@ -1,0 +1,86 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: heroCarousel
+name: Hero Carousel
+icon: carousel
+parameters:
+  - id: layoutGroup
+    name: Layout
+    type: group
+    guidance: How wide the carousel sits on the page.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - width
+  - id: width
+    name: Width
+    type: select
+    guidance: >-
+      Full width bleeds edge to edge. Half width sits in the site container.
+      Override this on a single page when a shared carousel should not span the
+      viewport.
+    helpText: Full width, or within the page's content width
+    typeConfig:
+      editor: segmented-control
+      options:
+        - text: Full width
+          value: full
+        - text: Contained
+          value: half
+      required: false
+    localizable: true
+    notLocalizedByDefault: true
+  - id: playbackGroup
+    name: Playback
+    type: group
+    guidance: Whether slides advance on their own, and how long each one stays.
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - autoplay
+        - intervalSeconds
+  - id: autoplay
+    name: Autoplay
+    helpText: Moves to the next slide on its own
+    type: checkbox
+    guidance: >-
+      Advance slides automatically on the live site. Editing always pauses
+      autoplay.
+    typeConfig:
+      trueLabel: 'On'
+      falseLabel: 'Off'
+    localizable: true
+    notLocalizedByDefault: true
+  - id: intervalSeconds
+    name: Interval
+    type: number
+    guidance: >-
+      Seconds each slide stays on screen before advancing. Use 5–10 for
+      marketing heroes.
+    helpText: Seconds between slides
+    typeConfig:
+      max: 15
+      min: 2
+      steps: 1
+      editor: slider-number-field
+      useSteps: true
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: f6abfc0a-2e12-4a27-b1e0-e3342a011d86
+description: >-
+  Full-bleed or contained rotating hero. Slides live in the Slides slot. Width
+  and timing are configuration; slide content is authored on each Hero Slide.
+useTeamPermissions: true
+slots:
+  - id: slides
+    name: Slides
+    allowedComponents:
+      - heroSlide
+      - $personalization
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+canBeComposition: false
+created: '2026-09-24T08:31:13.739977+00:00'
+updated: '2026-09-24T23:43:13.884396+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/heroCarousel.png

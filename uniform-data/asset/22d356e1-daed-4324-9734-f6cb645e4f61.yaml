@@ -1,0 +1,43 @@
+asset:
+  type: image
+  _id: 22d356e1-daed-4324-9734-f6cb645e4f61
+  _name: Comcast Machineq Facility Cleaning
+  fields:
+    title:
+      type: text
+      value: >-
+        Comcast’s MachineQ to power GP PRO’s automated facility cleaning and
+        maintenance solution
+    description:
+      type: text
+      value: >-
+        Screenshot of an AiThority article about Comcast’s MachineQ IoT platform
+        powering GP PRO’s Kolo Smart Monitoring System for automated restroom
+        cleaning, maintenance, and facility management.
+    file:
+      type: file
+      value: cb79d5dc-da0b-4ae3-bbb1-b3972b0049bb
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/apKB_D2MTJOBDo1S5uW3vg-aithority.com_internet-of-things_comcasts-machineq-to-power-gp-pros-automated-facility-cleaning-and-maintenance-solution_.png
+      type: text
+    size:
+      value: 2508452
+      type: number
+    width:
+      value: 1912
+      type: number
+    height:
+      value: 7708
+      type: number
+    focalPoint:
+      value:
+        x: 0.32
+        'y': 0.12
+      type: focalPoint
+    custom: {}
+created: '2026-11-05T23:59:43.665516+00:00'
+modified: '2026-11-05T23:59:43.665516+00:00'

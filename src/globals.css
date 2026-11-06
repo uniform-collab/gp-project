@@ -1,0 +1,272 @@
+@import "tailwindcss";
+
+/* `--font-brand` is set in src/pages/_app.tsx (next/font). */
+
+@theme {
+  /* Clears Tailwind's default palette, so only the colors below generate
+     utilities. */
+  --color-*: initial;
+  --color-transparent: transparent;
+  --color-current: currentColor;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  /* Font */
+  --font-sans: var(--font-brand), "Helvetica Neue", Arial, sans-serif;
+
+  /* Brand colors */
+  --color-navy: #1f4a7d;
+  --color-navy-header: #294c7e;
+  --color-navy-deep: #1e3558;
+  --color-link: #1f5a9e;
+  --color-sky: #5bb9e9;
+
+  /* Text colors */
+  --color-ink-strong: #333333;
+  --color-ink: #6b6b6b;
+  --color-ink-muted: #808080;
+
+  /* Surfaces and lines */
+  --color-surface-grey: #e8e8e9;
+  --color-surface-warm: #f3f1ed;
+  --color-line: #d4d4d4;
+
+  /* Shape and elevation */
+  --radius-pill: 9999px;
+  --shadow-card: 0 2px 6px rgb(0 0 0 / 0.12);
+  --shadow-menu: 0 8px 24px rgb(0 0 0 / 0.12);
+
+  /* Layout */
+  --container-site: 1200px;
+}
+
+/* Typography utilities: mobile size first, larger from md (768px) */
+@utility h-hero {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.15;
+  color: var(--color-white);
+  @media (width >= 48rem) {
+    font-size: 52px;
+  }
+}
+
+@utility h-hero-sub {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  color: var(--color-white);
+  @media (width >= 48rem) {
+    font-size: 26px;
+  }
+}
+
+@utility h-section {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+  color: var(--color-navy);
+  text-align: center;
+  @media (width >= 48rem) {
+    font-size: 40px;
+  }
+}
+
+@utility h-split {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 1.15;
+  color: var(--color-navy);
+  @media (width >= 48rem) {
+    font-size: 40px;
+  }
+}
+
+@utility h-card {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  color: var(--color-navy);
+  @media (width >= 48rem) {
+    font-size: 22px;
+  }
+}
+
+@utility h-menu {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+  color: var(--color-ink-strong);
+}
+
+@utility eyebrow {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-navy);
+  @media (width >= 48rem) {
+    font-size: 20px;
+  }
+}
+
+/* Bullet lists in SplitMedia's body render as sky checkmarks. Numbered lists
+   keep their numbers (see rich-text). */
+@utility check-list {
+  & ul {
+    margin: 1.5rem 0 0;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0;
+  }
+
+  & ul > li {
+    position: relative;
+    padding-left: 2rem;
+    font-size: 20px;
+    line-height: 1.4;
+    color: var(--color-ink-muted);
+  }
+
+  & ul > li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.125rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: var(--color-sky);
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M20.99 6.3a1.1 1.1 0 0 1 0 1.55l-9.2 9.3a1.1 1.1 0 0 1-1.56 0l-4.35-4.4a1.1 1.1 0 0 1 1.56-1.54l3.57 3.61 8.42-8.52a1.1 1.1 0 0 1 1.56 0Z'/%3E%3C/svg%3E");
+    mask-repeat: no-repeat;
+    mask-size: contain;
+  }
+}
+
+@utility body-lg {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-ink-muted);
+  @media (width >= 48rem) {
+    font-size: 18px;
+  }
+}
+
+@utility body-sm {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--color-ink-muted);
+}
+
+@utility btn-label {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+@utility nav-label {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+/* Hides the scrollbar on scroll-snap tracks (HeroCarousel, LogoGrid). */
+@utility no-scrollbar {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Container: 1200px max, 24px gutters, 32px from md. Sections are
+   full-bleed and opt in here. */
+@utility site-container {
+  width: 100%;
+  max-width: var(--container-site);
+  margin-inline: auto;
+  padding-inline: 24px;
+
+  @media (width >= 48rem) {
+    padding-inline: 32px;
+  }
+}
+
+/* Base styles */
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-ink-muted);
+    background: var(--color-white);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ® and ™ render smaller and raised */
+  sup {
+    font-size: 0.6em;
+    line-height: 0;
+  }
+
+  /* Visible focus state on every interactive element: a navy ring with a
+     white halo inside it, so it shows on white and on navy alike. */
+  :focus-visible {
+    outline: 2px solid var(--color-navy);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 2px var(--color-white);
+  }
+
+  ::selection {
+    background-color: var(--color-sky);
+    color: var(--color-navy-deep);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* Lists and quotes in rich text (UniformRichText output). Tailwind's base
+   styles strip list markers, so without this a numbered list shows no numbers.
+   Every selector is wrapped in :where() so it stays weaker than a component's
+   own list styling, such as check-list. */
+@utility rich-text {
+  & :where(ul, ol) {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+  }
+
+  & :where(ul) {
+    list-style: disc;
+  }
+
+  & :where(ol) {
+    list-style: decimal;
+  }
+
+  & :where(li + li) {
+    margin-top: 0.25rem;
+  }
+
+  & :where(blockquote) {
+    margin-top: 1rem;
+    border-left: 3px solid var(--color-sky);
+    padding-left: 1rem;
+    font-style: italic;
+  }
+}

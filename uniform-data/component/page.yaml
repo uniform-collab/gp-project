@@ -1,0 +1,82 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: page
+name: Page
+icon: browser
+parameters:
+  - id: metaTitle
+    name: Meta Title
+    type: text
+    guidance: >-
+      Browser-tab and search title. Lead with the topic, stay under 60
+      characters, and do not add a brand suffix unless it is the homepage.
+    helpText: Browser tab and search title (under 60 characters)
+    localizable: true
+    notLocalizedByDefault: true
+  - id: metaDescription
+    name: Meta Description
+    type: text
+    guidance: >-
+      Search-result summary, 150–160 characters, with a concrete benefit of the
+      page. Unique per URL. No keyword stuffing.
+    helpText: Search-result summary (150–160 characters)
+    typeConfig:
+      multiline: true
+      linesCount: 5
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: b2b38eb1-15ae-4679-9d12-52999e8e3240
+description: >-
+  Page composition. Metadata fields apply to the whole URL. Header, content, and
+  footer are slots. Do not put visible marketing copy on the page itself.
+previewImageUrl: https://gp-handover.vercel.app/component-previews/page.png
+useTeamPermissions: true
+slots:
+  - id: header
+    name: Header
+    allowedComponents:
+      - siteHeader
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: content
+    name: Content
+    allowedComponents:
+      - hero
+      - heroCarousel
+      - splitMedia
+      - sectionIntro
+      - logoGrid
+      - faqAccordion
+      - ctaBanner
+      - richTextBlock
+      - cardGrid
+      - $personalization
+      - $test
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: footer
+    name: Footer
+    allowedComponents:
+      - siteFooter
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+defaults:
+  type: page
+  slots:
+    footer:
+      - type: siteFooter
+        _pattern: 7bd13fbf-2cb9-43dc-881a-106a195ee78b
+    header:
+      - type: siteHeader
+        _pattern: 6adabb83-cf60-45be-82a4-36d4aa66db6d
+slugSettings:
+  unique: global
+  required: 'no'
+  regularExpression: ''
+  regularExpressionMessage: ''
+canBeComposition: true
+created: '2026-11-06T00:00:35.9492+00:00'
+updated: '2026-11-06T00:20:01.71914+00:00'

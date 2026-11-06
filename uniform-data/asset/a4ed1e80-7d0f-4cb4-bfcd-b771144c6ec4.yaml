@@ -1,0 +1,44 @@
+asset:
+  type: image
+  _id: a4ed1e80-7d0f-4cb4-bfcd-b771144c6ec4
+  _name: Team reviewing information on a smartphone
+  fields:
+    title:
+      type: text
+      value: Team reviewing information on a smartphone
+    description:
+      type: text
+      value: >-
+        Three men stand together in an office building, looking at information
+        displayed on a smartphone. One man points toward the screen while the
+        others review it.
+    file:
+      type: file
+      value: 257fc5fe-f20e-44ac-bfdb-25b708ec6edd
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/0YGget1uRCKUrltxL5SgUA-image.png
+      type: text
+    size:
+      value: 425132
+      type: number
+    width:
+      value: 500
+      type: number
+    height:
+      value: 500
+      type: number
+    focalPoint:
+      value:
+        x: 0.56
+        'y': 0.56
+      type: focalPoint
+    custom: {}
+  labels:
+    - type-lifestyle
+    - orientation-square
+created: '2026-11-05T23:59:58.332376+00:00'
+modified: '2026-11-05T23:59:58.332376+00:00'

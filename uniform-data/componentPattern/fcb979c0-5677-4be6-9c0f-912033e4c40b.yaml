@@ -1,0 +1,49 @@
+composition:
+  _name: Event Card (From Entry)
+  _id: fcb979c0-5677-4be6-9c0f-912033e4c40b
+  type: eventCard
+  parameters:
+    body:
+      type: richText
+      value: ${#jptr:/Event/entry/fields/body/value}
+    image:
+      type: asset
+      value: ${#jptr:/Event/entry/fields/image/value}
+  slots:
+    cta:
+      - _id: 47cd9eec-31c8-49ab-9684-4fffeb4ea932
+        type: button
+        parameters:
+          link:
+            type: link
+            value:
+              path: ${#jptr:/Event/entry/fields/link/value/path}
+              type: url
+          label:
+            type: text
+            value: Learn More
+          variant:
+            type: select
+            value: primary
+  _dataResources:
+    Event:
+      type: singleEvent
+      variables:
+        locale: ${locale}
+        entryId: 9699430b-0b9d-458f-b59b-85ce0ec1d882
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    slots:
+      cta: 'yes'
+    parameters:
+      body: 'no'
+      image: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2026-09-24T10:41:09.559281+00:00'
+modified: '2026-09-24T23:39:15.605138+00:00'
+pattern: true
+categoryId: 6e4cf8fd-ae28-4d83-ae73-556028e67b14
+previewImageUrl: https://gp-handover.vercel.app/component-previews/fcb979c0-5677-4be6-9c0f-912033e4c40b.png

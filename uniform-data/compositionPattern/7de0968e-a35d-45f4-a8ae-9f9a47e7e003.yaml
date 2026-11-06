@@ -1,0 +1,174 @@
+composition:
+  _name: Landing Page
+  _id: 7de0968e-a35d-45f4-a8ae-9f9a47e7e003
+  type: page
+  slots:
+    footer:
+      - _id: edb49103-f0c3-4573-b754-a0ee31fde711
+        type: siteFooter
+        _pattern: 7bd13fbf-2cb9-43dc-881a-106a195ee78b
+    header:
+      - _id: 7d8ecfea-18c5-4cf7-a76c-b94ac405af6c
+        type: siteHeader
+        _pattern: 6adabb83-cf60-45be-82a4-36d4aa66db6d
+    content:
+      - _id: 6b07d74c-87a9-4385-88e1-149df1a96abd
+        type: heroCarousel
+        slots:
+          slides:
+            - _id: c149db68-cbae-4542-a314-b3dfa651cf26
+              type: heroSlide
+              slots:
+                ctas:
+                  - _id: 325e6573-a8c3-45a0-bbaa-90c420edb616
+                    type: button
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: /landing-pages/kolo-smart-monitoring
+                          type: projectMapNode
+                          nodeId: 05538678-1cc0-4bab-ba0a-592916617d0d
+                          projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                      label:
+                        type: text
+                        value: Learn More
+                      variant:
+                        type: select
+                        value: outlineWhite
+                    _overridability:
+                      parameters:
+                        link: 'yes'
+                        label: 'yes'
+                        variant: 'yes'
+                  - _id: 40442cea-f5a8-4fac-8989-aace5af7f75e
+                    type: button
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: /landing-pages/kolo-smart-monitoring
+                          type: projectMapNode
+                          nodeId: 05538678-1cc0-4bab-ba0a-592916617d0d
+                          projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                      label:
+                        type: text
+                        value: Contact Us
+                      variant:
+                        type: select
+                        value: secondary
+                    _overridability:
+                      parameters:
+                        link: 'yes'
+                        label: 'yes'
+                        variant: 'yes'
+              parameters:
+                title:
+                  type: text
+                  value: Headline for this landing page
+                subtitle:
+                  type: text
+                  value: One line on what the visitor gets
+                overlayOpacity:
+                  type: number
+                  value: '55'
+                backgroundImage:
+                  type: asset
+                  value:
+                    - _id: 097bea40-4285-401f-90fb-26c6847b3581
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 15e27548-e9bd-430d-aba7-cfae3cd515fb
+                        url:
+                          value: >-
+                            https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/oPuVkldUR46pqizN86ToSQ-75fa9270871becaa065484d6a8afe87c1104ef83.png
+                          type: text
+                        file:
+                          type: file
+                          value: e6de3f45-771f-41e0-91ae-d3c2b951b4c4
+                        size:
+                          value: 1655231
+                          type: number
+                        title:
+                          type: text
+                          value: Accessible restroom with hygiene dispensers
+                        width:
+                          value: 2536
+                          type: number
+                        height:
+                          value: 1420
+                          type: number
+                        mediaType:
+                          value: image/png
+                          type: text
+                        focalPoint:
+                          value:
+                            x: 0.37
+                            'y': 0.63
+                          type: focalPoint
+                        description:
+                          type: text
+                          value: >-
+                            A clean, accessible restroom featuring a toilet, sink,
+                            grab bars, paper towel and soap dispensers, and other
+                            restroom fixtures against tiled walls.
+                      _source: uniform-assets
+              _overridability:
+                parameters:
+                  title: 'yes'
+                  subtitle: 'yes'
+                  thumbnail: 'yes'
+                  overlayOpacity: 'yes'
+                  backgroundImage: 'yes'
+                  backgroundVideo: 'yes'
+            - _id: d31be6bb-ae2d-46ee-a02e-1e2fa55a084d
+              type: $slotSection
+              parameters:
+                name:
+                  type: text
+                  value: Slides
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          width:
+            type: select
+            value: full
+          autoplay:
+            type: checkbox
+            value: 'true'
+          intervalSeconds:
+            type: number
+            value: '7'
+        _overridability:
+          slots:
+            slides: 'no'
+          parameters:
+            width: 'yes'
+            autoplay: 'no'
+            intervalSeconds: 'no'
+          hideLockedParameters: true
+      - _id: e46dd555-b704-480e-8ae7-0b33f958e09a
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Content
+          groupType:
+            type: text
+            value: inherit
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      metaTitle: 'yes'
+      metaDescription: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2026-09-24T19:10:20.448108+00:00'
+modified: '2026-09-25T10:06:25.205096+00:00'
+pattern: true
+previewImageUrl: https://gp-handover.vercel.app/component-previews/7de0968e-a35d-45f4-a8ae-9f9a47e7e003.png

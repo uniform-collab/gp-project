@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 19a89e20-743a-47a3-b3d7-d20323aba14c
+  _name: Designer sketching a dispenser concept
+  fields:
+    title:
+      type: text
+      value: Designer sketching a dispenser concept
+    description:
+      type: text
+      value: Close-up of a hand sketching a dispenser design in black marker on white paper, with the GP PRO Georgia-Pacific logo in the corner.
+    file:
+      type: file
+      value: 6715392f-54d8-4f04-9fc5-e007c5c3676c
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/yYp6yy76RyiBfUtaizAtGg-795fb0aa9b5e78cebcfb8519be6299d489f3b161.jpg
+      type: text
+    size:
+      value: 146421
+      type: number
+    width:
+      value: 1920
+      type: number
+    height:
+      value: 1080
+      type: number
+    custom: {}
+created: '2026-11-05T23:59:42.330265+00:00'
+modified: '2026-11-05T23:59:42.330265+00:00'

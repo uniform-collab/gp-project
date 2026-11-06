@@ -1,0 +1,10 @@
+label:
+  publicId: rights
+  displayName: Rights & Usage
+  isGroup: true
+  color: swatch-brown
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:50:46.261Z'
+modified: '2026-09-24T19:50:46.261Z'

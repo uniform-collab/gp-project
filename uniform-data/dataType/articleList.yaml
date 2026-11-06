@@ -1,0 +1,34 @@
+id: articleList
+displayName: Article List
+created: '2026-11-06T00:00:10.749203+00:00'
+modified: '2026-11-06T00:03:27.36013+00:00'
+createdBy: hjuh3DBTbhkX9inJkcb97a8wrNn8vnkw
+modifiedBy: hjuh3DBTbhkX9inJkcb97a8wrNn8vnkw
+path: /query
+custom:
+  allowedContentTypes:
+    - article
+method: GET
+purgeKey: 89c7dffb-e046-4367-9a85-67ce2e56defd
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  search:
+    type: text
+    default: ''
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

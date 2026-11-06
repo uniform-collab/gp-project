@@ -1,0 +1,11 @@
+label:
+  publicId: rights-stock
+  displayName: Licensed Stock
+  isGroup: false
+  parent: rights
+  color: swatch-brown
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:53:22.949Z'
+modified: '2026-09-24T19:53:22.949Z'

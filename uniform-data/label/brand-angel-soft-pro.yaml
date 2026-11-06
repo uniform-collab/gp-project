@@ -1,0 +1,11 @@
+label:
+  publicId: brand-angel-soft-pro
+  displayName: Angel Soft Professional Series
+  isGroup: false
+  parent: brand
+  color: swatch-red
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:53:06.932Z'
+modified: '2026-09-24T19:53:06.932Z'

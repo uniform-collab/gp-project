@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: checklist
+name: Checklist
+icon: play-list-check
+parameters: []
+categoryId: 167e078f-e450-47ed-9eaf-dd1b9c8ba04f
+description: A short list of checklist items, usually inside Split Media.
+useTeamPermissions: true
+slots:
+  - id: items
+    name: Items
+    allowedComponents:
+      - checklistItem
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+canBeComposition: false
+created: '2026-09-24T07:30:25.384923+00:00'
+updated: '2026-09-24T23:43:39.761625+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/checklist.png

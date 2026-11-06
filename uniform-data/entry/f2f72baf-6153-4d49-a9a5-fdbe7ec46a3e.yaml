@@ -1,0 +1,84 @@
+created: '2026-09-24T22:53:37.573128+00:00'
+modified: '2026-09-24T22:54:13.95201+00:00'
+pattern: false
+entry:
+  _id: f2f72baf-6153-4d49-a9a5-fdbe7ec46a3e
+  _name: IAVM VenueConnect
+  _slug: iavm-venueconnect
+  _thumbnail: https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/ovZUt9gwSeevkqs0p4rubw-image.png
+  type: event
+  fields:
+    body:
+      type: richText
+      value:
+        root:
+          type: root
+          version: 1
+          children:
+          - tag: h3
+            type: heading
+            version: 1
+            children:
+            - text: IAVM VenueConnect
+              type: text
+              format: 0
+              version: 1
+          - type: paragraph
+            version: 1
+            children:
+            - text: August 9–12, 2026 · Indianapolis, IN
+              type: text
+              format: 0
+              version: 1
+            - type: linebreak
+              version: 1
+            - type: linebreak
+              version: 1
+            - text: We are exhibiting at this event, which hosts professionals from a spectrum of public assembly venues including arenas, convention centers, amphitheaters, fairgrounds, performing arts centers, stadiums, universities, and more.
+              type: text
+              format: 0
+              version: 1
+    image:
+      type: asset
+      value:
+      - _id: 0cb8a4ae-b27d-44af-aedd-d0f336e5732d
+        type: image
+        fields:
+          id:
+            type: text
+            value: 24950eff-4ef4-4bdc-b010-e0ed0c263be6
+          url:
+            value: https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/ovZUt9gwSeevkqs0p4rubw-image.png
+            type: text
+          size:
+            value: 245882
+            type: number
+          title:
+            type: text
+            value: International Association of Venue Managers logo
+          width:
+            value: 1920
+            type: number
+          height:
+            value: 1080
+            type: number
+          mediaType:
+            value: image/png
+            type: text
+          focalPoint:
+            value:
+              x: 0.5
+              y: 0.5
+            type: focalPoint
+          description:
+            type: text
+            value: Logo for the International Association of Venue Managers, featuring a red and white IAVM emblem alongside the organization name in black lettering.
+          file:
+            type: file
+            value: 8391de4c-423a-41ea-9db7-84d5e1d98941
+        _source: uniform-assets
+    title:
+      type: text
+      value: IAVM VenueConnect
+  _locales:
+  - en-US

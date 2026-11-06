@@ -1,0 +1,53 @@
+composition:
+  _name: Article Card (From Entry)
+  _id: 45741139-7ed6-4f07-9634-e22e151c94ff
+  type: articleCard
+  parameters:
+    image:
+      type: asset
+      value: ${#jptr:/Article/entry/fields/image/value}
+    title:
+      type: text
+      value: ${#jptr:/Article/entry/fields/title/value}
+    excerpt:
+      type: text
+      value: ${#jptr:/Article/entry/fields/excerpt/value}
+  slots:
+    cta:
+      - _id: 1cdc3915-4599-41c3-af81-724fb9e1924b
+        type: button
+        parameters:
+          link:
+            type: link
+            value:
+              path: ${#jptr:/Article/entry/fields/link/value/path}
+              type: url
+          label:
+            type: text
+            value: Read More
+          variant:
+            type: select
+            value: textLink
+  _dataResources:
+    Article:
+      type: article
+      variables:
+        locale: ${locale}
+        entryId: 61d6f368-7df9-4025-bd6a-646fc7a9565c
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    slots:
+      cta: 'yes'
+    parameters:
+      image: 'no'
+      title: 'no'
+      excerpt: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2026-09-24T10:41:09.314709+00:00'
+modified: '2026-09-24T23:39:29.589748+00:00'
+pattern: true
+categoryId: 6e4cf8fd-ae28-4d83-ae73-556028e67b14
+previewImageUrl: https://gp-handover.vercel.app/component-previews/45741139-7ed6-4f07-9634-e22e151c94ff.png

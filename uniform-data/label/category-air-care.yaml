@@ -1,0 +1,11 @@
+label:
+  publicId: category-air-care
+  displayName: Air Care & Dispensers
+  isGroup: false
+  parent: category
+  color: swatch-pink
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:52:44.743Z'
+modified: '2026-09-24T19:52:44.743Z'

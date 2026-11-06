@@ -1,0 +1,163 @@
+composition:
+  _name: About
+  _id: d323281c-b310-40e6-9341-4c14cdfdf859
+  _slug: about
+  type: page
+  parameters:
+    metaTitle:
+      type: text
+      value: About GP PRO
+    metaDescription:
+      type: text
+      value: Georgia-Pacific's GP PRO business supplies towel, tissue, soap, and smart restroom systems for commercial facilities.
+  slots:
+    footer:
+    - _id: 5d51af28-2bc7-469d-b429-1069a2b476e6
+      type: siteFooter
+      _pattern: 7bd13fbf-2cb9-43dc-881a-106a195ee78b
+    header:
+    - _id: 01ce386e-91a1-42b5-b685-c45f532ad062
+      type: siteHeader
+      _pattern: 6adabb83-cf60-45be-82a4-36d4aa66db6d
+    content:
+    - _id: 8d039c5d-c0dd-4591-8615-923ee4f1b883
+      type: hero
+      parameters:
+        title:
+          type: text
+          value: About GP PRO
+        description:
+          type: richText
+          value:
+            root:
+              type: root
+              format: ''
+              indent: 0
+              version: 1
+              children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                - mode: normal
+                  text: GP PRO is the professional business of Georgia-Pacific. We make the towels, tissue, soap and dispensers that keep restrooms and break rooms running, and the KOLO® Smart Monitoring System that tells your team when they need attention.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              direction: ltr
+    - _id: 9243e4f8-5631-4fdd-a859-3f43ee697031
+      type: ctaBanner
+      slots:
+        cta:
+        - _id: 86b50e99-81c1-4201-b111-5155b60dcdd0
+          type: button
+          parameters:
+            link:
+              type: link
+              value:
+                path: /
+                type: projectMapNode
+                nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+            label:
+              type: text
+              value: Contact us
+            variant:
+              type: select
+              value: primary
+      parameters:
+        body:
+          type: text
+          value: See how KOLO smart monitoring changes a custodial route.
+        heading:
+          type: text
+          value: Talk with GP PRO
+        background:
+          type: select
+          value: transparent
+    - _id: dd4246b5-5f63-476c-8486-e3d5c0de5536
+      type: splitMedia
+      _pattern: fd3869d4-bd9e-476a-902c-214a9e82c3f8
+  _overrides:
+    dd4246b5-5f63-476c-8486-e3d5c0de5536:
+      parameters:
+        body:
+          type: richText
+          value:
+            root:
+              type: root
+              version: 1
+              children:
+              - type: paragraph
+                version: 1
+                children:
+                - text: An empty dispenser is the detail tenants remember. Keeping every restroom consistently stocked is one of the least expensive ways to protect how a building feels.
+                  type: text
+                  format: 0
+                  version: 1
+        media:
+          type: asset
+          value:
+          - _id: fefb4b7b-b6c9-41ba-bac1-2e72612a2470
+            type: image
+            fields:
+              id:
+                type: text
+                value: 88c7b751-b9ec-4f89-97a5-aab81045d11a
+              url:
+                value: https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/At3CnRVcRWWWgC31WFl4Tg-image.png
+                type: text
+              size:
+                value: 378389
+                type: number
+              title:
+                type: text
+                value: Alec Fomin, director of tenant experience
+              width:
+                value: 520
+                type: number
+              height:
+                value: 470
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+              focalPoint:
+                value:
+                  x: 0.53
+                  y: 0.32
+                type: focalPoint
+              description:
+                type: text
+                value: Interview-style portrait of Alec Fomin seated in a modern office or lounge, wearing a blue blazer and white shirt. A lower-third graphic identifies him as the director of tenant experience at Sage.
+              file:
+                type: file
+                value: b9fb7de4-f8c1-4916-92d2-b605d5e684e4
+            _source: uniform-assets
+        eyebrow:
+          type: text
+          value: null
+        heading:
+          type: text
+          value: Better Tenant Experience
+        videoUrl:
+          type: link
+          value:
+            path: https://www.youtube.com/watch?v=M0yQMGSUtlk
+            type: url
+    dd4246b5-5f63-476c-8486-e3d5c0de5536|98348cf8-ee6b-4210-91fa-ba372613edc7:
+      parameters:
+        label:
+          type: text
+          value: Watch Video
+  _locales:
+  - en-US
+created: '2026-09-24T10:41:11.024341+00:00'
+modified: '2026-09-24T20:06:21.58456+00:00'
+pattern: false

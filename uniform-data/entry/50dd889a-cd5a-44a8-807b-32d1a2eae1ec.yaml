@@ -1,0 +1,111 @@
+created: '2026-09-24T10:45:17.015689+00:00'
+modified: '2026-09-24T22:52:51.465445+00:00'
+pattern: false
+entry:
+  _id: 50dd889a-cd5a-44a8-807b-32d1a2eae1ec
+  _name: Green Sports Alliance
+  _slug: ifma-world-workplace
+  _thumbnail: https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/7V3nCuJtREWXCILlt8PHzA-image.png
+  type: event
+  fields:
+    body:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+          - tag: h3
+            type: heading
+            format: ''
+            indent: 0
+            version: 1
+            children:
+            - mode: normal
+              text: Green Sports Alliance
+              type: text
+              style: ''
+              detail: 0
+              format: 0
+              version: 1
+            direction: ltr
+          - type: paragraph
+            format: ''
+            indent: 0
+            version: 1
+            children:
+            - mode: normal
+              text: May 5–7, 2026 · Cleveland, OH
+              type: text
+              style: ''
+              detail: 0
+              format: 0
+              version: 1
+            - &id001
+              type: linebreak
+              version: 1
+            - *id001
+            - mode: normal
+              text: 'Visit the KOLO and GP Recycling teams at Booth #10! We also have a main stage speaking session on May 7 about how smart venues are closing the sustainability loop.'
+              type: text
+              style: ''
+              detail: 0
+              format: 0
+              version: 1
+            direction: ltr
+            textStyle: ''
+            textFormat: 0
+          direction: ltr
+    link:
+      type: link
+      value:
+        path: /
+        type: projectMapNode
+        nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+        projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+    image:
+      type: asset
+      value:
+      - _id: ea2cf941-27a5-4e86-9849-2310bcc91c57
+        type: image
+        fields:
+          id:
+            type: text
+            value: bb9c074f-36fa-4729-ab1c-de636056f2c7
+          url:
+            value: https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/7V3nCuJtREWXCILlt8PHzA-image.png
+            type: text
+          size:
+            value: 179083
+            type: number
+          title:
+            type: text
+            value: Resilient Green Sports Alliance Summit 2026
+          width:
+            value: 800
+            type: number
+          height:
+            value: 320
+            type: number
+          mediaType:
+            value: image/png
+            type: text
+          focalPoint:
+            value:
+              x: 0.5
+              y: 0.5
+            type: focalPoint
+          description:
+            type: text
+            value: Event graphic featuring the word “Resilient” with a leaf-and-sports-ball logo, announcing the Green Sports Alliance Summit taking place May 5–7, 2026, in Cleveland, Ohio.
+          file:
+            type: file
+            value: 3fd829c6-8f56-471d-aee2-5d3b407c8e90
+        _source: uniform-assets
+    title:
+      type: text
+      value: Green Sports Alliance
+  _locales:
+  - en-US

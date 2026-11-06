@@ -1,0 +1,11 @@
+label:
+  publicId: industry-office
+  displayName: Office Buildings
+  isGroup: false
+  parent: industry
+  color: swatch-orange
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:52:19.934Z'
+modified: '2026-09-24T19:52:19.934Z'

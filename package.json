@@ -1,0 +1,55 @@
+{
+  "name": "gp-example-project",
+  "private": true,
+  "version": "0.0.0",
+  "description": "GP example project: Next.js (Pages Router) + Uniform.",
+  "engines": {
+    "node": "22.x || 24.x"
+  },
+  "scripts": {
+    "preinstall": "npx -y only-allow npm",
+    "dev": "npm run uniform:manifest && next dev --port 3000",
+    "build": "npm run uniform:manifest && next build",
+    "start": "next start --port 3000",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit",
+    "uniform:manifest": "uniform context manifest download --output ./src/uniform/contextManifest.json",
+    "uniform:pull": "uniform sync pull",
+    "uniform:push": "uniform sync push",
+    "uniform:publish": "uniform context manifest publish"
+  },
+  "dependencies": {
+    "@uniformdev/assets": "20.88.0",
+    "@uniformdev/canvas": "20.88.0",
+    "@uniformdev/canvas-next": "20.88.0",
+    "@uniformdev/canvas-react": "20.88.0",
+    "@uniformdev/context": "20.88.0",
+    "@uniformdev/context-next": "20.88.0",
+    "@uniformdev/context-react": "20.88.0",
+    "next": "^15.5.29",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.7",
+    "@tailwindcss/postcss": "^4.3.4",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@uniformdev/cli": "20.88.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^15.5.29",
+    "prettier": "3.9.10",
+    "tailwindcss": "^4.3.4",
+    "typescript": "^6.0.3"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "8.5.32"
+    },
+    "@uniformdev/cli": {
+      "zod": "4.6.7"
+    }
+  }
+}

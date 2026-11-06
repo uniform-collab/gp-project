@@ -1,0 +1,51 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: socialLink
+name: Social Link
+icon: share
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Network and profile link.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - platform
+        - link
+  - id: platform
+    name: Platform
+    helpText: Sets the icon; the link only shows once a platform is chosen
+    type: select
+    guidance: >-
+      The network this chip links to. The chip does not render without a
+      platform.
+    typeConfig:
+      editor: radio
+      options:
+        - text: LinkedIn
+          value: linkedin
+        - text: X
+          value: x
+        - text: YouTube
+          value: youtube
+        - text: Facebook
+          value: facebook
+        - text: Instagram
+          value: instagram
+    localizable: true
+    notLocalizedByDefault: true
+  - id: link
+    name: Link
+    type: link
+    guidance: Profile URL for the chosen platform.
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 167e078f-e450-47ed-9eaf-dd1b9c8ba04f
+description: A round social icon. The platform chooses the glyph and the accessible name.
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2026-09-24T08:21:10.199868+00:00'
+updated: '2026-09-24T23:45:59.158105+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/socialLink.png

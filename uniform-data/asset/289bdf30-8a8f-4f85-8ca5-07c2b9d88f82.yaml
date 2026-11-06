@@ -1,0 +1,44 @@
+asset:
+  type: image
+  _id: 289bdf30-8a8f-4f85-8ca5-07c2b9d88f82
+  _name: Professional man in a lounge
+  fields:
+    title:
+      type: text
+      value: Professional man in a lounge
+    description:
+      type: text
+      value: >-
+        A professionally dressed man sits in a modern lounge area with warm
+        lighting, contemporary furnishings, and large windows in the background.
+    file:
+      type: file
+      value: 1916a276-86de-41ad-b02a-93796641a653
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/9N4pEF8vQouJo6yfY-KtRg-56375fd59a27f7f3ef396f26f7370c6235cf3c498.jpg
+      type: text
+    size:
+      value: 372082
+      type: number
+    width:
+      value: 1280
+      type: number
+    height:
+      value: 720
+      type: number
+    focalPoint:
+      value:
+        x: 0.42
+        'y': 0.32
+      type: focalPoint
+    custom: {}
+  labels:
+    - orientation-landscape
+    - type-lifestyle
+    - subject-testimonial
+created: '2026-11-05T23:59:47.328841+00:00'
+modified: '2026-11-05T23:59:47.328841+00:00'

@@ -1,0 +1,11 @@
+label:
+  publicId: industry-education
+  displayName: Education
+  isGroup: false
+  parent: industry
+  color: swatch-orange
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:52:24.749Z'
+modified: '2026-09-24T19:52:24.749Z'

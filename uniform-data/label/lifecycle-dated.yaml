@@ -1,0 +1,11 @@
+label:
+  publicId: lifecycle-dated
+  displayName: Dated Award / Certification
+  isGroup: false
+  parent: lifecycle
+  color: swatch-gray
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:53:34.610Z'
+modified: '2026-09-24T19:53:34.610Z'

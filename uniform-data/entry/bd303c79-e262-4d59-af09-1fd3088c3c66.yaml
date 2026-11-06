@@ -1,0 +1,102 @@
+created: '2026-09-24T10:45:17.873683+00:00'
+modified: '2026-09-24T23:12:59.021249+00:00'
+pattern: false
+entry:
+  _id: bd303c79-e262-4d59-af09-1fd3088c3c66
+  _name: What Custodial Teams Miss Without Restroom Data
+  _slug: what-custodial-teams-miss-without-restroom-data
+  _thumbnail: >-
+    https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/jgcrEMaTTTasoIDpDiO4dg-23910be75a13303d960f3e36ed17bc4e1fa729272.jpg
+  type: article
+  fields:
+    date:
+      type: date
+      value: '2026-01-01'
+    link:
+      type: link
+      value:
+        path: /
+        type: projectMapNode
+        nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+        projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+    image:
+      type: asset
+      value:
+        - _id: d47f1227-487a-46b7-94f6-7b43128d40b6
+          type: image
+          fields:
+            id:
+              type: text
+              value: 6bb44746-68f8-4caa-b320-3d13fe50e65a
+            url:
+              value: >-
+                https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/jgcrEMaTTTasoIDpDiO4dg-23910be75a13303d960f3e36ed17bc4e1fa729272.jpg
+              type: text
+            file:
+              type: file
+              value: 5fc013f5-1742-4c49-a39a-058f35cbf401
+            size:
+              value: 10868513
+              type: number
+            title:
+              type: text
+              value: Woman organizing cleaning supplies
+            width:
+              value: 4096
+              type: number
+            height:
+              value: 2731
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            focalPoint:
+              value:
+                x: 0.45
+                'y': 0.43
+              type: focalPoint
+            description:
+              type: text
+              value: >-
+                A woman arranges boxed paper products on a storage shelf beside
+                a cleaning cart stocked with restroom and janitorial supplies.
+          _source: uniform-assets
+    title:
+      type: text
+      value: What Custodial Teams Miss Without Restroom Data
+    author:
+      type: text
+      value: GP PRO
+    excerpt:
+      type: text
+      value: >-
+        Most cleaning schedules are built on an assumption: that every restroom
+        runs down at the same rate. Traffic says otherwise. This piece looks at
+        what changes when a team can see fill levels by fixture — which rounds
+        stop earning their place, which restrooms need a second pass, and how
+        supervisors rebuild a route around real usage rather than a clipboard.
+    bodyText:
+      type: richText
+      value:
+        root:
+          type: root
+          version: 1
+          children:
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    Most cleaning schedules are built on an assumption: that
+                    every restroom runs down at the same rate. Traffic says
+                    otherwise. This piece looks at what changes when a team can
+                    see fill levels by fixture — which rounds stop earning their
+                    place, which restrooms need a second pass, and how
+                    supervisors rebuild a route around real usage rather than a
+                    clipboard.
+                  type: text
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+  _locales:
+    - en-US

@@ -1,0 +1,33 @@
+composition:
+  _name: Global Page
+  _id: 9ae2eae8-4fcb-46ed-880e-5b978bf19141
+  type: page
+  slots:
+    footer:
+      - _id: edb49103-f0c3-4573-b754-a0ee31fde711
+        type: siteFooter
+        _pattern: 7bd13fbf-2cb9-43dc-881a-106a195ee78b
+    header:
+      - _id: 7d8ecfea-18c5-4cf7-a76c-b94ac405af6c
+        type: siteHeader
+        _pattern: 6adabb83-cf60-45be-82a4-36d4aa66db6d
+    content:
+      - _id: e46dd555-b704-480e-8ae7-0b33f958e09a
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Content
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      metaTitle: 'yes'
+      metaDescription: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2026-09-24T17:32:18.23313+00:00'
+modified: '2026-09-25T10:03:28.821217+00:00'
+pattern: true
+previewImageUrl: https://gp-handover.vercel.app/component-previews/9ae2eae8-4fcb-46ed-880e-5b978bf19141.png

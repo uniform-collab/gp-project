@@ -1,0 +1,47 @@
+composition:
+  _name: Grey Split Media
+  _id: fd3869d4-bd9e-476a-902c-214a9e82c3f8
+  type: splitMedia
+  parameters:
+    media:
+      type: asset
+      value: []
+    background:
+      type: select
+      value: greyPanel
+    headingStyle:
+      type: select
+      value: light
+    mediaPosition:
+      type: select
+      value: right
+  slots:
+    content:
+      - _id: 98348cf8-ee6b-4210-91fa-ba372613edc7
+        type: button
+        parameters:
+          variant:
+            type: select
+            value: secondary
+        _overridability:
+          parameters:
+            link: 'yes'
+            label: 'yes'
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      body: 'yes'
+      media: 'yes'
+      eyebrow: 'yes'
+      heading: 'yes'
+      videoUrl: 'yes'
+      background: 'no'
+      headingStyle: 'yes'
+      mediaPosition: 'no'
+  _locales:
+    - en-US
+created: '2026-09-24T19:39:52.091276+00:00'
+modified: '2026-09-24T23:41:21.660771+00:00'
+pattern: true
+categoryId: f6abfc0a-2e12-4a27-b1e0-e3342a011d86
+previewImageUrl: https://gp-handover.vercel.app/component-previews/fd3869d4-bd9e-476a-902c-214a9e82c3f8.png

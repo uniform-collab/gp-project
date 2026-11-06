@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 29329bca-1a31-43e1-b40b-6f5898ad3529
+  _name: Wall-mounted soap and towel dispensers
+  fields:
+    title:
+      type: text
+      value: Wall-mounted soap and towel dispensers
+    description:
+      type: text
+      value: Two lever soap dispensers and a white paper towel dispenser mounted on a pale marble wall.
+    file:
+      type: file
+      value: 8db04df3-86cf-4f7a-876d-f577e3eff334
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/WwsF-u8wSpywiyzMkTtOkQ-pexels-photo-7789606.jpeg
+      type: text
+    size:
+      value: 107311
+      type: number
+    width:
+      value: 1880
+      type: number
+    height:
+      value: 1253
+      type: number
+    custom: {}
+created: '2026-11-05T23:59:47.337548+00:00'
+modified: '2026-11-05T23:59:47.337548+00:00'

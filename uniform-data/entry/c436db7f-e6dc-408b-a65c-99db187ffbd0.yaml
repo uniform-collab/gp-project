@@ -1,0 +1,146 @@
+created: '2026-09-24T09:41:25.436368+00:00'
+modified: '2026-09-24T23:10:44.406342+00:00'
+pattern: false
+entry:
+  _id: c436db7f-e6dc-408b-a65c-99db187ffbd0
+  _name: KOLO™ Smart Monitoring System Earns GBAC STAR™ Designation
+  _slug: kolo-smart-monitoring-system-earns-gbac-star-designation
+  _thumbnail: >-
+    https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/zHFHSOvwSoaa-AUbkxta6g-image.png
+  type: article
+  fields:
+    date:
+      type: date
+      value: '2021-01-01'
+    image:
+      type: asset
+      value:
+        - _id: 94888f94-fb37-4866-a748-86de2b912c6f
+          type: image
+          fields:
+            id:
+              type: text
+              value: ea048999-eafb-4bab-bfdd-71cf7c477cef
+            url:
+              value: >-
+                https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/zHFHSOvwSoaa-AUbkxta6g-image.png
+              type: text
+            size:
+              value: 128765
+              type: number
+            title:
+              type: text
+              value: GBAC Star Facility certification badge
+            width:
+              value: 370
+              type: number
+            height:
+              value: 312
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+            focalPoint:
+              value:
+                x: 0.5
+                'y': 0.5
+              type: focalPoint
+            description:
+              type: text
+              value: >-
+                Blue circular GBAC Star Facility certification badge featuring
+                the Global Biorisk Advisory Council name, a biohazard symbol,
+                and three stars.
+            file:
+              type: file
+              value: c042d72a-134d-4251-bc27-c2f3b59fb866
+          _source: uniform-assets
+    title:
+      type: text
+      value: KOLO™ Smart Monitoring System Earns GBAC STAR™ Designation
+    author:
+      type: text
+      value: GP PRO
+    excerpt:
+      type: text
+      value: >-
+        GP PRO’s KOLO Smart Monitoring System has earned GBAC STAR Registered
+        Technology and Registered Program designation for supporting high
+        standards of cleaning, disinfection, and infectious disease prevention.
+    bodyText:
+      type: richText
+      value:
+        root:
+          type: root
+          version: 1
+          children:
+            - tag: h1
+              type: heading
+              version: 1
+              children:
+                - text: KOLO Smart Monitoring System Earns GBAC STAR Designation
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    GP PRO’s KOLO Smart Monitoring System has earned GBAC STAR
+                    Registered Technology and Registered Program designation.
+                    The designation recognizes solutions that support rigorous
+                    standards for cleaning, disinfection, and infectious disease
+                    prevention.
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    GBAC STAR is the outbreak prevention, response, and recovery
+                    accreditation program of the Global Biorisk Advisory
+                    Council, a division of ISSA. Its registered technology and
+                    program designations signal that a solution has been
+                    evaluated against established hygiene and safety protocols.
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    KOLO is a wireless communication platform designed to help
+                    facility managers and custodians respond when restrooms need
+                    attention. Connected paper towel, tissue, and sanitizer
+                    dispensers can send notifications about dispensing activity
+                    and product levels, helping teams reduce outages and
+                    maintain a better restroom experience.
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    The system can also notify teams about specific cleaning and
+                    sanitizing work that needs to be completed. For facilities
+                    navigating heightened hygiene expectations, this supports
+                    more responsive operations and clearer visibility into
+                    restroom conditions.
+                  type: text
+                  format: 0
+                  version: 1
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    To earn the designation, the KOLO system demonstrated how it
+                    supports cleaning efficacy, cost, health, and safety
+                    requirements, including evidence of its role in helping
+                    prevent the spread of infectious disease.
+                  type: text
+                  format: 0
+                  version: 1
+  _locales:
+    - en-US

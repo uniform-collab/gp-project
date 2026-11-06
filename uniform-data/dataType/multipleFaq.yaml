@@ -1,0 +1,17 @@
+id: multipleFaq
+displayName: Multiple FAQs
+ttl: 30
+path: /multiple
+custom:
+  maxDepth: 2
+  proposedName: FAQs
+  allowedContentTypes:
+    - faq
+method: GET
+archetype: multipleEntries
+variables:
+  entryIds:
+    type: text
+    default: ""
+dataSourceId: uniformContent
+allowedOnComponents: []

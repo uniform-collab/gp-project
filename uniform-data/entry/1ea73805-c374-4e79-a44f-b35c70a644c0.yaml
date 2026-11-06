@@ -1,0 +1,44 @@
+created: "2026-09-24T10:30:00.000Z"
+modified: "2026-09-24T10:30:00.000Z"
+pattern: false
+entry:
+  _id: 1ea73805-c374-4e79-a44f-b35c70a644c0
+  _name: Does the system cause a significant drain on dispenser batteries?
+  _slug: does-the-system-cause-a-significant-drain-on-dispenser-batteries
+  type: faq
+  fields:
+    question:
+      type: text
+      value: Does the system cause a significant drain on dispenser batteries?
+    answer:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ""
+          indent: 0
+          version: 1
+          children:
+          - type: paragraph
+            format: ""
+            indent: 0
+            version: 1
+            children:
+            - mode: normal
+              text: >-
+                No. KOLO® sensors are built for low-power operation — they send small
+                encrypted packets over Bluetooth Low Energy and LoRaWAN® rather than holding
+                an always-on connection. Battery status for every dispenser is reported in the
+                app alongside fill levels, so replacements are planned during a normal round
+                instead of discovered when a dispenser goes quiet.
+              type: text
+              style: ""
+              detail: 0
+              format: 0
+              version: 1
+            direction:
+            textStyle: ""
+            textFormat: 0
+          direction:
+  _locales:
+  - en-US

@@ -1,0 +1,51 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: richTextBlock
+name: Rich Text Block
+icon: format-text
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Lead line and the body copy.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - lead
+        - body
+  - id: lead
+    name: Lead
+    helpText: Optional opening sentence above the text
+    type: text
+    guidance: Opening sentence, larger than the body. One sentence.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: body
+    name: Body
+    type: richText
+    guidance: The section copy. Use short paragraphs and lists. Avoid a second H1.
+    typeConfig:
+      elements:
+        builtIn:
+          - h2
+          - h3
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: f6abfc0a-2e12-4a27-b1e0-e3342a011d86
+description: A lead sentence plus a longer rich-text body.
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2026-09-24T08:59:14.979742+00:00'
+updated: '2026-09-24T23:45:32.641803+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/richTextBlock.png

@@ -1,0 +1,44 @@
+asset:
+  type: image
+  _id: 177de60d-37e2-48a0-8297-89be917e6990
+  _name: Crowded trade show exhibition hall
+  fields:
+    title:
+      type: text
+      value: Crowded trade show exhibition hall
+    description:
+      type: text
+      value: >-
+        A large exhibition hall filled with attendees visiting rows of
+        blue-and-white booths and networking under bright ceiling lights.
+    file:
+      type: file
+      value: af385a20-5ba6-40dd-9a38-eb097a506fdf
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/bbSqJvqhQy6jolKd3rAyfA-627dfb088901140a2c5ed9221da8f495d7dcf9b6.png
+      type: text
+    size:
+      value: 1873947
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.53
+      type: focalPoint
+    custom: {}
+  labels:
+    - lifecycle-event
+    - type-lifestyle
+    - orientation-square
+created: '2026-11-05T23:59:44.671821+00:00'
+modified: '2026-11-05T23:59:44.671821+00:00'

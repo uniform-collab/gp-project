@@ -1,0 +1,46 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: faqAccordion
+name: FAQ Accordion
+icon: info
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Heading above the questions.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - heading
+  - id: heading
+    name: Heading
+    type: text
+    guidance: Section title, such as Frequently asked questions.
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: f6abfc0a-2e12-4a27-b1e0-e3342a011d86
+description: >-
+  A single-open list of questions. Use the FAQ Accordion pattern so Items loops
+  over a chosen list of FAQ entries.
+useTeamPermissions: true
+slots:
+  - id: items
+    name: Items
+    allowedComponents:
+      - faqItem
+      - $loop
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: cta
+    name: Call to Action
+    allowedComponents:
+      - button
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: heading
+canBeComposition: false
+created: '2026-09-24T08:58:26.346744+00:00'
+updated: '2026-09-24T23:44:01.65628+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/faqAccordion.png

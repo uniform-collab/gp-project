@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: ba739891-65cd-4cf0-a877-a26f77ec3d14
+  _name: Building lobby lounge
+  fields:
+    title:
+      type: text
+      value: Building lobby lounge
+    description:
+      type: text
+      value: A sunlit lobby with leather sofas, plants and floor-to-ceiling windows.
+    file:
+      type: file
+      value: 4349f9ff-1235-4411-bf02-d13ad5401e8b
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/fAtjvfYARf-qGAUggmK5iQ-pexels-photo-5567186.jpeg
+      type: text
+    size:
+      value: 323111
+      type: number
+    width:
+      value: 1880
+      type: number
+    height:
+      value: 1253
+      type: number
+    custom: {}
+created: '2026-11-06T00:00:00.338066+00:00'
+modified: '2026-11-06T00:00:00.338066+00:00'

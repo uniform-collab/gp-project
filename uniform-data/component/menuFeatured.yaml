@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: menuFeatured
+name: Menu Featured
+icon: image
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Promotional image and heading.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - image
+        - heading
+  - id: image
+    name: Image
+    type: asset
+    guidance: Promotional image for the menu panel.
+    helpText: Landscape, at least 580×440
+    typeConfig:
+      allowedTypes:
+        - image
+    localizable: true
+    notLocalizedByDefault: true
+  - id: heading
+    name: Heading
+    type: text
+    guidance: Short label above the featured links. Often "Featured".
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 4a0c18b0-5e86-408b-94ef-744e45f9a6ac
+description: Promotional block at the side of a mega menu.
+useTeamPermissions: true
+slots:
+  - id: links
+    name: Links
+    allowedComponents:
+      - menuLink
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: heading
+canBeComposition: false
+created: '2026-09-24T07:45:14.453995+00:00'
+updated: '2026-09-24T23:45:18.324236+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/menuFeatured.png

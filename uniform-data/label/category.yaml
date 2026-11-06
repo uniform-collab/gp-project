@@ -1,0 +1,10 @@
+label:
+  publicId: category
+  displayName: Product Category
+  isGroup: true
+  color: swatch-pink
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:50:43.346Z'
+modified: '2026-09-24T19:50:43.346Z'

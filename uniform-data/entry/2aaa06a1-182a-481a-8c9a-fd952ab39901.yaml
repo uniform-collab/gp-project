@@ -1,0 +1,53 @@
+created: "2026-09-24T10:30:00.000Z"
+modified: "2026-09-24T10:30:00.000Z"
+pattern: false
+entry:
+  _id: 2aaa06a1-182a-481a-8c9a-fd952ab39901
+  _name: How Does the KOLO® Smart Monitoring System work behind the scenes?
+  _slug: how-does-the-kolo-smart-monitoring-system-work-behind-the-scenes
+  type: faq
+  fields:
+    question:
+      type: text
+      value: How Does the KOLO® Smart Monitoring System work behind the scenes?
+    answer:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ""
+          indent: 0
+          version: 1
+          children:
+          - type: paragraph
+            format: ""
+            indent: 0
+            version: 1
+            children:
+            - mode: normal
+              text: >-
+                The KOLO® System is a full-stack IoT platform that connects GP PRO dispensers
+                to the cloud using a blend of Bluetooth Low Energy (BLE) and LoRaWAN®
+                technology. Dispensers send encrypted data—like usage, battery status, and
+                maintenance needs—to secure cloud applications, where it's turned into
+                actionable alerts and insights via mobile and web apps. The platform is
+                designed for scalability, minimal infrastructure impact, and secure,
+                outbound-only data transmission. 
+              type: text
+              style: ""
+              detail: 0
+              format: 0
+              version: 1
+            - mode: normal
+              text: View the Technical Summary Guide
+              type: text
+              style: ""
+              detail: 0
+              format: 0
+              version: 1
+            direction:
+            textStyle: ""
+            textFormat: 0
+          direction:
+  _locales:
+  - en-US

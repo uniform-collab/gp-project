@@ -1,0 +1,47 @@
+asset:
+  type: image
+  _id: 6bb44746-68f8-4caa-b320-3d13fe50e65a
+  _name: Woman organizing cleaning supplies
+  fields:
+    title:
+      type: text
+      value: Woman organizing cleaning supplies
+    description:
+      type: text
+      value: >-
+        A woman arranges boxed paper products on a storage shelf beside a
+        cleaning cart stocked with restroom and janitorial supplies.
+    file:
+      type: file
+      value: 5fc013f5-1742-4c49-a39a-058f35cbf401
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/whhNlgIXReudcfRLwskHOQ-23910be75a13303d960f3e36ed17bc4e1fa729272.jpg
+      type: text
+    size:
+      value: 10868513
+      type: number
+    width:
+      value: 4096
+      type: number
+    height:
+      value: 2731
+      type: number
+    focalPoint:
+      value:
+        x: 0.45
+        'y': 0.43
+      type: focalPoint
+    custom: {}
+  labels:
+    - category-toilet-paper
+    - category-paper-towels
+    - subject-custodial
+    - type-lifestyle
+    - orientation-landscape
+    - solution-hygiene
+created: '2026-11-05T23:59:52.320931+00:00'
+modified: '2026-11-05T23:59:52.320931+00:00'

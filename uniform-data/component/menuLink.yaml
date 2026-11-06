@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: menuLink
+name: Menu Link
+icon: link
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Link text and destination.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - label
+        - link
+  - id: label
+    name: Label
+    type: text
+    guidance: Link text as the visitor should read it.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: link
+    name: Link
+    type: link
+    guidance: Destination path or URL.
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 167e078f-e450-47ed-9eaf-dd1b9c8ba04f
+description: One link inside a menu column, featured panel, or footer column.
+useTeamPermissions: true
+slots: []
+titleParameter: label
+canBeComposition: false
+created: '2026-09-24T07:44:29.260955+00:00'
+updated: '2026-09-24T23:45:12.550893+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/menuLink.png

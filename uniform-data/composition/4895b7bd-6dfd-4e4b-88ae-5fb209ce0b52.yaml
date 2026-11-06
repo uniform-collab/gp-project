@@ -1,0 +1,853 @@
+composition:
+  _name: KOLO Smart Monitoring
+  _id: 4895b7bd-6dfd-4e4b-88ae-5fb209ce0b52
+  type: page
+  _overrides:
+    4895b7bd-6dfd-4e4b-88ae-5fb209ce0b52:
+      parameters:
+        metaTitle:
+          type: text
+          value: KOLO Smart Monitoring System | GP PRO
+        metaDescription:
+          type: text
+          value: >-
+            See how the KOLO® Smart Monitoring System gives facility teams
+            real-time dispenser data to reduce waste, prevent outages, and
+            improve restroom service.
+    4895b7bd-6dfd-4e4b-88ae-5fb209ce0b52|c149db68-cbae-4542-a314-b3dfa651cf26:
+      parameters:
+        title:
+          type: text
+          value: Smart Facilities Start With KOLO®
+        subtitle:
+          type: text
+          value: >-
+            Connected dispensers and real-time insights help teams act before
+            restroom needs become disruptions.
+        overlayOpacity:
+          type: number
+          value: 55
+        backgroundImage:
+          type: asset
+          value:
+            - _id: c49bb5fc-160f-4a06-8afe-e5a8dbad8f62
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: cdc08890-475e-4c64-91ec-643aad318155
+                url:
+                  value: >-
+                    https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/2APpVtcRQJep9PfGvGtwpw-image.png
+                  type: text
+                file:
+                  type: file
+                  value: f16d9081-975f-42df-8568-04c345d2b76e
+                size:
+                  value: 2491383
+                  type: number
+                title:
+                  type: text
+                  value: Smart restroom monitoring
+                width:
+                  value: 1920
+                  type: number
+                height:
+                  value: 1331
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+                focalPoint:
+                  value:
+                    x: 0.62
+                    'y': 0.51
+                  type: focalPoint
+                description:
+                  type: text
+                  value: >-
+                    A smiling restroom professional in a blue Kolo uniform uses
+                    a smartphone while surrounded by connected soap, paper
+                    towel, and toilet paper dispensers highlighted with glowing
+                    monitoring graphics.
+              _source: uniform-assets
+              _overrides:
+                fields: {}
+    4895b7bd-6dfd-4e4b-88ae-5fb209ce0b52|d31be6bb-ae2d-46ee-a02e-1e2fa55a084d:
+      slots:
+        $slotSectionItems:
+          - _id: 6af28a0a-81a7-4081-af37-b30820916cd8
+            type: heroSlide
+            slots:
+              ctas:
+                - _id: 7a0effb7-1d05-4572-8560-3bc993dca36e
+                  type: button
+                  parameters:
+                    link:
+                      type: link
+                      value:
+                        path: /landing-pages/kolo-smart-monitoring
+                        type: projectMapNode
+                        nodeId: 05538678-1cc0-4bab-ba0a-592916617d0d
+                        projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                    label:
+                      type: text
+                      value: See How It Works
+                    variant:
+                      type: select
+                      value: outlineWhite
+            parameters:
+              title:
+                type: text
+                value: See What Needs Service
+              subtitle:
+                type: text
+                value: >-
+                  The KOLO® Clean app turns dispenser data into timely service
+                  alerts for custodial teams.
+              overlayOpacity:
+                type: number
+                value: 55
+              backgroundImage:
+                type: asset
+                value:
+                  - _id: 097bea40-4285-401f-90fb-26c6847b3581
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 15e27548-e9bd-430d-aba7-cfae3cd515fb
+                      url:
+                        value: >-
+                          https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/oPuVkldUR46pqizN86ToSQ-75fa9270871becaa065484d6a8afe87c1104ef83.png
+                        type: text
+                      file:
+                        type: file
+                        value: e6de3f45-771f-41e0-91ae-d3c2b951b4c4
+                      size:
+                        value: 1655231
+                        type: number
+                      title:
+                        type: text
+                        value: Accessible restroom with hygiene dispensers
+                      width:
+                        value: 2536
+                        type: number
+                      height:
+                        value: 1420
+                        type: number
+                      mediaType:
+                        value: image/png
+                        type: text
+                      focalPoint:
+                        value:
+                          x: 0.37
+                          'y': 0.63
+                        type: focalPoint
+                      description:
+                        type: text
+                        value: >-
+                          A clean, accessible restroom featuring a toilet, sink,
+                          grab bars, paper towel and soap dispensers, and other
+                          restroom fixtures against tiled walls.
+                    _source: uniform-assets
+                    _overrides:
+                      fields: {}
+          - _id: 3bf17cf9-e273-4c27-8f86-97d4ad28c556
+            type: heroSlide
+            slots:
+              ctas:
+                - _id: 787f1997-d65b-4af9-a27d-bfceeb51dd88
+                  type: button
+                  parameters:
+                    link:
+                      type: link
+                      value:
+                        path: /
+                        type: projectMapNode
+                        nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                        projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                    label:
+                      type: text
+                      value: Talk to a Consultant
+                    variant:
+                      type: select
+                      value: outlineWhite
+            parameters:
+              title:
+                type: text
+                value: Make Every Service Round Count
+              subtitle:
+                type: text
+                value: >-
+                  Use proactive monitoring to reduce waste, improve efficiency,
+                  and elevate the restroom experience.
+              overlayOpacity:
+                type: number
+                value: 55
+              backgroundImage:
+                type: asset
+                value:
+                  - _id: 22f1c22d-4cce-4a09-8de0-487638cd92fb
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 6bb44746-68f8-4caa-b320-3d13fe50e65a
+                      url:
+                        value: >-
+                          https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/whhNlgIXReudcfRLwskHOQ-23910be75a13303d960f3e36ed17bc4e1fa729272.jpg
+                        type: text
+                      file:
+                        type: file
+                        value: 5fc013f5-1742-4c49-a39a-058f35cbf401
+                      size:
+                        value: 10868513
+                        type: number
+                      title:
+                        type: text
+                        value: Woman organizing cleaning supplies
+                      width:
+                        value: 4096
+                        type: number
+                      height:
+                        value: 2731
+                        type: number
+                      mediaType:
+                        value: image/jpeg
+                        type: text
+                      focalPoint:
+                        value:
+                          x: 0.45
+                          'y': 0.43
+                        type: focalPoint
+                      description:
+                        type: text
+                        value: >-
+                          A woman arranges boxed paper products on a storage
+                          shelf beside a cleaning cart stocked with restroom and
+                          janitorial supplies.
+                    _source: uniform-assets
+                    _overrides:
+                      fields: {}
+    4895b7bd-6dfd-4e4b-88ae-5fb209ce0b52|e46dd555-b704-480e-8ae7-0b33f958e09a:
+      slots:
+        $slotSectionItems:
+          - _id: 720433c5-ea53-4efe-a5a9-fa7b89bdf96d
+            type: sectionIntro
+            parameters:
+              body:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    version: 1
+                    children:
+                      - type: paragraph
+                        version: 1
+                        children:
+                          - text: >-
+                              The KOLO® Smart Monitoring System gives facility
+                              teams the real-time visibility needed to service
+                              dispensers proactively, improve operational
+                              efficiency, and help every restroom stay clean,
+                              stocked, and ready.
+                            type: text
+                            format: 0
+                            version: 1
+              heading:
+                type: text
+                value: Smarter Restroom Operations Start Here
+          - _id: c8b03a17-96ff-45e1-b2ce-018916747fd7
+            type: splitMedia
+            slots:
+              content:
+                - _id: db610d7a-fab6-40e9-ab6b-303fcc250311
+                  type: button
+                  parameters:
+                    link:
+                      type: link
+                      value:
+                        path: /landing-pages/kolo-smart-monitoring
+                        type: projectMapNode
+                        nodeId: 05538678-1cc0-4bab-ba0a-592916617d0d
+                        projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                    label:
+                      type: text
+                      value: See How It Works
+                    variant:
+                      type: select
+                      value: primary
+            parameters:
+              body:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    version: 1
+                    children:
+                      - type: paragraph
+                        version: 1
+                        children:
+                          - text: >-
+                              Labor shortages, excess waste, and dispenser
+                              outages create daily pressure for facility teams.
+                              KOLO® system data helps teams prioritize the work
+                              that needs attention now.
+                            type: text
+                            format: 0
+                            version: 1
+              media:
+                type: asset
+                value:
+                  - _id: f39e9e1c-7b1f-4814-b487-c5314d1e9cfe
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: e42194b1-77b0-4662-bdce-4d80f37f0970
+                      url:
+                        value: >-
+                          https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/N5Kfs1MGSHeGOq9H_tRcig-640bd650fff419842454131647abaac868de44c97.png
+                        type: text
+                      file:
+                        type: file
+                        value: b8814b2d-b162-448d-a00e-99749af8c594
+                      size:
+                        value: 2108877
+                        type: number
+                      title:
+                        type: text
+                        value: Custodial team illustration
+                      width:
+                        value: 3434
+                        type: number
+                      height:
+                        value: 1928
+                        type: number
+                      mediaType:
+                        value: image/png
+                        type: text
+                      focalPoint:
+                        value:
+                          x: 0.5
+                          'y': 0.52
+                        type: focalPoint
+                      description:
+                        type: text
+                        value: >-
+                          Illustration of two uniformed custodial workers
+                          standing beside a cleaning tool against a light teal
+                          background with white radiating lines.
+                    _source: uniform-assets
+                    _overrides:
+                      fields: {}
+              eyebrow:
+                type: text
+                value: Proactive Service
+              heading:
+                type: text
+                value: Replace Guesswork With Real-Time Data
+              background:
+                type: select
+                value: greyPanel
+              headingStyle:
+                type: select
+                value: light
+              mediaPosition:
+                type: select
+                value: left
+          - _id: a5e3a5c1-feec-4146-ab90-8a6ac5290d1d
+            type: splitMedia
+            slots:
+              content:
+                - _id: 4d61ab27-074e-4b6b-baf5-706ae813be1c
+                  type: button
+                  parameters:
+                    link:
+                      type: link
+                      value:
+                        path: /
+                        type: projectMapNode
+                        nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                        projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                    label:
+                      type: text
+                      value: Talk to a Consultant
+                    variant:
+                      type: select
+                      value: primary
+            parameters:
+              body:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    version: 1
+                    children:
+                      - type: paragraph
+                        version: 1
+                        children:
+                          - text: >-
+                              The KOLO® Clean app connects your team to every
+                              enabled dispenser in real time. Service alerts and
+                              actionable data help custodial staff stay on task
+                              while managers stay in control.
+                            type: text
+                            format: 0
+                            version: 1
+              media:
+                type: asset
+                value:
+                  - _id: 9db2bbe9-36dd-4de0-9a3f-bc3e557ac997
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 60ecd057-b9f8-4156-aa0d-85b94832d788
+                      url:
+                        value: >-
+                          https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/xk1taGA3T0uzV4DDOpByJQ-cac4a6675332d50812eb0cdee6e021183445f6f82.jpg
+                        type: text
+                      file:
+                        type: file
+                        value: 73e20b34-716a-4019-9879-b6e2ba11b341
+                      size:
+                        value: 19497
+                        type: number
+                      title:
+                        type: text
+                        value: Restroom dispensers
+                      width:
+                        value: 520
+                        type: number
+                      height:
+                        value: 470
+                        type: number
+                      mediaType:
+                        value: image/jpeg
+                        type: text
+                      focalPoint:
+                        value:
+                          x: 0.52
+                          'y': 0.45
+                        type: focalPoint
+                      description:
+                        type: text
+                        value: >-
+                          A collection of black and stainless steel restroom
+                          dispensers, including paper towel, soap, and other
+                          hygiene dispensers, arranged against a clean white
+                          background.
+                    _source: uniform-assets
+                    _overrides:
+                      fields: {}
+              eyebrow:
+                type: text
+                value: KOLO® Clean App
+              heading:
+                type: text
+                value: Visibility Across Your Facility
+              background:
+                type: select
+                value: white
+              headingStyle:
+                type: select
+                value: light
+              mediaPosition:
+                type: select
+                value: right
+          - _id: e95f6dbe-850e-471b-b732-48ee3cf59bbd
+            type: splitMedia
+            slots:
+              content:
+                - _id: 82dbfc10-669b-4b31-b476-7d7c170cacdc
+                  type: checklist
+                  slots:
+                    items:
+                      - _id: 5605aed9-36ae-431f-b0ca-fd8511cf35e7
+                        type: checklistItem
+                        parameters:
+                          text:
+                            type: text
+                            value: Prioritize service by real need
+                      - _id: a7b0b9df-aecd-49f0-8a48-9a108a7bf706
+                        type: checklistItem
+                        parameters:
+                          text:
+                            type: text
+                            value: Reduce dispenser outages
+                      - _id: e6cc1cfc-200b-4ee3-ba4d-430c7d397539
+                        type: checklistItem
+                        parameters:
+                          text:
+                            type: text
+                            value: Free time for disinfecting
+            parameters:
+              body:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    version: 1
+                    children:
+                      - type: paragraph
+                        version: 1
+                        children:
+                          - text: >-
+                              Smart monitoring guides custodians to perform
+                              maintenance when it is needed, freeing time for
+                              high-value tasks such as disinfecting. It helps
+                              facilities provide clean, well-stocked,
+                              functioning environments.
+                            type: text
+                            format: 0
+                            version: 1
+              media:
+                type: asset
+                value:
+                  - _id: 2e5f7971-6d55-4069-ae8e-a352ca678ed4
+                    type: image
+                    fields:
+                      id:
+                        type: text
+                        value: 4dde3fc4-33de-407d-87a1-380f8a21ccd5
+                      url:
+                        value: >-
+                          https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/aq9F9r3oQ4GtGYuhr_tMXQ-image.png
+                        type: text
+                      file:
+                        type: file
+                        value: e182f423-c254-4ef2-bf4c-bf41202c2ca6
+                      size:
+                        value: 624458
+                        type: number
+                      title:
+                        type: text
+                        value: Custodial team illustration
+                      width:
+                        value: 1920
+                        type: number
+                      height:
+                        value: 1078
+                        type: number
+                      mediaType:
+                        value: image/png
+                        type: text
+                      focalPoint:
+                        value:
+                          x: 0.52
+                          'y': 0.5
+                        type: focalPoint
+                      description:
+                        type: text
+                        value: >-
+                          Illustration of two custodial workers in white
+                          uniforms standing with cleaning equipment against a
+                          light teal background with dynamic white lines.
+                    _source: uniform-assets
+                    _overrides:
+                      fields: {}
+              eyebrow:
+                type: text
+                value: Operational Outcomes
+              heading:
+                type: text
+                value: Better Service With Less Waste
+              background:
+                type: select
+                value: greyPanel
+              headingStyle:
+                type: select
+                value: light
+              mediaPosition:
+                type: select
+                value: left
+          - _id: 541b349c-1b78-4cc7-9685-88001de0981c
+            type: logoGrid
+            slots:
+              logos:
+                - _id: 54cefda7-a400-42bd-b93a-d147a21acc51
+                  type: logo
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 36346b36-6911-43a4-9a78-edf98b40e380
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 190aa1aa-7bbf-4ad3-b9fe-b6689b944bf5
+                            url:
+                              value: >-
+                                https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/zxhXeFRmT1Gan6glORtyyA-image.png
+                              type: text
+                            file:
+                              type: file
+                              value: a1dcd006-6f59-43d9-9314-a6d808d35d52
+                            size:
+                              value: 154600
+                              type: number
+                            title:
+                              type: text
+                              value: IoT Excellence 2025 award badge
+                            width:
+                              value: 800
+                              type: number
+                            height:
+                              value: 360
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                            focalPoint:
+                              value:
+                                x: 0.5
+                                'y': 0.5
+                              type: focalPoint
+                            description:
+                              type: text
+                              value: >-
+                                A red and gold award badge featuring the IoT
+                                Evolution logo, the words “IoT Excellence,” the
+                                year 2025, and three stars on a white
+                                background.
+                          _source: uniform-assets
+                          _overrides:
+                            fields: {}
+                - _id: 15a92995-8a95-430d-be9d-80e7e2a9eeee
+                  type: logo
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 650cfc82-913b-4539-a579-1bcbe50fa85c
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 34894c02-e15a-4ae9-9afb-389f386116c1
+                            url:
+                              value: >-
+                                https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/aGDJvF2rT-uRw_JtS0SbsA-image.png
+                              type: text
+                            file:
+                              type: file
+                              value: c86fab19-1fcf-4b2b-aea7-a1a6e33aae1e
+                            size:
+                              value: 137996
+                              type: number
+                            title:
+                              type: text
+                              value: 2026 Impact Awards award winner
+                            width:
+                              value: 800
+                              type: number
+                            height:
+                              value: 360
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                            focalPoint:
+                              value:
+                                x: 0.5
+                                'y': 0.5
+                              type: focalPoint
+                            description:
+                              type: text
+                              value: >-
+                                Graphic announcing a 2026 Impact Awards award
+                                winner, featuring a gold trophy surrounded by
+                                laurel branches on a white background.
+                          _source: uniform-assets
+                          _overrides:
+                            fields: {}
+                - _id: ad7c88d4-9499-45e5-9646-346f56608dd1
+                  type: logo
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 909805b9-aded-4a44-8829-353d18868317
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: ea048999-eafb-4bab-bfdd-71cf7c477cef
+                            url:
+                              value: >-
+                                https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/6WTsmZ1eRbSoFOgjv1lOzw-image.png
+                              type: text
+                            file:
+                              type: file
+                              value: c042d72a-134d-4251-bc27-c2f3b59fb866
+                            size:
+                              value: 128765
+                              type: number
+                            title:
+                              type: text
+                              value: GBAC Star Facility certification badge
+                            width:
+                              value: 370
+                              type: number
+                            height:
+                              value: 312
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                            focalPoint:
+                              value:
+                                x: 0.5
+                                'y': 0.5
+                              type: focalPoint
+                            description:
+                              type: text
+                              value: >-
+                                Blue circular GBAC Star Facility certification
+                                badge featuring the Global Biorisk Advisory
+                                Council name, a biohazard symbol, and three
+                                stars.
+                          _source: uniform-assets
+                          _overrides:
+                            fields: {}
+                - _id: c0b7e61d-6fe2-457f-833a-fc5a939469d3
+                  type: logo
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 226115e1-a32b-457a-8cbb-21b98517afe4
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 4bf5a149-e9c0-4b68-ad29-f4aca648503b
+                            url:
+                              value: >-
+                                https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/Xob117B-R9iMp7R7jWEIEQ-image.png
+                              type: text
+                            file:
+                              type: file
+                              value: 91481be8-aebf-404e-8ae9-08459bcb2449
+                            size:
+                              value: 443528
+                              type: number
+                            title:
+                              type: text
+                              value: ISSA Show North America
+                            width:
+                              value: 1920
+                              type: number
+                            height:
+                              value: 1080
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                            focalPoint:
+                              value:
+                                x: 0.5
+                                'y': 0.5
+                              type: focalPoint
+                            description:
+                              type: text
+                              value: >-
+                                ISSA Show North America logo featuring the ISSA
+                                wordmark in blue, teal, and green with the event
+                                name displayed below on a white background.
+                          _source: uniform-assets
+                          _overrides:
+                            fields: {}
+                - _id: 2781bcaa-d2be-4fda-8de6-079779e8120c
+                  type: logo
+                  parameters:
+                    image:
+                      type: asset
+                      value:
+                        - _id: 9018f540-d0aa-48c9-9aaf-0eadd0da2b73
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 6ff3bdf0-3609-4a7d-b22a-dba270b0c620
+                            url:
+                              value: >-
+                                https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/4JZtzOCdTFWJyrF6gH8Kow-image.png
+                              type: text
+                            file:
+                              type: file
+                              value: 575f9773-5761-43c0-8089-dc3cf018e0f8
+                            size:
+                              value: 193522
+                              type: number
+                            title:
+                              type: text
+                              value: Realcomm logo
+                            width:
+                              value: 1920
+                              type: number
+                            height:
+                              value: 1080
+                              type: number
+                            mediaType:
+                              value: image/png
+                              type: text
+                            focalPoint:
+                              value:
+                                x: 0.5
+                                'y': 0.5
+                              type: focalPoint
+                            description:
+                              type: text
+                              value: >-
+                                Realcomm logo featuring blue lettering, a green
+                                and gray “BCon” mark, and a stylized building
+                                with an orbital line on a white background.
+                          _source: uniform-assets
+                          _overrides:
+                            fields: {}
+            parameters:
+              heading:
+                type: text
+                value: Award-Winning Innovation
+          - _id: 3ab18017-2164-470a-bdab-b91365d309d1
+            type: ctaBanner
+            slots:
+              cta:
+                - _id: 8d1e8c3d-59e9-4b37-8c72-14dc40c98646
+                  type: button
+                  parameters:
+                    link:
+                      type: link
+                      value:
+                        path: /
+                        type: projectMapNode
+                        nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+                        projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+                    label:
+                      type: text
+                      value: Connect With a Consultant
+                    variant:
+                      type: select
+                      value: outlineWhite
+            parameters:
+              body:
+                type: text
+                value: >-
+                  A GP PRO consultant can discuss your facility needs and help
+                  create a personalized smart monitoring solution.
+              heading:
+                type: text
+                value: Improve Operational Efficiency With KOLO®
+              background:
+                type: select
+                value: darkBlue
+  _locales:
+    - en-US
+  _pattern: 7de0968e-a35d-45f4-a8ae-9f9a47e7e003
+created: '2026-11-06T00:03:18.838554+00:00'
+modified: '2026-11-06T00:19:34.286816+00:00'
+pattern: false

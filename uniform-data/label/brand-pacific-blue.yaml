@@ -1,0 +1,11 @@
+label:
+  publicId: brand-pacific-blue
+  displayName: Pacific Blue
+  isGroup: false
+  parent: brand
+  color: swatch-red
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:52:59.486Z'
+modified: '2026-09-24T19:52:59.486Z'

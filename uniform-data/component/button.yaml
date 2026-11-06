@@ -1,0 +1,69 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: button
+name: Button
+icon: play-button-r
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Visible label and where the button goes.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - label
+        - link
+  - id: label
+    name: Label
+    type: text
+    guidance: Two to four words, title case, starting with a verb. Example "Learn More".
+    localizable: true
+    notLocalizedByDefault: true
+  - id: link
+    name: Link
+    helpText: Where the button goes
+    type: link
+    guidance: Destination URL or site path. Required for a button that navigates.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: appearanceGroup
+    name: Appearance
+    type: group
+    guidance: Which button style to use on this surface.
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - variant
+  - id: variant
+    name: Variant
+    helpText: Navy or Sky on light backgrounds; White on photos and navy
+    type: select
+    guidance: >-
+      Primary for the main action on a light surface. Secondary for a supporting
+      action. Outline white on photography or navy. Text link for inline actions
+      such as Read More.
+    typeConfig:
+      editor: segmented-control
+      options:
+        - text: Primary
+          value: primary
+        - text: Secondary
+          value: secondary
+        - text: White
+          value: outlineWhite
+        - text: Text link
+          value: textLink
+      required: false
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 167e078f-e450-47ed-9eaf-dd1b9c8ba04f
+description: >-
+  A single call-to-action. Pick a variant that matches the surface it sits on.
+  Use the link for the destination; the label is the visible text.
+useTeamPermissions: true
+slots: []
+titleParameter: label
+canBeComposition: false
+created: '2026-09-24T07:30:44.358505+00:00'
+updated: '2026-09-24T23:43:00.462371+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/button.png

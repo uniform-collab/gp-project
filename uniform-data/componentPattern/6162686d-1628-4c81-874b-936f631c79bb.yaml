@@ -1,0 +1,80 @@
+composition:
+  _name: Event Grid
+  _id: 6162686d-1628-4c81-874b-936f631c79bb
+  type: cardGrid
+  parameters:
+    columns:
+      type: select
+      value: three
+    heading:
+      type: text
+      value: Events
+  slots:
+    cards:
+      - _id: 46576946-0904-467a-a36c-b9f570d89018
+        type: $loop
+        slots:
+          body:
+            - _id: 54e637b8-5e69-42ae-8695-e9727e42a5e3
+              type: eventCard
+              slots:
+                cta:
+                  - _id: >-
+                      54e637b8-5e69-42ae-8695-e9727e42a5e3|47cd9eec-31c8-49ab-9684-4fffeb4ea932
+                    type: button
+                    parameters:
+                      link:
+                        type: link
+                        value: >-
+                          ${#jptr:/Event Query Content entries Loop
+                          Item/entry/fields/link/value}
+                      label:
+                        type: text
+                        value: Learn More
+                      variant:
+                        type: select
+                        value: primary
+              parameters:
+                body:
+                  type: richText
+                  value: >-
+                    ${#jptr:/Event Query Content entries Loop
+                    Item/entry/fields/body/value}
+                image:
+                  type: asset
+                  value: >-
+                    ${#jptr:/Event Query Content entries Loop
+                    Item/entry/fields/image/value}
+              _overridability:
+                slots:
+                  cta: 'yes'
+                parameters:
+                  body: 'no'
+                  image: 'no'
+                hideLockedParameters: true
+        _dataResources:
+          Event Query Content entries Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: '#jptr:/Event Query Content/entries:fa=c'
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Event Query Content:
+      type: eventQuery
+      variables:
+        locale: ${locale}
+        filters: '{"type[eq]":"event"}'
+        contentTypes: event
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overridability:
+    parameters:
+      heading: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2026-09-24T22:54:56.735657+00:00'
+modified: '2026-09-24T23:40:40.888464+00:00'
+pattern: true
+categoryId: 67e4f045-3072-4ac4-bfc7-ee9f11d6b4ee

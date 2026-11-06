@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: logoGrid
+name: Logo Grid
+icon: layout-grid
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Optional label above the logos.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - heading
+  - id: heading
+    name: Heading
+    type: text
+    guidance: Optional label above the logos.
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: f6abfc0a-2e12-4a27-b1e0-e3342a011d86
+description: A row of partner or customer logos.
+useTeamPermissions: true
+slots:
+  - id: logos
+    name: Logos
+    allowedComponents:
+      - logo
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: heading
+canBeComposition: false
+created: '2026-09-24T08:57:34.95729+00:00'
+updated: '2026-09-24T23:43:49.479226+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/logoGrid.png

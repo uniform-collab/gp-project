@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 1ebbf450-7210-4f42-8b18-161a3779876c
+  _name: Business traveler in a convention center hall
+  fields:
+    title:
+      type: text
+      value: Business traveler in a convention center hall
+    description:
+      type: text
+      value: A man in a dark suit walks through a bright convention center concourse with blue banners and signs pointing to halls 1 to 5.
+    file:
+      type: file
+      value: bb150881-5b13-4930-9b0a-620811c5a42e
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/nwomi-lSSsyhKnBJtHHKRQ-pexels-photo-36297487.jpeg
+      type: text
+    size:
+      value: 449539
+      type: number
+    width:
+      value: 1880
+      type: number
+    height:
+      value: 1290
+      type: number
+    custom: {}
+created: '2026-11-05T23:59:43.42371+00:00'
+modified: '2026-11-05T23:59:43.42371+00:00'

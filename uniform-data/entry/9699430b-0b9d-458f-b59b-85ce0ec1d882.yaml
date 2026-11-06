@@ -1,0 +1,111 @@
+created: '2026-09-24T10:45:17.435415+00:00'
+modified: '2026-09-24T22:50:43.665315+00:00'
+pattern: false
+entry:
+  _id: 9699430b-0b9d-458f-b59b-85ce0ec1d882
+  _name: ISSA North America
+  _slug: issa-north-america
+  _thumbnail: https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/N2AbATJXQdyJrwz1yxH37g-image.png
+  type: event
+  fields:
+    body:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+          - tag: h3
+            type: heading
+            format: ''
+            indent: 0
+            version: 1
+            children:
+            - mode: normal
+              text: ISSA North America
+              type: text
+              style: ''
+              detail: 0
+              format: 0
+              version: 1
+            direction: ltr
+          - type: paragraph
+            format: ''
+            indent: 0
+            version: 1
+            children:
+            - mode: normal
+              text: October 19–22, 2026 · Las Vegas, NV
+              type: text
+              style: ''
+              detail: 0
+              format: 0
+              version: 1
+            - &id001
+              type: linebreak
+              version: 1
+            - *id001
+            - mode: normal
+              text: 'Visit us at Booth #2843 to learn more about how GP PRO solutions and KOLO® Smart Monitoring can help your facility.'
+              type: text
+              style: ''
+              detail: 0
+              format: 0
+              version: 1
+            direction: ltr
+            textStyle: ''
+            textFormat: 0
+          direction: ltr
+    link:
+      type: link
+      value:
+        path: /
+        type: projectMapNode
+        nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+        projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+    image:
+      type: asset
+      value:
+      - _id: fdbb2ab9-333d-4e3d-9046-3044a63daee3
+        type: image
+        fields:
+          id:
+            type: text
+            value: 4bf5a149-e9c0-4b68-ad29-f4aca648503b
+          url:
+            value: https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/N2AbATJXQdyJrwz1yxH37g-image.png
+            type: text
+          file:
+            type: file
+            value: 91481be8-aebf-404e-8ae9-08459bcb2449
+          size:
+            value: 443528
+            type: number
+          title:
+            type: text
+            value: ISSA Show North America
+          width:
+            value: 1920
+            type: number
+          height:
+            value: 1080
+            type: number
+          mediaType:
+            value: image/png
+            type: text
+          focalPoint:
+            value:
+              x: 0.5
+              y: 0.5
+            type: focalPoint
+          description:
+            type: text
+            value: ISSA Show North America logo featuring the ISSA wordmark in blue, teal, and green with the event name displayed below on a white background.
+        _source: uniform-assets
+    title:
+      type: text
+      value: ISSA North America
+  _locales:
+  - en-US

@@ -1,0 +1,10 @@
+label:
+  publicId: orientation
+  displayName: Orientation
+  isGroup: true
+  color: swatch-purple
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:50:43.298Z'
+modified: '2026-09-24T19:50:43.298Z'

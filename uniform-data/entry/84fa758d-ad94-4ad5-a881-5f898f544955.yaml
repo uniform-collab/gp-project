@@ -1,0 +1,44 @@
+created: "2026-09-24T10:30:00.000Z"
+modified: "2026-09-24T10:30:00.000Z"
+pattern: false
+entry:
+  _id: 84fa758d-ad94-4ad5-a881-5f898f544955
+  _name: What do I need to know about the installation process?
+  _slug: what-do-i-need-to-know-about-the-installation-process
+  type: faq
+  fields:
+    question:
+      type: text
+      value: What do I need to know about the installation process?
+    answer:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ""
+          indent: 0
+          version: 1
+          children:
+          - type: paragraph
+            format: ""
+            indent: 0
+            version: 1
+            children:
+            - mode: normal
+              text: >-
+                Installation is designed to stay out of the building's way. Sensors fit KOLO®
+                System compatible GP PRO dispensers already mounted on the wall, and the
+                network transmits outbound only, so most deployments need no change to
+                building IT or firewall policy. Your consultant confirms coverage first, then
+                sequences the work restroom by restroom so no area is out of service for long.
+              type: text
+              style: ""
+              detail: 0
+              format: 0
+              version: 1
+            direction:
+            textStyle: ""
+            textFormat: 0
+          direction:
+  _locales:
+  - en-US

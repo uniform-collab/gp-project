@@ -1,0 +1,81 @@
+created: "2026-09-24T10:30:00.000Z"
+modified: "2026-09-24T10:30:00.000Z"
+pattern: false
+entry:
+  _id: 98f383af-4b39-44ff-a605-0fba27d8dc69
+  _name: Where can I go for help?
+  _slug: where-can-i-go-for-help
+  type: faq
+  fields:
+    question:
+      type: text
+      value: Where can I go for help?
+    answer:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ""
+          indent: 0
+          version: 1
+          children:
+          - type: paragraph
+            format: ""
+            indent: 0
+            version: 1
+            children:
+            - mode: normal
+              text: "Start with "
+              type: text
+              style: ""
+              detail: 0
+              format: 0
+              version: 1
+            - mode: normal
+              text: GPXpress® Support
+              type: text
+              style: ""
+              detail: 0
+              format: 0
+              version: 1
+            - mode: normal
+              text: " for troubleshooting, parts, and service questions. You can also reach your GP PRO representative or the Customer Success Team through "
+              type: text
+              style: ""
+              detail: 0
+              format: 0
+              version: 1
+            - mode: normal
+              text: Contact Us
+              type: text
+              style: ""
+              detail: 0
+              format: 0
+              version: 1
+            - mode: normal
+              text: ", and dispenser-specific guidance lives in "
+              type: text
+              style: ""
+              detail: 0
+              format: 0
+              version: 1
+            - mode: normal
+              text: Dispenser Help
+              type: text
+              style: ""
+              detail: 0
+              format: 0
+              version: 1
+            - mode: normal
+              text: .
+              type: text
+              style: ""
+              detail: 0
+              format: 0
+              version: 1
+            direction:
+            textStyle: ""
+            textFormat: 0
+          direction:
+  _locales:
+  - en-US

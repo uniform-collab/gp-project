@@ -1,0 +1,11 @@
+label:
+  publicId: category-hot-cups
+  displayName: Hot Cups & Lids
+  isGroup: false
+  parent: category
+  color: swatch-pink
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:52:44.930Z'
+modified: '2026-09-24T19:52:44.930Z'

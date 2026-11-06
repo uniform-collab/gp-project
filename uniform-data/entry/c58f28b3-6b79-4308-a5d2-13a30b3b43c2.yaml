@@ -1,0 +1,96 @@
+created: '2026-11-06T12:44:26.443966+00:00'
+modified: '2026-11-06T12:50:58.884348+00:00'
+pattern: false
+entry:
+  _id: c58f28b3-6b79-4308-a5d2-13a30b3b43c2
+  _name: Globe Life Field Drives Cleanliness with High-Tech Restrooms from GP PRO
+  _slug: globe-life-field-drives-cleanliness-with-high-tech-restrooms-from-gp-pro
+  _thumbnail: >-
+    https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/Zo8wznGZR0C99zXEUD5_Yw-pexels-photo-13653328.jpeg
+  type: article
+  fields:
+    date:
+      type: date
+      value: '2026-01-01'
+    link:
+      type: link
+      value:
+        path: /
+        type: projectMapNode
+        nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+        projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+    image:
+      type: asset
+      value:
+        - _id: a27efcbb-ed31-4fda-90fc-d6806febcf0e
+          type: image
+          fields:
+            id:
+              type: text
+              value: a27efcbb-ed31-4fda-90fc-d6806febcf0e
+            url:
+              value: >-
+                https://img.uniform.global/p/DDzp-sivRD-adNWo68zX2w/ufccQidoTseB7G3MRmcjig-pexels-photo-13653328.jpeg
+              type: text
+            file:
+              type: file
+              value: c105dd8b-ded9-4417-89e0-c4c9fdf7a446
+            size:
+              value: 443140
+              type: number
+            width:
+              value: 1880
+              type: number
+            height:
+              value: 1058
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            title:
+              type: text
+              value: Baseball stadium from above
+            description:
+              type: text
+              value: >-
+                Aerial view of a baseball stadium with a green field and blue
+                seating.
+          _source: uniform-assets
+    title:
+      type: text
+      value: Globe Life Field Drives Cleanliness with High-Tech Restrooms from GP PRO
+    author:
+      type: text
+      value: GP PRO
+    excerpt:
+      type: text
+      value: >-
+        Not only is Globe Life Field, home of the Texas Rangers, the newest
+        Major League Baseball facility, it is also the first such facility to
+        leverage GP PRO's KOLO™ Smart Monitoring System. The KOLO system helps
+        keep restrooms clean, in working order, and fully stocked with toilet
+        paper, paper towels, soap, and hand sanitizer.
+    bodyText:
+      type: richText
+      value:
+        root:
+          type: root
+          version: 1
+          children:
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    Not only is Globe Life Field, home of the Texas Rangers, the
+                    newest Major League Baseball facility, it is also the first
+                    such facility to leverage GP PRO's KOLO™ Smart Monitoring
+                    System. The KOLO system helps keep restrooms clean, in
+                    working order, and fully stocked with toilet paper, paper
+                    towels, soap, and hand sanitizer.
+                  type: text
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+  _locales:
+    - en-US

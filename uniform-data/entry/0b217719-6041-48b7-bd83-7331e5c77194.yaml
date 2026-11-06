@@ -1,0 +1,42 @@
+created: "2026-09-24T10:30:00.000Z"
+modified: "2026-09-24T10:30:00.000Z"
+pattern: false
+entry:
+  _id: 0b217719-6041-48b7-bd83-7331e5c77194
+  _name: Is there a minimum time commitment for agreements?
+  _slug: is-there-a-minimum-time-commitment-for-agreements
+  type: faq
+  fields:
+    question:
+      type: text
+      value: Is there a minimum time commitment for agreements?
+    answer:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ""
+          indent: 0
+          version: 1
+          children:
+          - type: paragraph
+            format: ""
+            indent: 0
+            version: 1
+            children:
+            - mode: normal
+              text: >-
+                Agreement terms vary with deployment size and are confirmed during your
+                consultation. Your GP PRO representative will set out the term, what is
+                included, and renewal options in writing before anything is signed.
+              type: text
+              style: ""
+              detail: 0
+              format: 0
+              version: 1
+            direction:
+            textStyle: ""
+            textFormat: 0
+          direction:
+  _locales:
+  - en-US

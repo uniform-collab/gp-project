@@ -1,0 +1,11 @@
+label:
+  publicId: brand-sparkle-pro
+  displayName: Sparkle Professional Series
+  isGroup: false
+  parent: brand
+  color: swatch-red
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:53:09.072Z'
+modified: '2026-09-24T19:53:09.072Z'

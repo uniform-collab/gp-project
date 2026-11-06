@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: sectionIntro
+name: Section Intro
+icon: quote
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: Heading and the short introduction under it.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - heading
+        - body
+  - id: heading
+    name: Heading
+    type: text
+    guidance: Section title, under 10 words.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: body
+    name: Body
+    type: richText
+    guidance: One or two sentences introducing the section. No extra heading.
+    typeConfig:
+      elements:
+        builtIn:
+          - h2
+          - h3
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - superscript
+          - subscript
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: f6abfc0a-2e12-4a27-b1e0-e3342a011d86
+description: A heading and rich-text introduction before a section.
+useTeamPermissions: true
+slots: []
+titleParameter: heading
+canBeComposition: false
+created: '2026-09-24T08:55:54.647972+00:00'
+updated: '2026-09-24T23:45:25.39933+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/sectionIntro.png

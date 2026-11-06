@@ -1,0 +1,11 @@
+label:
+  publicId: solution-premium-restroom
+  displayName: Premium Restroom Collection
+  isGroup: false
+  parent: solution
+  color: swatch-yellow
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:53:12.074Z'
+modified: '2026-09-24T19:53:12.074Z'

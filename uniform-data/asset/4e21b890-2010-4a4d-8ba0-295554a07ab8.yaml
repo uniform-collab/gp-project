@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 4e21b890-2010-4a4d-8ba0-295554a07ab8
+  _name: Hands holding a smartphone
+  fields:
+    title:
+      type: text
+      value: Hands holding a smartphone
+    description:
+      type: text
+      value: Close-up of two hands holding a smartphone showing a settings screen, in warm low light.
+    file:
+      type: file
+      value: 42957c5c-fa00-46ca-bb5d-a41cff608557
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/ewkhAj6pTVGGKuQ2BH8TjQ-pexels-photo-6940874.jpeg
+      type: text
+    size:
+      value: 90442
+      type: number
+    width:
+      value: 1880
+      type: number
+    height:
+      value: 1253
+      type: number
+    custom: {}
+created: '2026-11-05T23:59:48.369039+00:00'
+modified: '2026-11-05T23:59:48.369039+00:00'

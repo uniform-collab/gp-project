@@ -1,0 +1,88 @@
+composition:
+  _name: News List
+  _id: 3ad4282d-c213-49e8-ac3d-8fe61a02563a
+  type: cardGrid
+  parameters:
+    columns:
+      type: select
+      value: one
+    heading:
+      type: text
+      value: News
+  slots:
+    cards:
+      - _id: df9cc958-42f5-4e87-bd40-084edb03796a
+        type: $loop
+        slots:
+          body:
+            - _id: 6bbad7f4-33e1-49b1-a4e2-6b1021251b78
+              type: articleCard
+              slots:
+                cta:
+                  - _id: >-
+                      6bbad7f4-33e1-49b1-a4e2-6b1021251b78|1cdc3915-4599-41c3-af81-724fb9e1924b
+                    type: button
+                    parameters:
+                      link:
+                        type: link
+                        value: >-
+                          ${#jptr:/Articles entries Loop
+                          Item/entry/fields/link/value}
+                      label:
+                        type: text
+                        value: Read More
+                      variant:
+                        type: select
+                        value: textLink
+              parameters:
+                image:
+                  type: asset
+                  value: >-
+                    ${#jptr:/Articles entries Loop
+                    Item/entry/fields/image/value}
+                title:
+                  type: text
+                  value: >-
+                    ${#jptr:/Articles entries Loop
+                    Item/entry/fields/title/value}
+                excerpt:
+                  type: text
+                  value: >-
+                    ${#jptr:/Articles entries Loop
+                    Item/entry/fields/excerpt/value}
+              _overridability:
+                slots:
+                  cta: 'yes'
+                parameters:
+                  image: 'no'
+                  title: 'no'
+                  excerpt: 'no'
+                hideLockedParameters: true
+        _dataResources:
+          Articles entries Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: '#jptr:/Articles/entries:fa=c'
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Articles:
+      type: articleList
+      variables:
+        limit: '5'
+        locale: ${locale}
+        filters: '{"type[eq]":"article"}'
+        orderBy: created_at_DESC
+        contentTypes: article
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overridability:
+    parameters:
+      heading: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2026-09-24T23:01:50.80232+00:00'
+modified: '2026-09-24T23:40:29.411134+00:00'
+pattern: true
+categoryId: 67e4f045-3072-4ac4-bfc7-ee9f11d6b4ee

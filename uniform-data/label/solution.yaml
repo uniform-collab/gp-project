@@ -1,0 +1,10 @@
+label:
+  publicId: solution
+  displayName: Solution
+  isGroup: true
+  color: swatch-yellow
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:50:45.191Z'
+modified: '2026-09-24T19:50:45.191Z'

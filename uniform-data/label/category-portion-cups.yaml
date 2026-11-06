@@ -1,0 +1,11 @@
+label:
+  publicId: category-portion-cups
+  displayName: Portion Cups
+  isGroup: false
+  parent: category
+  color: swatch-pink
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:52:55.128Z'
+modified: '2026-09-24T19:52:55.128Z'

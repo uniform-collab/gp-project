@@ -1,0 +1,11 @@
+label:
+  publicId: industry-government
+  displayName: Government
+  isGroup: false
+  parent: industry
+  color: swatch-orange
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:52:25.126Z'
+modified: '2026-09-24T19:52:25.126Z'

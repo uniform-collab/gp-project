@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: b91539d6-3bb4-408e-ae11-2739cc00365f
+  _name: Cleaner with a bucket
+  fields:
+    title:
+      type: text
+      value: Cleaner with a bucket
+    description:
+      type: text
+      value: A woman in an orange apron carries a blue bucket in a bright, minimal room.
+    file:
+      type: file
+      value: 1ad64afa-d122-442d-aea3-95b9f5145d81
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/qVF_LNYLSPWtmmA_zRdkJw-pexels-photo-6195118.jpeg
+      type: text
+    size:
+      value: 112046
+      type: number
+    width:
+      value: 1880
+      type: number
+    height:
+      value: 1253
+      type: number
+    custom: {}
+created: '2026-11-06T00:00:00.3325+00:00'
+modified: '2026-11-06T00:00:00.3325+00:00'

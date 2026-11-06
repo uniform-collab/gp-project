@@ -1,0 +1,43 @@
+asset:
+  type: image
+  _id: 34894c02-e15a-4ae9-9afb-389f386116c1
+  _name: 2026 Impact Awards award winner
+  fields:
+    title:
+      type: text
+      value: 2026 Impact Awards award winner
+    description:
+      type: text
+      value: >-
+        Graphic announcing a 2026 Impact Awards award winner, featuring a gold
+        trophy surrounded by laurel branches on a white background.
+    file:
+      type: file
+      value: c86fab19-1fcf-4b2b-aea7-a1a6e33aae1e
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/aGDJvF2rT-uRw_JtS0SbsA-image.png
+      type: text
+    size:
+      value: 137996
+      type: number
+    width:
+      value: 800
+      type: number
+    height:
+      value: 360
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.5
+      type: focalPoint
+    custom: {}
+  labels:
+    - type-award
+    - orientation-landscape
+created: '2026-11-05T23:59:47.326986+00:00'
+modified: '2026-11-05T23:59:47.326986+00:00'

@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 2b79bcc1-10c2-45cb-aafd-2c7ef2d4da68
+  _name: Team reviewing data at a laptop
+  fields:
+    title:
+      type: text
+      value: Team reviewing data at a laptop
+    description:
+      type: text
+      value: Four colleagues gather around laptops at an office table by a large window; one checks a smartphone.
+    file:
+      type: file
+      value: 8ebfbd4e-29e0-493d-8c01-373ea044be69
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/XyL5b0syRsiK9qRUEy2UCg-pexels-photo-7652126.jpeg
+      type: text
+    size:
+      value: 170860
+      type: number
+    width:
+      value: 1880
+      type: number
+    height:
+      value: 1253
+      type: number
+    custom: {}
+created: '2026-11-05T23:59:47.32329+00:00'
+modified: '2026-11-05T23:59:47.32329+00:00'

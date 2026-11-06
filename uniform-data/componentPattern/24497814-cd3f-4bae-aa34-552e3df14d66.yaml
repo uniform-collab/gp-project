@@ -1,0 +1,72 @@
+composition:
+  _name: FAQ Accordion (From Entries)
+  _id: 24497814-cd3f-4bae-aa34-552e3df14d66
+  type: faqAccordion
+  parameters:
+    heading:
+      type: text
+      value: KOLO® System FAQ
+  slots:
+    cta:
+      - _id: 6a916e65-475c-462c-8ce2-dee5239a7d16
+        type: button
+        parameters:
+          link:
+            type: link
+            value:
+              path: /landing-pages/kolo-smart-monitoring
+              type: projectMapNode
+              nodeId: 05538678-1cc0-4bab-ba0a-592916617d0d
+              projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+          label:
+            type: text
+            value: Download Full FAQ
+          variant:
+            type: select
+            value: primary
+    items:
+      - _id: 6f2c8e41-9a17-4d3b-b5e0-1c8a7d4f2e90
+        type: $loop
+        slots:
+          body:
+            - _id: 3b91d0c7-5e64-4a28-8f13-9d6c2b0e4a71
+              type: faqItem
+              parameters:
+                answer:
+                  type: richText
+                  value: ${#jptr:/FAQs entries Loop Item/entry/fields/answer/value}
+                question:
+                  type: text
+                  value: ${#jptr:/FAQs entries Loop Item/entry/fields/question/value}
+              _overridability:
+                hideLockedParameters: true
+        _dataResources:
+          FAQs entries Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: '#jptr:/FAQs/entries:fa=c'
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    FAQs:
+      type: multipleFaq
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          2aaa06a1-182a-481a-8c9a-fd952ab39901,f65a7b16-bf06-4371-a939-39b959639cc8,3e98349b-a0db-4327-b8dc-624915544d3f,0b217719-6041-48b7-bd83-7331e5c77194,06f6e18c-ffa2-4525-93f3-e29b99ba69f8,1ea73805-c374-4e79-a44f-b35c70a644c0,84fa758d-ad94-4ad5-a881-5f898f544955,98f383af-4b39-44ff-a605-0fba27d8dc69
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    slots:
+      cta: 'yes'
+      items: 'no'
+    parameters:
+      heading: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2026-09-24T11:24:35.454927+00:00'
+modified: '2026-09-24T23:39:54.72845+00:00'
+pattern: true
+categoryId: f6abfc0a-2e12-4a27-b1e0-e3342a011d86
+previewImageUrl: https://gp-handover.vercel.app/component-previews/24497814-cd3f-4bae-aa34-552e3df14d66.png

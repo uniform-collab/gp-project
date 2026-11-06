@@ -1,0 +1,45 @@
+asset:
+  type: image
+  _id: ea048999-eafb-4bab-bfdd-71cf7c477cef
+  _name: GBAC Star Facility certification badge
+  fields:
+    title:
+      type: text
+      value: GBAC Star Facility certification badge
+    description:
+      type: text
+      value: >-
+        Blue circular GBAC Star Facility certification badge featuring the
+        Global Biorisk Advisory Council name, a biohazard symbol, and three
+        stars.
+    file:
+      type: file
+      value: c042d72a-134d-4251-bc27-c2f3b59fb866
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/6WTsmZ1eRbSoFOgjv1lOzw-image.png
+      type: text
+    size:
+      value: 128765
+      type: number
+    width:
+      value: 370
+      type: number
+    height:
+      value: 312
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.5
+      type: focalPoint
+    custom: {}
+  labels:
+    - type-logo
+    - type-certification
+    - orientation-square
+created: '2026-11-06T00:00:02.700359+00:00'
+modified: '2026-11-06T00:00:02.700359+00:00'

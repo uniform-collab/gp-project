@@ -1,0 +1,10 @@
+label:
+  publicId: lifecycle
+  displayName: Lifecycle
+  isGroup: true
+  color: swatch-gray
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:50:45.796Z'
+modified: '2026-09-24T19:50:45.796Z'

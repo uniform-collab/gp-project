@@ -1,0 +1,11 @@
+label:
+  publicId: brand-enmotion
+  displayName: enMotion
+  isGroup: false
+  parent: brand
+  color: swatch-red
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:52:57.202Z'
+modified: '2026-09-24T19:52:57.202Z'

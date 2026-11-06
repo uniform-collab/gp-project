@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 3b8ab1fc-5e7d-4a14-824a-48facf0379f7
+  _name: Busy trade show floor
+  fields:
+    title:
+      type: text
+      value: Busy trade show floor
+    description:
+      type: text
+      value: Crowded exhibition hall with attendees wearing lanyards walking between booths.
+    file:
+      type: file
+      value: 41519528-855e-4344-82a9-f916b0b75cdf
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/0X0cNsJjSZu2N2TiF8n2lg-9244a7554ca1ced66d7259e8419c374f543b8c45.png
+      type: text
+    size:
+      value: 1676400
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2026-11-05T23:59:49.334966+00:00'
+modified: '2026-11-05T23:59:49.334966+00:00'

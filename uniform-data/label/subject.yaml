@@ -1,0 +1,10 @@
+label:
+  publicId: subject
+  displayName: Subject
+  isGroup: true
+  color: swatch-green
+  description: ''
+  scope:
+    - assets
+created: '2026-09-24T19:50:43.186Z'
+modified: '2026-09-24T19:50:43.186Z'

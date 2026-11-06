@@ -1,0 +1,45 @@
+asset:
+  type: image
+  _id: 176fd5f0-e765-48e8-8dcb-2d12ec4a21c7
+  _name: Vision Awards logo
+  fields:
+    title:
+      type: text
+      value: Vision Awards logo
+    description:
+      type: text
+      value: >-
+        Vision Awards logo featuring a stylized blue and black letter V
+        alongside the words “VISION AWARDS” on a white background.
+    file:
+      type: file
+      value: 770825f6-6984-4eb0-a3b7-da5c63fa279a
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/iS3wJ-qBRFSE9B1rAq0ZgA-image.png
+      type: text
+    size:
+      value: 155052
+      type: number
+    width:
+      value: 800
+      type: number
+    height:
+      value: 360
+      type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.5
+      type: focalPoint
+    custom: {}
+  labels:
+    - type-award
+    - type-logo
+    - orientation-landscape
+    - subject-no-people
+created: '2026-11-05T23:59:43.68293+00:00'
+modified: '2026-11-05T23:59:43.68293+00:00'

@@ -1,0 +1,49 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: faqItem
+name: FAQ Item
+icon: info
+parameters:
+  - id: contentGroup
+    name: Content
+    type: group
+    guidance: The question and its answer.
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - question
+        - answer
+  - id: question
+    name: Question
+    type: text
+    guidance: The question as a visitor would ask it. End with a question mark.
+    localizable: true
+    notLocalizedByDefault: true
+  - id: answer
+    name: Answer
+    type: richText
+    guidance: Direct answer in one or two short paragraphs. No heading.
+    typeConfig:
+      elements:
+        builtIn:
+          - unorderedList
+          - orderedList
+          - link
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+    localizable: true
+    notLocalizedByDefault: true
+categoryId: 167e078f-e450-47ed-9eaf-dd1b9c8ba04f
+description: >-
+  One question and its answer. The FAQ Accordion pattern repeats this once per
+  entry in a FAQ list.
+useTeamPermissions: true
+slots: []
+titleParameter: question
+canBeComposition: false
+created: '2026-09-24T08:57:57.956998+00:00'
+updated: '2026-09-24T23:44:53.957387+00:00'
+previewImageUrl: https://gp-handover.vercel.app/component-previews/faqItem.png

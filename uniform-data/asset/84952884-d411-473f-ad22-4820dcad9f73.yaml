@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 84952884-d411-473f-ad22-4820dcad9f73
+  _name: GP PRO logo
+  fields:
+    title:
+      type: text
+      value: GP PRO logo
+    description:
+      type: text
+      value: GP PRO
+    file:
+      type: file
+      value: 2196e3d7-4a97-4430-88eb-41a16a7f64c6
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/74xCM2ZCRvmetgW7TU8Lzg-gp-logo.svg
+      type: text
+    size:
+      value: 20821
+      type: number
+    width:
+      value: 140
+      type: number
+    height:
+      value: 40
+      type: number
+    custom: {}
+created: '2026-11-05T23:59:53.584215+00:00'
+modified: '2026-11-05T23:59:53.584215+00:00'

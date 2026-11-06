@@ -1,0 +1,102 @@
+created: '2026-09-24T10:45:17.274102+00:00'
+modified: '2026-09-24T23:11:50.992156+00:00'
+pattern: false
+entry:
+  _id: 61d6f368-7df9-4025-bd6a-646fc7a9565c
+  _name: A Smart Restroom Implementation Guide
+  _slug: a-smart-restroom-implementation-guide
+  _thumbnail: >-
+    https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/9BzpARWGTjmV_V4BFOagAw-image.png
+  type: article
+  fields:
+    date:
+      type: date
+      value: '2026-01-01'
+    link:
+      type: link
+      value:
+        path: /
+        type: projectMapNode
+        nodeId: 2dfaa363-331f-4815-a1ce-62657196a5b7
+        projectMapId: 8a35c419-5150-4f76-aa21-7e4976c9dfcb
+    image:
+      type: asset
+      value:
+        - _id: 502dda28-bf6a-4358-8d5c-ed2a0145125e
+          type: image
+          fields:
+            id:
+              type: text
+              value: 08375ed5-c598-4a4d-b16f-37045b716439
+            url:
+              value: >-
+                https://img.uniform.global/p/4TVkP_9wSLqXT40ZQFHDhw/9BzpARWGTjmV_V4BFOagAw-image.png
+              type: text
+            size:
+              value: 425132
+              type: number
+            title:
+              type: text
+              value: Team reviewing information on a smartphone
+            width:
+              value: 500
+              type: number
+            height:
+              value: 500
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+            focalPoint:
+              value:
+                x: 0.53
+                'y': 0.55
+              type: focalPoint
+            description:
+              type: text
+              value: >-
+                Three colleagues stand together in an office setting while
+                reviewing information on a smartphone, with a city skyline
+                visible through the window behind them.
+            file:
+              type: file
+              value: a36dd096-def9-4d51-9ca6-bb6262a19c91
+          _source: uniform-assets
+    title:
+      type: text
+      value: A Smart Restroom Implementation Guide
+    author:
+      type: text
+      value: GP PRO
+    excerpt:
+      type: text
+      value: >-
+        Smart technologies that can enhance operational efficiency have become
+        commonplace in commercial facilities. Facility managers are often
+        responsible for their implementation and management. GP PRO offers
+        valuable guidance to empower facility managers for success with smart
+        restroom solutions like the KOLO® Smart Monitoring System.
+    bodyText:
+      type: richText
+      value:
+        root:
+          type: root
+          version: 1
+          children:
+            - type: paragraph
+              version: 1
+              children:
+                - text: >-
+                    Smart technologies that can enhance operational efficiency
+                    have become commonplace in commercial facilities. Facility
+                    managers are often responsible for their implementation and
+                    management. GP PRO offers valuable guidance to empower
+                    facility managers for success with smart restroom solutions
+                    like the KOLO® Smart Monitoring System.
+                  type: text
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+  _locales:
+    - en-US

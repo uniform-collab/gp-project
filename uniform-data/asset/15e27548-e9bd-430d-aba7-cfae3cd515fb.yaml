@@ -1,0 +1,51 @@
+asset:
+  type: image
+  _id: 15e27548-e9bd-430d-aba7-cfae3cd515fb
+  _name: Accessible restroom with hygiene dispensers
+  fields:
+    title:
+      type: text
+      value: Accessible restroom with hygiene dispensers
+    description:
+      type: text
+      value: >-
+        A clean, accessible restroom featuring a toilet, sink, grab bars, paper
+        towel and soap dispensers, and other restroom fixtures against tiled
+        walls.
+    file:
+      type: file
+      value: e6de3f45-771f-41e0-91ae-d3c2b951b4c4
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.eu.uniform.global/p/Xfi1R3LYSLqglw0_6COk3A/oPuVkldUR46pqizN86ToSQ-75fa9270871becaa065484d6a8afe87c1104ef83.png
+      type: text
+    size:
+      value: 1655231
+      type: number
+    width:
+      value: 2536
+      type: number
+    height:
+      value: 1420
+      type: number
+    focalPoint:
+      value:
+        x: 0.37
+        'y': 0.63
+      type: focalPoint
+    custom: {}
+  labels:
+    - subject-restroom
+    - subject-no-people
+    - category-toilet-paper
+    - category-paper-towels
+    - category-skin-care
+    - solution-hygiene
+    - solution-standard-restroom
+    - type-lifestyle
+    - orientation-landscape
+created: '2026-11-05T23:59:44.749672+00:00'
+modified: '2026-11-05T23:59:44.749672+00:00'
